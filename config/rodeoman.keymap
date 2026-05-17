@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
@@ -109,8 +110,8 @@
         MOUSE {
             bindings = <
             // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-                &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &trans          &trans          &trans          &mkp MB1        &mkp MB2        &mkp MB3        &trans          &trans
+                &trans          &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &msc SCRL_UP    &trans          &trans          &trans          &trans          &trans
+                &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_DOWN  &mkp MB1        &mkp MB2        &mkp MB3        &trans          &trans
                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
             >;
@@ -126,4 +127,8 @@
             >;
         };
     };
- };
+};
+
+
+&msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &msc SCRL_UP                                    &lt BLE LC(Y)   &kp HOME        &kp UP          &kp END         &kp PG_UP
+            &mt_s LCTRL MB1 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  
