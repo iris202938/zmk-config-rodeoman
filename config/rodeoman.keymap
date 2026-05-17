@@ -128,7 +128,3 @@
         };
     };
 };
-
-
-&msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &msc SCRL_UP                                    &lt BLE LC(Y)   &kp HOME        &kp UP          &kp END         &kp PG_UP
-            &mt_s LCTRL MB1 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  
