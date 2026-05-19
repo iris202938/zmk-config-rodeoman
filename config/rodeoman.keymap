@@ -74,61 +74,61 @@
 
         combo_ADJ {
             timeout-ms = <70>;
-            key-positions = <32 33>;
+            key-positions = <34 35>;
             layers = <QWE NIC>;
             bindings = <&mo ADJ>;
         };
         combo_ADJL {
             timeout-ms = <70>;
-            key-positions = <32 33>;
+            key-positions = <34 35>;
             layers = <LIN NICL>;
             bindings = <&mo ADJL>;
         };
         combo_ADJW {
             timeout-ms = <70>;
-            key-positions = <32 33>;
+            key-positions = <34 35>;
             layers = <CAD WIN>;
             bindings = <&mo ADJW>;
         };
         combo_to_LIN {
             timeout-ms = <70>;
-            key-positions = <30 35>;
+            key-positions = <32 37>;
             layers = <ADJ ADJL ADJW>;
             bindings = <&to LIN>;
         };
         combo_to_NUM {
             timeout-ms = <70>;
-            key-positions = <30 32>;
+            key-positions = <32 34>;
             layers = <QWE NIC>;
             bindings = <&to NUM>;
         };
         combo_to_NUML {
             timeout-ms = <70>;
-            key-positions = <30 32>;
+            key-positions = <32 34>;
             layers = <LIN NICL>;
             bindings = <&to NUML>;
         };
         combo_to_NUMW {
             timeout-ms = <70>;
-            key-positions = <30 32>;
+            key-positions = <32 34>;
             layers = <CAD WIN>;
             bindings = <&to NUMW>;
         };
         combo_to_MOV {
             timeout-ms = <70>;
-            key-positions = <33 35>;
+            key-positions = <35 37>;
             layers = <QWE NIC>;
             bindings = <&to MOV>;
         };
         combo_to_MOVL {
             timeout-ms = <70>;
-            key-positions = <33 35>;
+            key-positions = <35 37>;
             layers = <LIN NICL>;
             bindings = <&to MOVL>;
         };
         combo_to_MOVW {
             timeout-ms = <70>;
-            key-positions = <33 35>;
+            key-positions = <35 37>;
             layers = <CAD WIN>;
             bindings = <&to MOVW>;
         };
@@ -189,13 +189,13 @@
         // };
         combo_TSHIFT {
             bindings = <&qm RSHIFT>;
-            key-positions = <30 35>;
+            key-positions = <32 37>;
             layers = <WIN NIC NICL>;            
             timeout-ms = <65>;
         };
         combo_caps_word {
             bindings = <&combo_ht_caps_word RSHIFT 0>;
-            key-positions = <30 35>;
+            key-positions = <32 37>;
             layers = <QWE LIN CAD>;
             timeout-ms = <65>;
         };
@@ -231,13 +231,13 @@
         };
         combo_sl_LCTRL_LSHFT {
             bindings = <&sk_ct_sh>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
             layers = <LWR LWRL LWRW>;
             timeout-ms = <80>;
         };
         combo_sl_RALT {
             bindings = <&sk_alt>;
-            key-positions = <34 35>;
+            key-positions = <36 37>;
             layers = <RSE RSEL RSEW>;
             timeout-ms = <80>;
         };
@@ -472,24 +472,24 @@
             layers = <CAD>;
             timeout-ms = <70>;
         };
-        mb1_l_cad {
-            bindings = <&mkp MB1>;
-            key-positions = <13 22>;
-            layers = <QWE LIN CAD WINS>;
-            timeout-ms = <80>;
-        };
-        mb2_l_cad {
-            bindings = <&mkp MB2>;
-            key-positions = <13 32>;
-            layers = <QWE LIN CAD WINS>;
-            timeout-ms = <80>;
-        };
-        mb3_l_cad {
-            bindings = <&mkp MB3>;
-            key-positions = <22 32>;
-            layers = <QWE LIN CAD WINS>;
-            timeout-ms = <80>;
-        };
+        // mb1_l_cad {
+        //     bindings = <&mkp MB1>;
+        //     key-positions = <13 22>;
+        //     layers = <QWE LIN CAD WINS>;
+        //     timeout-ms = <80>;
+        // };
+        // mb2_l_cad {
+        //     bindings = <&mkp MB2>;
+        //     key-positions = <13 34>;
+        //     layers = <QWE LIN CAD WINS>;
+        //     timeout-ms = <80>;
+        // };
+        // mb3_l_cad {
+        //     bindings = <&mkp MB3>;
+        //     key-positions = <22 34>;
+        //     layers = <QWE LIN CAD WINS>;
+        //     timeout-ms = <80>;
+        // };
         int5_g_c {
             bindings = <&int5_g>;
             key-positions = <19 29>;
@@ -522,187 +522,187 @@
         };
         combo_alt_dot { // タップで移動右90度回転[AHK]、ホールドでRALT
             bindings = <&alt_dot>;
-            key-positions = <33 28 29>;
+            key-positions = <35 28 29>;
             layers = <CAD>;
             timeout-ms = <70>;
         };
         tab_1 {
             bindings = <&tab_1>;
-            key-positions = <32 26>;
+            key-positions = <34 26>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_2 {
             bindings = <&tab_2>;
-            key-positions = <32 27>;
+            key-positions = <34 27>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_3 {
             bindings = <&tab_3>;
-            key-positions = <32 28>;
+            key-positions = <34 28>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_4 {
             bindings = <&tab_4>;
-            key-positions = <32 16>;
+            key-positions = <34 16>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_5 {
             bindings = <&tab_5>;
-            key-positions = <32 17>;
+            key-positions = <34 17>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_6 {
             bindings = <&tab_6>;
-            key-positions = <32 18>;
+            key-positions = <34 18>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_7 {
             bindings = <&tab_7>;
-            key-positions = <32 6>;
+            key-positions = <34 6>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_8 {
             bindings = <&tab_8>;
-            key-positions = <32 7>;
+            key-positions = <34 7>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_9 {
             bindings = <&tab_9>;
-            key-positions = <32 8>;
+            key-positions = <34 8>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         tab_0 {
             bindings = <&tab_0>;
-            key-positions = <32 25>;
+            key-positions = <34 25>;
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
         k_tab_1 { // ECADカウントアップ数
             bindings = <&k_tab_1>;
-            key-positions = <34 26>;
+            key-positions = <36 26>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_2 { // ECADカウントアップ数2
             bindings = <&k_tab_2>;
-            key-positions = <34 27>;
+            key-positions = <36 27>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_3 { // ECADカウントアップ数3
             bindings = <&k_tab_3>;
-            key-positions = <34 28>;
+            key-positions = <36 28>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_4 { // ECADカウントアップ数4
             bindings = <&k_tab_4>;
-            key-positions = <34 16>;
+            key-positions = <36 16>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_5 { // ECADカウントアップ数5
             bindings = <&k_tab_5>;
-            key-positions = <34 17>;
+            key-positions = <36 17>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_6 { // ECADカウントアップ数6
             bindings = <&k_tab_6>;
-            key-positions = <34 18>;
+            key-positions = <36 18>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_7 { // ECADカウントアップ数7
             bindings = <&k_tab_7>;
-            key-positions = <34 6>;
+            key-positions = <36 6>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_8 { // ECADカウントアップ数8
             bindings = <&k_tab_8>;
-            key-positions = <34 7>;
+            key-positions = <36 7>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_9 { // ECADカウントアップ数9
             bindings = <&k_tab_9>;
-            key-positions = <34 8>;
+            key-positions = <36 8>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_10 { // ECADカウントアップ数10
             bindings = <&k_tab_10>;
-            key-positions = <34 25>;
+            key-positions = <36 25>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_1 { // ECADカウントアップ数-1
             bindings = <&k_tab_minus_1>;
-            key-positions = <34 26 19>;
+            key-positions = <36 26 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_2 { // ECADカウントアップ数-2
             bindings = <&k_tab_minus_2>;
-            key-positions = <34 27 19>;
+            key-positions = <36 27 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_3 { // ECADカウントアップ数-3
             bindings = <&k_tab_minus_3>;
-            key-positions = <34 28 19>;
+            key-positions = <36 28 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_4 { // ECADカウントアップ数-4
             bindings = <&k_tab_minus_4>;
-            key-positions = <34 16 19>;
+            key-positions = <36 16 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_5 { // ECADカウントアップ数-5
             bindings = <&k_tab_minus_5>;
-            key-positions = <34 17 19>;
+            key-positions = <36 17 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_6 { // ECADカウントアップ数-6
             bindings = <&k_tab_minus_6>;
-            key-positions = <34 18 19>;
+            key-positions = <36 18 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_7 { // ECADカウントアップ数-7
             bindings = <&k_tab_minus_7>;
-            key-positions = <34 6 19>;
+            key-positions = <36 6 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_8 { // ECADカウントアップ数-8
             bindings = <&k_tab_minus_8>;
-            key-positions = <34 7 19>;
+            key-positions = <36 7 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_9 { // ECADカウントアップ数-9
             bindings = <&k_tab_minus_9>;
-            key-positions = <34 8 19>;
+            key-positions = <36 8 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_minus_10 { // ECADカウントアップ数-10
             bindings = <&k_tab_minus_10>;
-            key-positions = <34 25 19>;
+            key-positions = <36 25 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
