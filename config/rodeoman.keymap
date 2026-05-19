@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+﻿#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -40,12 +40,12 @@
 };
 
 &sk {
-    release-after-ms = <3000>; // 3秒間入力を待つ
+    release-after-ms = <3000>; // 3遘帝俣蜈･蜉帙ｒ蠕・▽
     quick-release;
 };
 
 &sl {
-    release-after-ms = <3000>; // 3秒間入力を待つ
+    release-after-ms = <3000>; // 3遘帝俣蜈･蜉帙ｒ蠕・▽
 };
 
 &caps_word {
@@ -65,8 +65,8 @@
     combos {    
         compatible = "zmk,combos";
 
-    // 複数キーの同時押しに特別の入力を設定できる
-    // キー番号早見表：
+    // 隍・焚繧ｭ繝ｼ縺ｮ蜷梧凾謚ｼ縺励↓迚ｹ蛻･縺ｮ蜈･蜉帙ｒ險ｭ螳壹〒縺阪ｋ
+    // 繧ｭ繝ｼ逡ｪ蜿ｷ譌ｩ隕玖｡ｨ・・
     // 	0  1  2  3  4           5  6  7  8  9
     // 10 11 12 13 14          15 16 17 18 19
     // 20 21 22 23 24          25 26 27 28 29	
@@ -259,7 +259,7 @@
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        // combo_RALTと被るため保留
+        // combo_RALT縺ｨ陲ｫ繧九◆繧∽ｿ晉蕗
         // alt_enter {
         //     bindings = <&alt_enter>;
         //     key-positions = <28 29>;
@@ -272,7 +272,7 @@
         //     layers = <RSE>;
         //     timeout-ms = <80>;
         // };
-        // combo_RGUIと被るため保留
+        // combo_RGUI縺ｨ陲ｫ繧九◆繧∽ｿ晉蕗
         gui_left {
             bindings = <&kp LG(LEFT)>;
             key-positions = <21 22>;
@@ -333,7 +333,7 @@
             layers = <RSEL RSEW>;
             timeout-ms = <80>;
         };
-        combo_e_key { // ECADの文字修正
+        combo_e_key { // ECAD縺ｮ譁・ｭ嶺ｿｮ豁｣
             timeout-ms = <80>;
             key-positions = <25 26>;
             layers = <CAD RSEW>;
@@ -393,51 +393,51 @@
         //     layers = <CAD>;
         //     timeout-ms = <80>;
         // };
-        combo_exl_fill { // Excelのオートフィル
+        combo_exl_fill { // Excel縺ｮ繧ｪ繝ｼ繝医ヵ繧｣繝ｫ
             timeout-ms = <80>;
-            key-positions = <2 7 11>; // E,I,Sのキー位置に書き換えてください
+            key-positions = <2 7 11>; // E,I,S縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
             layers = <QWE LIN CAD RSE RSEL RSEW>;
             bindings = <&exl_fill>;
         };
-		combo_m_xl_rename { // Excelのシート名変更マクロ
+		combo_m_xl_rename { // Excel縺ｮ繧ｷ繝ｼ繝亥錐螟画峩繝槭け繝ｭ
 			timeout-ms = <80>;
-        	key-positions = <15 8 3>; // H,O,Rのキー位置に書き換えてください
+        	key-positions = <15 8 3>; // H,O,R縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <QWE LIN CAD RSE RSEL RSEW>;
             bindings = <&m_xl_rename>;
         };
-        combo_ADJ_ss1 { // ADJレイヤーでのスクリーンショット1
+        combo_ADJ_ss1 { // ADJ繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ1
             timeout-ms = <80>;
-        	key-positions = <3 6>; // R,Uのキー位置に書き換えてください
+        	key-positions = <3 6>; // R,U縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJ>;
             bindings = <&kp LS(LG(N3))>;
         };
-        combo_ADJ_ss2 { // ADJレイヤーでのスクリーンショット2
+        combo_ADJ_ss2 { // ADJ繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ2
             timeout-ms = <80>;
-        	key-positions = <13 16>; // F,Jのキー位置に書き換えてください
+        	key-positions = <13 16>; // F,J縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJ>;
             bindings = <&kp LS(LG(N4))>;
         };
-        combo_ADJL_ss1 { // ADJLレイヤーでのスクリーンショット1
+        combo_ADJL_ss1 { // ADJL繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ1
             timeout-ms = <80>;
-        	key-positions = <3 6>; // R,Uのキー位置に書き換えてください
+        	key-positions = <3 6>; // R,U縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJL>;
             bindings = <&kp LG(S)>;
         };
-        combo_ADJL_ss2 { // ADJLレイヤーでのスクリーンショット2
+        combo_ADJL_ss2 { // ADJL繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ2
             timeout-ms = <80>;
-        	key-positions = <13 16>; // F,Jのキー位置に書き換えてください
+        	key-positions = <13 16>; // F,J縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJL>;
             bindings = <&win_shift_s>;
         };
-        combo_ADJW_ss1 { // ADJWレイヤーでのスクリーンショット1
+        combo_ADJW_ss1 { // ADJW繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ1
             timeout-ms = <80>;
-        	key-positions = <3 6>; // R,Uのキー位置に書き換えてください
+        	key-positions = <3 6>; // R,U縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJW>;
             bindings = <&kp LG(S)>;
         };
-        combo_ADJW_ss2 { // ADJWレイヤーでのスクリーンショット2
+        combo_ADJW_ss2 { // ADJW繝ｬ繧､繝､繝ｼ縺ｧ縺ｮ繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ2
             timeout-ms = <80>;
-        	key-positions = <13 16>; // F,Jのキー位置に書き換えてください
+        	key-positions = <13 16>; // F,J縺ｮ繧ｭ繝ｼ菴咲ｽｮ縺ｫ譖ｸ縺肴鋤縺医※縺上□縺輔＞
 			layers = <ADJW>;
             bindings = <&win_shift_s>;
         };
@@ -496,31 +496,31 @@
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        combo_symbol_call {  // シンボル一覧(AHK)
+        combo_symbol_call {  // 繧ｷ繝ｳ繝懊Ν荳隕ｧ(AHK)
             bindings = <&ctrl_alt_s>;
             key-positions = <10 11 29>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        combo_alt_home {   // 複写左90度回転[AHK]
+        combo_alt_home {   // 隍・・蟾ｦ90蠎ｦ蝗櫁ｻ｢[AHK]
             bindings = <&alt_home>;
             key-positions = <1 32 29>;
             layers = <CAD>;
             timeout-ms = <70>;
         };
-        combo_alt_end {   // 複写右90度回転[AHK]
+        combo_alt_end {   // 隍・・蜿ｳ90蠎ｦ蝗櫁ｻ｢[AHK]
             bindings = <&alt_end>;
             key-positions = <3 32 29>;
             layers = <CAD>;
             timeout-ms = <70>;
         };
-        combo_alt_comma { // 移動左90度回転[AHK]
+        combo_alt_comma { // 遘ｻ蜍募ｷｦ90蠎ｦ蝗櫁ｻ｢[AHK]
             bindings = <&alt_comma>;
             key-positions = <33 27 29>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        combo_alt_dot { // タップで移動右90度回転[AHK]、ホールドでRALT
+        combo_alt_dot { // 繧ｿ繝・・縺ｧ遘ｻ蜍募承90蠎ｦ蝗櫁ｻ｢[AHK]縲√・繝ｼ繝ｫ繝峨〒RALT
             bindings = <&alt_dot>;
             key-positions = <35 28 29>;
             layers = <CAD>;
@@ -586,121 +586,121 @@
             layers = <QWE LIN CAD NUM NUML NUMW>;
             timeout-ms = <80>;
         };
-        k_tab_1 { // ECADカウントアップ数
+        k_tab_1 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ
             bindings = <&k_tab_1>;
             key-positions = <36 26>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_2 { // ECADカウントアップ数2
+        k_tab_2 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ2
             bindings = <&k_tab_2>;
             key-positions = <36 27>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_3 { // ECADカウントアップ数3
+        k_tab_3 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ3
             bindings = <&k_tab_3>;
             key-positions = <36 28>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_4 { // ECADカウントアップ数4
+        k_tab_4 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ4
             bindings = <&k_tab_4>;
             key-positions = <36 16>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_5 { // ECADカウントアップ数5
+        k_tab_5 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ5
             bindings = <&k_tab_5>;
             key-positions = <36 17>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_6 { // ECADカウントアップ数6
+        k_tab_6 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ6
             bindings = <&k_tab_6>;
             key-positions = <36 18>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_7 { // ECADカウントアップ数7
+        k_tab_7 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ7
             bindings = <&k_tab_7>;
             key-positions = <36 6>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_8 { // ECADカウントアップ数8
+        k_tab_8 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ8
             bindings = <&k_tab_8>;
             key-positions = <36 7>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_9 { // ECADカウントアップ数9
+        k_tab_9 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ9
             bindings = <&k_tab_9>;
             key-positions = <36 8>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_10 { // ECADカウントアップ数10
+        k_tab_10 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ10
             bindings = <&k_tab_10>;
             key-positions = <36 25>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_1 { // ECADカウントアップ数-1
+        k_tab_minus_1 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-1
             bindings = <&k_tab_minus_1>;
             key-positions = <36 26 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_2 { // ECADカウントアップ数-2
+        k_tab_minus_2 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-2
             bindings = <&k_tab_minus_2>;
             key-positions = <36 27 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_3 { // ECADカウントアップ数-3
+        k_tab_minus_3 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-3
             bindings = <&k_tab_minus_3>;
             key-positions = <36 28 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_4 { // ECADカウントアップ数-4
+        k_tab_minus_4 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-4
             bindings = <&k_tab_minus_4>;
             key-positions = <36 16 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_5 { // ECADカウントアップ数-5
+        k_tab_minus_5 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-5
             bindings = <&k_tab_minus_5>;
             key-positions = <36 17 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_6 { // ECADカウントアップ数-6
+        k_tab_minus_6 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-6
             bindings = <&k_tab_minus_6>;
             key-positions = <36 18 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_7 { // ECADカウントアップ数-7
+        k_tab_minus_7 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-7
             bindings = <&k_tab_minus_7>;
             key-positions = <36 6 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_8 { // ECADカウントアップ数-8
+        k_tab_minus_8 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-8
             bindings = <&k_tab_minus_8>;
             key-positions = <36 7 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_9 { // ECADカウントアップ数-9
+        k_tab_minus_9 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-9
             bindings = <&k_tab_minus_9>;
             key-positions = <36 8 19>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        k_tab_minus_10 { // ECADカウントアップ数-10
+        k_tab_minus_10 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-10
             bindings = <&k_tab_minus_10>;
             key-positions = <36 25 19>;
             layers = <CAD>;
@@ -716,1628 +716,1628 @@
 
         combo_JPQMARKL {
             timeout-ms = <50>;
-            key-positions = <10 31>; // 旧 13 37
+            key-positions = <10 33>; // before: <10 31>
             layers = <RSE>; 
             bindings = <&macro_JPQMARKL>;
         };
 
         combo_JPSLASHL {
             timeout-ms = <50>;
-            key-positions = <11 31>; // 旧 14 37
+            key-positions = <11 33>; // before: <11 31>
             layers = <RSE>; 
             bindings = <&macro_JPSLASHL>;
         };
 
         combo_JPTILDEL {
             timeout-ms = <50>;
-            key-positions = <12 31>; // 旧 15 37
+            key-positions = <12 33>; // before: <12 31>
             layers = <RSE>; 
             bindings = <&macro_JPTILDEL>;
         };
 
         combo_JPLKAGIL {
             timeout-ms = <50>;
-            key-positions = <13 31>; // 旧 16 37
+            key-positions = <13 33>; // before: <13 31>
             layers = <RSE>; 
             bindings = <&macro_JPLKAGIL>;
         };
 
         combo_JPRKAGIL {
             timeout-ms = <50>;
-            key-positions = <14 31>; // 旧 17 37
+            key-positions = <14 33>; // before: <14 31>
             layers = <RSE>; 
             bindings = <&macro_JPRKAGIL>;
         };
 
         combo_JPLKADOL {
             timeout-ms = <50>;
-            key-positions = <15 31>; // 旧 18 37
+            key-positions = <15 33>; // before: <15 31>
             layers = <RSE>; 
             bindings = <&macro_JPLKADOL>;
         };
 
         combo_JPRKADOL {
             timeout-ms = <50>;
-            key-positions = <16 31>; // 旧 19 37
+            key-positions = <16 33>; // before: <16 31>
             layers = <RSE>; 
             bindings = <&macro_JPRKADOL>;
         };
 
         combo_JPLMARUL {
             timeout-ms = <50>;
-            key-positions = <17 31>; // 旧 20 37
+            key-positions = <17 33>; // before: <17 31>
             layers = <RSE>; 
             bindings = <&macro_JPLMARUL>;
         };
 
         combo_JPRMARUL {
             timeout-ms = <50>;
-            key-positions = <18 31>; // 旧 21 37
+            key-positions = <18 33>; // before: <18 31>
             layers = <RSE>; 
             bindings = <&macro_JPRMARUL>;
         };
 
         combo_JPLDKAGIL {
             timeout-ms = <50>;
-            key-positions = <19 31>; // 旧 22 37
+            key-positions = <19 33>; // before: <19 31>
             layers = <RSE>; 
             bindings = <&macro_JPLDKAGIL>;
         };
 
         combo_JPRDKAGIL {
             timeout-ms = <50>;
-            key-positions = <19 31>; // 旧 23 37 (右端のキーを36キー版の右端へ集約)
+            key-positions = <19 33>; // before: <19 31>
             layers = <RSE>; 
             bindings = <&macro_JPRDKAGIL>;
         };
 
         combo_XA {
             timeout-ms = <50>;
-            key-positions = <0 31>; // 旧 1 37
+            key-positions = <0 33>; // before: <0 31>
             layers = <NIC NICL>;
             bindings = <&macro_XA>;
         };
 
         combo_E {
             timeout-ms = <50>;
-            key-positions = <1 31>; // 旧 2 37
+            key-positions = <1 33>; // before: <1 31>
             layers = <NIC NICL>;
             bindings = <&macro_E>;
         };
 
         combo_RI {
             timeout-ms = <50>;
-            key-positions = <2 31>; // 旧 3 37
+            key-positions = <2 33>; // before: <2 31>
             layers = <NIC NICL>;
             bindings = <&macro_RI>;
         };
 
         combo_XYA {
             timeout-ms = <50>;
-            key-positions = <3 31>; // 旧 4 37
+            key-positions = <3 33>; // before: <3 31>
             layers = <NIC NICL>;
             bindings = <&macro_XYA>;
         };
 
         combo_RE {
             timeout-ms = <54>;
-            key-positions = <4 31>; // 旧 5 37
+            key-positions = <4 33>; // before: <4 31>
             layers = <NIC NICL>;
             bindings = <&macro_RE>;
         };
 
         combo_PA {
             timeout-ms = <50>;
-            key-positions = <5 31>; // 旧 6 37
+            key-positions = <5 33>; // before: <5 31>
             layers = <NIC NICL>;
             bindings = <&macro_PA>;
         };
 
         combo_DI {
             timeout-ms = <50>;
-            key-positions = <6 31>; // 旧 7 37
+            key-positions = <6 33>; // before: <6 31>
             layers = <NIC NICL>;
             bindings = <&macro_DI>;
         };
 
         combo_GU {
             timeout-ms = <50>;
-            key-positions = <7 31>; // 旧 8 37
+            key-positions = <7 33>; // before: <7 31>
             layers = <NIC NICL>;
             bindings = <&macro_GU>;
         };
 
         combo_DU {
             timeout-ms = <50>;
-            key-positions = <8 31>; // 旧 9 37
+            key-positions = <8 33>; // before: <8 31>
             layers = <NIC NICL>;
             bindings = <&macro_DU>;
         };
 
         combo_PI {
             timeout-ms = <50>;
-            key-positions = <9 31>; // 旧 10 37
+            key-positions = <9 33>; // before: <9 31>
             layers = <NIC NICL>;
             bindings = <&macro_PI>;
         };
 
         combo_WO {
             timeout-ms = <50>;
-            key-positions = <10 31>; // 旧 13 37
+            key-positions = <10 33>; // before: <10 31>
             layers = <NIC NICL>;
             bindings = <&macro_WO>;
         };
 
         combo_A {
             timeout-ms = <50>;
-            key-positions = <11 31>; // 旧 14 37
+            key-positions = <11 33>; // before: <11 31>
             layers = <NIC NICL>;
             bindings = <&macro_A>;
         };
 
         combo_NA {
             timeout-ms = <50>;
-            key-positions = <12 31>; // 旧 15 37
+            key-positions = <12 33>; // before: <12 31>
             layers = <NIC NICL>;
             bindings = <&macro_NA>;
         };
 
         combo_XYU {
             timeout-ms = <50>;
-            key-positions = <13 31>; // 旧 16 37
+            key-positions = <13 33>; // before: <13 31>
             layers = <NIC NICL>;
             bindings = <&macro_XYU>;
         };
 
         combo_MO {
             timeout-ms = <50>;
-            key-positions = <14 31>; // 旧 17 37
+            key-positions = <14 33>; // before: <14 31>
             layers = <NIC NICL>;
             bindings = <&macro_MO>;
         };
 
         combo_BA {
             timeout-ms = <50>;
-            key-positions = <15 31>; // 旧 18 37
+            key-positions = <15 33>; // before: <15 31>
             layers = <NIC NICL>;
             bindings = <&macro_BA>;
         };
 
         combo_DO {
             timeout-ms = <50>;
-            key-positions = <16 31>; // 旧 19 37
+            key-positions = <16 33>; // before: <16 31>
             layers = <NIC NICL>;
             bindings = <&macro_DO>;
         };
 
         combo_GI {
             timeout-ms = <50>;
-            key-positions = <17 31>; // 旧 20 37
+            key-positions = <17 33>; // before: <17 31>
             layers = <NIC NICL>;
             bindings = <&macro_GI>;
         };
 
         combo_PO {
             timeout-ms = <50>;
-            key-positions = <18 31>; // 旧 21 37
+            key-positions = <18 33>; // before: <18 31>
             layers = <NIC NICL>;
             bindings = <&macro_PO>;
         };
 
         combo_ZL {
             timeout-ms = <50>;
-            key-positions = <19 31>; // 旧 22 37
+            key-positions = <19 33>; // before: <19 31>
             layers = <NIC NICL>;
-            bindings = <&macro_ZL>; // ●を出したい
+            bindings = <&macro_ZL>; // 笳上ｒ蜃ｺ縺励◆縺・
         };
 
         combo_XU {
             timeout-ms = <50>;
-            key-positions = <20 31>; // 旧 25 37
+            key-positions = <20 33>; // before: <20 31>
             layers = <NIC NICL>;
             bindings = <&macro_XU>;
         };
 
         combo_JPMINUS2 {
             timeout-ms = <50>;
-            key-positions = <21 31>; // 旧 26 37
+            key-positions = <21 33>; // before: <21 31>
             layers = <NIC NICL>;
             bindings = <&macro_JPMINUS2>;
         };
 
         combo_RO {
             timeout-ms = <50>;
-            key-positions = <22 31>; // 旧 27 37
+            key-positions = <22 33>; // before: <22 31>
             layers = <NIC NICL>;
             bindings = <&macro_RO>;
         };
 
         combo_YA {
             timeout-ms = <50>;
-            key-positions = <23 31>; // 旧 28 37
+            key-positions = <23 33>; // before: <23 31>
             layers = <NIC NICL>;
             bindings = <&macro_YA>;
         };
 
         combo_XI {
             timeout-ms = <50>;
-            key-positions = <24 31>; // 旧 29 37
+            key-positions = <24 33>; // before: <24 31>
             layers = <NIC NICL>;
             bindings = <&macro_XI>;
         };
 
         combo_PU {
             timeout-ms = <50>;
-            key-positions = <25 31>; // 旧 30 37
+            key-positions = <25 33>; // before: <25 31>
             layers = <NIC NICL>;
             bindings = <&macro_PU>;
         };
 
         combo_ZO {
             timeout-ms = <50>;
-            key-positions = <26 31>; // 旧 31 37
+            key-positions = <26 33>; // before: <26 31>
             layers = <NIC NICL>;
             bindings = <&macro_ZO>;
         };
 
         combo_PE {
             timeout-ms = <50>;
-            key-positions = <27 31>; // 旧 32 37
+            key-positions = <27 33>; // before: <27 31>
             layers = <NIC NICL>;
             bindings = <&macro_PE>;
         };
 
         combo_BO {
             timeout-ms = <50>;
-            key-positions = <28 31>; // 旧 33 37
+            key-positions = <28 33>; // before: <28 31>
             layers = <NIC NICL>;
             bindings = <&macro_BO>;
         };
 
         // combo_JPQMARKR {
         //  timeout-ms = <50>;
-        //  key-positions = <10 34>; // 旧 13 40
+        //  key-positions = <10 36>; // before: <10 34>
         //  layers = <RSE RSEW>;
         //  bindings = <&macro_JPQMARKR>;
         // };
 
         // combo_JPSLASHR {
         //  timeout-ms = <50>;
-        //  key-positions = <11 34>; // 旧 14 40
+        //  key-positions = <11 36>; // before: <11 34>
         //  layers = <RSE RSEW>;
         //  bindings = <&macro_JPSLASHR>;
         // };
 
         // combo_JPTILDER {
         //  timeout-ms = <50>;
-        //  key-positions = <12 34>; // 旧 15 40
+        //  key-positions = <12 36>; // before: <12 34>
         //  layers = <RSE RSEW>;
         //  bindings = <&macro_JPTILDER>;
         // };
 
         // combo_JPLKAGIR {
         //  timeout-ms = <50>;
-        //  key-positions = <13 34>; // 旧 16 40
+        //  key-positions = <13 36>; // before: <13 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPLKAGIR>;
         // };
 
         // combo_JPRKAGIR {
         //  timeout-ms = <50>;
-        //  key-positions = <14 34>; // 旧 17 40
+        //  key-positions = <14 36>; // before: <14 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPRKAGIR>;
         // };
 
         // combo_JPLKADOR {
         //  timeout-ms = <50>;
-        //  key-positions = <15 34>; // 旧 18 40
+        //  key-positions = <15 36>; // before: <15 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPLKADOR>;
         // };
 
         // combo_JPRKADOR {
         //  timeout-ms = <50>;
-        //  key-positions = <16 34>; // 旧 19 40
+        //  key-positions = <16 36>; // before: <16 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPRKADOR>;
         // };
 
         // combo_JPLMARUR {
         //  timeout-ms = <50>;
-        //  key-positions = <17 34>; // 旧 20 40
+        //  key-positions = <17 36>; // before: <17 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPLMARUR>;
         // };
 
         // combo_JPRMARUR {
         //  timeout-ms = <50>;
-        //  key-positions = <18 34>; // 旧 21 40
+        //  key-positions = <18 36>; // before: <18 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPRMARUR>;
         // };
 
         // combo_JPLDKAGIR {
         //  timeout-ms = <50>;
-        //  key-positions = <19 34>; // 旧 22 40
+        //  key-positions = <19 36>; // before: <19 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPLDKAGIR>;
         // };
 
         // combo_JPRDKAGIR {
         //  timeout-ms = <50>;
-        //  key-positions = <19 34>; // 旧 23 40
+        //  key-positions = <19 36>; // before: <19 34>
         //  layers = <NIC NICL>;
         //  bindings = <&macro_JPRDKAGIR>;
         // };
 
         combo_JPTILDER {
             timeout-ms = <50>;
-            key-positions = <0 34>; // 旧 1 40
+            key-positions = <0 36>; // before: <0 34>
             layers = <NIC NICL>;
             bindings = <&macro_JPTILDER>;
         };
 
         combo_GA {
             timeout-ms = <50>;
-            key-positions = <1 34>; // 旧 2 40
+            key-positions = <1 36>; // before: <1 34>
             layers = <NIC NICL>;
             bindings = <&macro_GA>;
         };
 
         combo_DA {
             timeout-ms = <50>;
-            key-positions = <2 34>; // 旧 3 40
+            key-positions = <2 36>; // before: <2 34>
             layers = <NIC NICL>;
             bindings = <&macro_DA>;
         };
 
         combo_GO {
             timeout-ms = <50>;
-            key-positions = <3 34>; // 旧 4 40
+            key-positions = <3 36>; // before: <3 34>
             layers = <NIC NICL>;
             bindings = <&macro_GO>;
         };
 
         combo_ZA {
             timeout-ms = <50>;
-            key-positions = <4 34>; // 旧 5 40
+            key-positions = <4 36>; // before: <4 34>
             layers = <NIC NICL>;
             bindings = <&macro_ZA>;
         };
 
         combo_YO {
             timeout-ms = <53>;
-            key-positions = <5 34>; // 旧 6 40
+            key-positions = <5 36>; // before: <5 34>
             layers = <NIC NICL>;
             bindings = <&macro_YO>;
         };
 
         combo_NI {
             timeout-ms = <50>;
-            key-positions = <6 34>; // 旧 7 40
+            key-positions = <6 36>; // before: <6 34>
             layers = <NIC NICL>;
             bindings = <&macro_NI>;
         };
 
         combo_RU {
             timeout-ms = <50>;
-            key-positions = <7 34>; // 旧 8 40
+            key-positions = <7 36>; // before: <7 34>
             layers = <NIC NICL>;
             bindings = <&macro_RU>;
         };
 
         combo_MA {
             timeout-ms = <50>;
-            key-positions = <8 34>; // 旧 9 40
+            key-positions = <8 36>; // before: <8 34>
             layers = <NIC NICL>;
             bindings = <&macro_MA>;
         };
 
         combo_XE {
             timeout-ms = <50>;
-            key-positions = <9 34>; // 旧 10 40
+            key-positions = <9 36>; // before: <9 34>
             layers = <NIC NICL>;
             bindings = <&macro_XE>;
         };
 
         combo_VU {
             timeout-ms = <50>;
-            key-positions = <10 34>; // 旧 13 40
+            key-positions = <10 36>; // before: <10 34>
             layers = <NIC NICL>;
             bindings = <&macro_VU>;
         };
 
         combo_JI {
             timeout-ms = <50>;
-            key-positions = <11 34>; // 旧 14 40
+            key-positions = <11 36>; // before: <11 34>
             layers = <NIC NICL>;
             bindings = <&macro_JI>;
         };
 
         combo_DE {
             timeout-ms = <50>;
-            key-positions = <12 34>; // 旧 15 40
+            key-positions = <12 36>; // before: <12 34>
             layers = <NIC NICL>;
             bindings = <&macro_DE>;
         };
 
         combo_GE {
             timeout-ms = <50>;
-            key-positions = <13 34>; // 旧 16 40
+            key-positions = <13 36>; // before: <13 34>
             layers = <NIC NICL>;
             bindings = <&macro_GE>;
         };
 
         combo_ZE {
             timeout-ms = <50>;
-            key-positions = <14 34>; // 旧 17 40
+            key-positions = <14 36>; // before: <14 34>
             layers = <NIC NICL>;
             bindings = <&macro_ZE>;
         };
 
         combo_MI {
             timeout-ms = <50>;
-            key-positions = <15 34>; // 旧 18 40
+            key-positions = <15 36>; // before: <15 34>
             layers = <NIC NICL>;
             bindings = <&macro_MI>;
         };
 
         combo_O {
             timeout-ms = <50>;
-            key-positions = <16 34>; // 旧 19 40
+            key-positions = <16 36>; // before: <16 34>
             layers = <NIC NICL>;
             bindings = <&macro_O>;
         };
 
         combo_NO {
             timeout-ms = <50>;
-            key-positions = <17 34>; // 旧 20 40
+            key-positions = <17 36>; // before: <17 34>
             layers = <NIC NICL>;
             bindings = <&macro_NO>;
         };
 
         combo_XYO {
             timeout-ms = <50>;
-            key-positions = <18 34>; // 旧 21 40
+            key-positions = <18 36>; // before: <18 34>
             layers = <NIC NICL>;
             bindings = <&macro_XYO>;
         };
 
         combo_XTU {
             timeout-ms = <50>;
-            key-positions = <19 34>; // 旧 22 40
+            key-positions = <19 36>; // before: <19 34>
             layers = <NIC NICL>;
             bindings = <&macro_XTU>;
         };
         
         combo_JPCOMMA2 {
             timeout-ms = <50>;
-            key-positions = <20 34>; // 旧 25 40
+            key-positions = <20 36>; // before: <20 34>
             layers = <NIC NICL>;
             bindings = <&macro_JPCOMMA2>;
         };
 
         combo_BI {
             timeout-ms = <50>;
-            key-positions = <21 34>; // 旧 26 40
+            key-positions = <21 36>; // before: <21 34>
             layers = <NIC NICL>;
             bindings = <&macro_BI>;
         };
 
         combo_ZU {
             timeout-ms = <50>;
-            key-positions = <22 34>; // 旧 27 40
+            key-positions = <22 36>; // before: <22 34>
             layers = <NIC NICL>;
             bindings = <&macro_ZU>;
         };
 
         combo_BU {
             timeout-ms = <50>;
-            key-positions = <23 34>; // 旧 28 40
+            key-positions = <23 36>; // before: <23 34>
             layers = <NIC NICL>;
             bindings = <&macro_BU>;
         };
 
         combo_BE {
             timeout-ms = <50>;
-            key-positions = <24 34>; // 旧 29 40
+            key-positions = <24 36>; // before: <24 34>
             layers = <NIC NICL>;
             bindings = <&macro_BE>;
         };
 
         combo_NU {
             timeout-ms = <50>;
-            key-positions = <25 34>; // 旧 30 40
+            key-positions = <25 36>; // before: <25 34>
             layers = <NIC NICL>;
             bindings = <&macro_NU>;
         };
 
         combo_YU {
             timeout-ms = <50>;
-            key-positions = <26 34>; // 旧 31 40
+            key-positions = <26 36>; // before: <26 34>
             layers = <NIC NICL>;
             bindings = <&macro_YU>;
         };
 
         combo_MU {
             timeout-ms = <50>;
-            key-positions = <27 34>; // 旧 32 40
+            key-positions = <27 36>; // before: <27 34>
             layers = <NIC NICL>;
             bindings = <&macro_MU>;
         };
 
         combo_WA {
             timeout-ms = <50>;
-            key-positions = <28 34>; // 旧 33 40
+            key-positions = <28 36>; // before: <28 34>
             layers = <NIC NICL>;
             bindings = <&macro_WA>;
         };
 
         combo_XO {
             timeout-ms = <50>;
-            key-positions = <29 34>; // 旧 34 40
+            key-positions = <29 36>; // before: <29 34>
             layers = <NIC NICL>;
             bindings = <&macro_XO>;
         };
 
-        // 以下拗音拡張
-        // R (4) と同時打鍵 (-4)
+        // 莉･荳区距髻ｳ諡｡蠑ｵ
+        // R (4) 縺ｨ蜷梧凾謇馴嵯 (-4)
         combo_CHYA {
             timeout-ms = <50>;
-            key-positions = <3 6>; // 旧 4 7
+            key-positions = <3 6>; // 譌ｧ 4 7
             layers = <NIC NICL>;
             bindings = <&macro_CHYA>;
         };
         combo_KYA {
             timeout-ms = <50>;
-            key-positions = <3 17>; // 旧 4 20
+            key-positions = <3 17>; // 譌ｧ 4 20
             layers = <NIC NICL>;
             bindings = <&macro_KYA>;
         };
         combo_KWA {
             timeout-ms = <50>;
-            key-positions = <3 7>; // 旧 4 8
+            key-positions = <3 7>; // 譌ｧ 4 8
             layers = <NIC NICL>;
             bindings = <&macro_KWA>;
         };
         combo_TSA {
             timeout-ms = <50>;
-            key-positions = <3 8>; // 旧 4 9
+            key-positions = <3 8>; // 譌ｧ 4 9
             layers = <NIC NICL>;
             bindings = <&macro_TSA>;
         };
         combo_PYA {
             timeout-ms = <50>;
-            key-positions = <3 9>; // 旧 4 10
+            key-positions = <3 9>; // 譌ｧ 4 10
             layers = <NIC NICL>;
             bindings = <&macro_PYA>;
         };
 
-        // H (15) と同時打鍵 (-18)
+        // H (15) 縺ｨ蜷梧凾謇馴嵯 (-18)
         combo_RYA {
             timeout-ms = <50>;
-            key-positions = <15 1>; // 旧 18 2
+            key-positions = <15 1>; // 譌ｧ 18 2
             layers = <NIC NICL>;
             bindings = <&macro_RYA>;
         };
         combo_SYA {
             timeout-ms = <50>;
-            key-positions = <15 11>; // 旧 18 14
+            key-positions = <15 11>; // 譌ｧ 18 14
             layers = <NIC NICL>;
             bindings = <&macro_SYA>;
         };
         combo_HYA {
             timeout-ms = <50>;
-            key-positions = <15 21>; // 旧 18 26
+            key-positions = <15 21>; // 譌ｧ 18 26
             layers = <NIC NICL>;
             bindings = <&macro_HYA>;
         };
         combo_FUA {
             timeout-ms = <50>;
-            key-positions = <15 23>; // 旧 18 28
+            key-positions = <15 23>; // 譌ｧ 18 28
             layers = <NIC NICL>;
             bindings = <&macro_FUA>;
         };
 
-        // T (4) と同時打鍵 (-5)
+        // T (4) 縺ｨ蜷梧凾謇馴嵯 (-5)
         combo_NYA {
             timeout-ms = <50>;
-            key-positions = <4 6>; // 旧 5 7
+            key-positions = <4 6>; // 譌ｧ 5 7
             layers = <NIC NICL>;
             bindings = <&macro_NYA>;
         };
         combo_GUA {
             timeout-ms = <50>;
-            key-positions = <4 7>; // 旧 5 8
+            key-positions = <4 7>; // 譌ｧ 5 8
             layers = <NIC NICL>;
             bindings = <&macro_GUA>;
         };
         combo_DUA {
             timeout-ms = <50>;
-            key-positions = <4 8>; // 旧 5 9
+            key-positions = <4 8>; // 譌ｧ 5 9
             layers = <NIC NICL>;
             bindings = <&macro_DUA>;
         };
         combo_MYA {
             timeout-ms = <50>;
-            key-positions = <4 15>; // 旧 5 18
+            key-positions = <4 15>; // 譌ｧ 5 18
             layers = <NIC NICL>;
             bindings = <&macro_MYA>;
         };
         combo_GYA {
             timeout-ms = <50>;
-            key-positions = <4 17>; // 旧 5 20
+            key-positions = <4 17>; // 譌ｧ 5 20
             layers = <NIC NICL>;
             bindings = <&macro_GYA>;
         };
 
-        // N (25) と同時打鍵 (-30)
+        // N (25) 縺ｨ蜷梧凾謇馴嵯 (-30)
         combo_VUA {
             timeout-ms = <50>;
-            key-positions = <25 10>; // 旧 30 13
+            key-positions = <25 10>; // 譌ｧ 30 13
             layers = <NIC NICL>;
             bindings = <&macro_VUA>;
         };
         combo_JYA {
             timeout-ms = <50>;
-            key-positions = <25 11>; // 旧 30 14
+            key-positions = <25 11>; // 譌ｧ 30 14
             layers = <NIC NICL>;
             bindings = <&macro_JYA>;
         };
         combo_BYA {
             timeout-ms = <50>;
-            key-positions = <25 21>; // 旧 30 26
+            key-positions = <25 21>; // 譌ｧ 30 26
             layers = <NIC NICL>;
             bindings = <&macro_BYA>;
         };
         combo_BUA {
             timeout-ms = <50>;
-            key-positions = <25 23>; // 旧 30 28
+            key-positions = <25 23>; // 譌ｧ 30 28
             layers = <NIC NICL>;
             bindings = <&macro_BUA>;
         };
 
-        // ... (以下、同様に他の拗音や特殊音のコンボを追加。拗音拡張機能のみ抜粋)
-        // C (27) と同時打鍵 (-27) - 「い」段 + 「ぃ」の音
+        // ... (莉･荳九∝酔讒倥↓莉悶・諡鈴浹繧・音谿企浹縺ｮ繧ｳ繝ｳ繝懊ｒ霑ｽ蜉縲よ距髻ｳ諡｡蠑ｵ讖溯・縺ｮ縺ｿ謚懃ｲ・
+        // C (27) 縺ｨ蜷梧凾謇馴嵯 (-27) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         combo_CHII {
             timeout-ms = <50>;
-            key-positions = <22 6>; // 旧 27 7
+            key-positions = <22 6>; // 譌ｧ 27 7
             layers = <NIC NICL>;
             bindings = <&macro_CHII>;
         };
         combo_KUYI {
             timeout-ms = <50>;
-            key-positions = <22 7>; // 旧 27 8
+            key-positions = <22 7>; // 譌ｧ 27 8
             layers = <NIC NICL>;
             bindings = <&macro_KUYI>;
         };
         combo_TSYI {
             timeout-ms = <50>;
-            key-positions = <22 8>; // 旧 27 9
+            key-positions = <22 8>; // 譌ｧ 27 9
             layers = <NIC NICL>;
             bindings = <&macro_TSYI>;
         };
         combo_KII {
             timeout-ms = <50>;
-            key-positions = <22 17>; // 旧 27 20
+            key-positions = <22 17>; // 譌ｧ 27 20
             layers = <NIC NICL>;
             bindings = <&macro_KII>;
         };
         combo_ROO {
             timeout-ms = <50>;
-            key-positions = <22 21>; // 旧 27 26
+            key-positions = <22 21>; // 譌ｧ 27 26
             layers = <NIC NICL>;
             bindings = <&macro_ROO>;
         };
         combo_YAA {
             timeout-ms = <50>;
-            key-positions = <22 23>; // 旧 27 28
+            key-positions = <22 23>; // 譌ｧ 27 28
             layers = <NIC NICL>;
             bindings = <&macro_YAA>;
         };
 
-        // . (28) と同時打鍵 (-33) - 「い」段 + 「ぃ」の音
+        // . (28) 縺ｨ蜷梧凾謇馴嵯 (-33) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         combo_RII {
             timeout-ms = <50>;
-            key-positions = <28 2>; // 旧 33 3
+            key-positions = <28 2>; // 譌ｧ 33 3
             layers = <NIC NICL>;
             bindings = <&macro_RII>;
         };
         combo_WII {
             timeout-ms = <50>;
-            key-positions = <28 10>; // 旧 33 13
+            key-positions = <28 10>; // 譌ｧ 33 13
             layers = <NIC NICL>;
             bindings = <&macro_WII>;
         };
         combo_SII {
             timeout-ms = <50>;
-            key-positions = <28 11>; // 旧 33 14
+            key-positions = <28 11>; // 譌ｧ 33 14
             layers = <NIC NICL>;
             bindings = <&macro_SII>;
         };
         combo_TII {
             timeout-ms = <50>;
-            key-positions = <28 12>; // 旧 33 15
+            key-positions = <28 12>; // 譌ｧ 33 15
             layers = <NIC NICL>;
             bindings = <&macro_TII>;
         };
         combo_HII {
             timeout-ms = <50>;
-            key-positions = <28 21>; // 旧 33 26
+            key-positions = <28 21>; // 譌ｧ 33 26
             layers = <NIC NICL>;
             bindings = <&macro_HII>;
         };
         combo_FUYI {
             timeout-ms = <50>;
-            key-positions = <28 23>; // 旧 33 28
+            key-positions = <28 23>; // 譌ｧ 33 28
             layers = <NIC NICL>;
             bindings = <&macro_FUYI>;
         };
         combo_PEXTU {
             timeout-ms = <50>;
-            key-positions = <28 27>; // 旧 33 32
+            key-positions = <28 27>; // 譌ｧ 33 32
             layers = <NIC NICL>;
             bindings = <&macro_PEXTU>;
         };
 
-        // B (29) と同時打鍵 (-29) - 濁音/半濁音の「いぃ」
+        // B (29) 縺ｨ蜷梧凾謇馴嵯 (-29) - 豼・浹/蜊頑ｿ・浹縺ｮ縲後＞縺・・
         combo_NII {
             timeout-ms = <50>;
-            key-positions = <24 6>; // 旧 29 7
+            key-positions = <24 6>; // 譌ｧ 29 7
             layers = <NIC NICL>;
             bindings = <&macro_NII>;
         };
         combo_GUYI {
             timeout-ms = <50>;
-            key-positions = <24 7>; // 旧 29 8
+            key-positions = <24 7>; // 譌ｧ 29 8
             layers = <NIC NICL>;
             bindings = <&macro_GUYI>;
         };
         combo_ZUYI {
             timeout-ms = <50>;
-            key-positions = <24 8>; // 旧 29 9
+            key-positions = <24 8>; // 譌ｧ 29 9
             layers = <NIC NICL>;
             bindings = <&macro_ZUYI>;
         };
         combo_MII {
             timeout-ms = <50>;
-            key-positions = <24 14>; // 旧 29 17
+            key-positions = <24 14>; // 譌ｧ 29 17
             layers = <NIC NICL>;
             bindings = <&macro_MII>;
         };
         combo_GII {
             timeout-ms = <50>;
-            key-positions = <24 17>; // 旧 29 20
+            key-positions = <24 17>; // 譌ｧ 29 20
             layers = <NIC NICL>;
             bindings = <&macro_GII>;
         };
 
-        // \ (29) と同時打鍵 (-35) - 濁音/半濁音の「いぃ」、特殊な「ゔぃ」
+        // \ (29) 縺ｨ蜷梧凾謇馴嵯 (-35) - 豼・浹/蜊頑ｿ・浹縺ｮ縲後＞縺・阪∫音谿翫↑縲後ｔ縺・・
         combo_VII {
             timeout-ms = <50>;
-            key-positions = <29 10>; // 旧 35 13
+            key-positions = <29 10>; // 譌ｧ 35 13
             layers = <NIC NICL>;
             bindings = <&macro_VII>;
         };
         combo_JII {
             timeout-ms = <50>;
-            key-positions = <29 11>; // 旧 35 14
+            key-positions = <29 11>; // 譌ｧ 35 14
             layers = <NIC NICL>;
             bindings = <&macro_JII>;
         };
         combo_DEI {
             timeout-ms = <50>;
-            key-positions = <29 12>; // 旧 35 15
+            key-positions = <29 12>; // 譌ｧ 35 15
             layers = <NIC NICL>;
             bindings = <&macro_DEI>;
         };
         combo_BII {
             timeout-ms = <50>;
-            key-positions = <29 21>; // 旧 35 26
+            key-positions = <29 21>; // 譌ｧ 35 26
             layers = <NIC NICL>;
             bindings = <&macro_BII>;
         };
         combo_BUYI {
             timeout-ms = <50>;
-            key-positions = <29 23>; // 旧 35 28
+            key-positions = <29 23>; // 譌ｧ 35 28
             layers = <NIC NICL>;
             bindings = <&macro_BUYI>;
         };
 
-        // F (13) と同時打鍵 (-16) - 「う」段 + 「ゅ」の音、特殊な「ぅ」「くぉ」「とぅ」
+        // F (13) 縺ｨ蜷梧凾謇馴嵯 (-16) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後≦縲阪後￥縺峨阪後→縺・・
         combo_CHU {
             timeout-ms = <50>;
-            key-positions = <13 6>; // 旧 16 7
+            key-positions = <13 6>; // 譌ｧ 16 7
             layers = <NIC NICL>;
             bindings = <&macro_CHU>;
         };
         combo_KUWA {
             timeout-ms = <50>;
-            key-positions = <13 7>; // 旧 16 8
+            key-positions = <13 7>; // 譌ｧ 16 8
             layers = <NIC NICL>;
             bindings = <&macro_KUWA>;
         };
         combo_PYU {
             timeout-ms = <50>;
-            key-positions = <13 9>; // 旧 16 10
+            key-positions = <13 9>; // 譌ｧ 16 10
             layers = <NIC NICL>;
             bindings = <&macro_PYU>;
         };
         combo_TXU {
             timeout-ms = <50>;
-            key-positions = <13 16>; // 旧 16 19
+            key-positions = <13 16>; // 譌ｧ 16 19
             layers = <NIC NICL>;
             bindings = <&macro_TXU>;
         };
         combo_KYU {
             timeout-ms = <50>;
-            key-positions = <13 17>; // 旧 16 20
+            key-positions = <13 17>; // 譌ｧ 16 20
             layers = <NIC NICL>;
             bindings = <&macro_KYU>;
         };
         combo_MOXTU {
             timeout-ms = <50>;
-            key-positions = <13 14>; // 旧 16 17
+            key-positions = <13 14>; // 譌ｧ 16 17
             layers = <NIC NICL>;
             bindings = <&macro_MOXTU>;
         };
 
-        // M (31) と同時打鍵 (-31) - 「う」段 + 「ゅ」の音
+        // M (31) 縺ｨ蜷梧凾謇馴嵯 (-31) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         combo_RYU {
             timeout-ms = <50>;
-            key-positions = <26 2>; // 旧 31 3
+            key-positions = <26 2>; // 譌ｧ 31 3
             layers = <NIC NICL>;
             bindings = <&macro_RYU>;
         };
         combo_SYU {
             timeout-ms = <50>;
-            key-positions = <26 11>; // 旧 31 14
+            key-positions = <26 11>; // 譌ｧ 31 14
             layers = <NIC NICL>;
             bindings = <&macro_SYU>;
         };
         combo_TYU {
             timeout-ms = <50>;
-            key-positions = <26 12>; // 旧 31 15
+            key-positions = <26 12>; // 譌ｧ 31 15
             layers = <NIC NICL>;
             bindings = <&macro_TYU>;
         };
         combo_HYU {
             timeout-ms = <50>;
-            key-positions = <26 21>; // 旧 31 26
+            key-positions = <26 21>; // 譌ｧ 31 26
             layers = <NIC NICL>;
             bindings = <&macro_HYU>;
         };
         combo_FUYU {
             timeout-ms = <50>;
-            key-positions = <26 23>; // 旧 31 28
+            key-positions = <26 23>; // 譌ｧ 31 28
             layers = <NIC NICL>;
             bindings = <&macro_FUYU>;
         };
         combo_PUXTU {
             timeout-ms = <50>;
-            key-positions = <26 25>; // 旧 31 30
+            key-positions = <26 25>; // 譌ｧ 31 30
             layers = <NIC NICL>;
             bindings = <&macro_PUXTU>;
         };
 
-        // G (14) と同時打鍵 (-17) - 「う」段 + 「ゅ」の音、特殊な「ぐぉ」「どぅ」
+        // G (14) 縺ｨ蜷梧凾謇馴嵯 (-17) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後＄縺峨阪後←縺・・
         combo_NYU {
             timeout-ms = <50>;
-            key-positions = <14 6>; // 旧 17 7
+            key-positions = <14 6>; // 譌ｧ 17 7
             layers = <NIC NICL>;
             bindings = <&macro_NYU>;
         };
         combo_GUWA {
             timeout-ms = <50>;
-            key-positions = <14 7>; // 旧 17 8
+            key-positions = <14 7>; // 譌ｧ 17 8
             layers = <NIC NICL>;
             bindings = <&macro_GUWA>;
         };
         combo_MYU {
             timeout-ms = <50>;
-            key-positions = <14 15>; // 旧 17 18
+            key-positions = <14 15>; // 譌ｧ 17 18
             layers = <NIC NICL>;
             bindings = <&macro_MYU>;
         };
         combo_DXU {
             timeout-ms = <50>;
-            key-positions = <14 16>; // 旧 17 19
+            key-positions = <14 16>; // 譌ｧ 17 19
             layers = <NIC NICL>;
             bindings = <&macro_DXU>;
         };
         combo_GYU {
             timeout-ms = <50>;
-            key-positions = <14 17>; // 旧 17 20
+            key-positions = <14 17>; // 譌ｧ 17 20
             layers = <NIC NICL>;
             bindings = <&macro_GYU>;
         };
 
-        // , (27) と同時打鍵 (-32) - 「う」段 + 「ゅ」の音
+        // , (27) 縺ｨ蜷梧凾謇馴嵯 (-32) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         combo_JYU {
             timeout-ms = <50>;
-            key-positions = <27 11>; // 旧 32 14
+            key-positions = <27 11>; // 譌ｧ 32 14
             layers = <NIC NICL>;
             bindings = <&macro_JYU>;
         };
         combo_DEYU {
             timeout-ms = <50>;
-            key-positions = <27 12>; // 旧 32 15
+            key-positions = <27 12>; // 譌ｧ 32 15
             layers = <NIC NICL>;
             bindings = <&macro_DEYU>;
         };
         combo_BYU {
             timeout-ms = <50>;
-            key-positions = <27 21>; // 旧 32 26
+            key-positions = <27 21>; // 譌ｧ 32 26
             layers = <NIC NICL>;
             bindings = <&macro_BYU>;
         };
         combo_BUYU {
             timeout-ms = <50>;
-            key-positions = <27 23>; // 旧 32 28
+            key-positions = <27 23>; // 譌ｧ 32 28
             layers = <NIC NICL>;
             bindings = <&macro_BUYU>;
         };
         combo_YUXTU {
             timeout-ms = <50>;
-            key-positions = <27 26>; // 旧 32 31
+            key-positions = <27 26>; // 譌ｧ 32 31
             layers = <NIC NICL>;
             bindings = <&macro_YUXTU>;
         };
 
-        // E (3) と同時打鍵 (-3) - 「え」段 + 「ぇ」の音
+        // E (3) 縺ｨ蜷梧凾謇馴嵯 (-3) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_CHE {
             timeout-ms = <50>;
-            key-positions = <2 6>; // 旧 3 7
+            key-positions = <2 6>; // 譌ｧ 3 7
             layers = <NIC NICL>;
             bindings = <&macro_CHE>;
         };
         combo_KUE {
             timeout-ms = <50>;
-            key-positions = <2 7>; // 旧 3 8
+            key-positions = <2 7>; // 譌ｧ 3 8
             layers = <NIC NICL>;
             bindings = <&macro_KUE>;
         };
         combo_TSE {
             timeout-ms = <50>;
-            key-positions = <2 8>; // 旧 3 9
+            key-positions = <2 8>; // 譌ｧ 3 9
             layers = <NIC NICL>;
             bindings = <&macro_TSE>;
         };
         combo_KIE {
             timeout-ms = <50>;
-            key-positions = <2 17>; // 旧 3 20
+            key-positions = <2 17>; // 譌ｧ 3 20
             layers = <NIC NICL>;
             bindings = <&macro_KIE>;
         };
         combo_IE {
             timeout-ms = <50>;
-            key-positions = <2 18>; // 旧 3 21
+            key-positions = <2 18>; // 譌ｧ 3 21
             layers = <NIC NICL>;
             bindings = <&macro_IE>;
         };
         combo_RIXTU {
             timeout-ms = <50>;
-            key-positions = <2 1>; // 旧 3 2
+            key-positions = <2 1>; // 譌ｧ 3 2
             layers = <NIC NICL>;
             bindings = <&macro_RIXTU>;
         };
         combo_REXTU {
             timeout-ms = <50>;
-            key-positions = <2 3>; // 旧 3 4
+            key-positions = <2 3>; // 譌ｧ 3 4
             layers = <NIC NICL>;
             bindings = <&macro_REXTU>;
         };
         combo_TAXTU {
             timeout-ms = <50>;
-            key-positions = <2 10>; // 旧 3 13
+            key-positions = <2 10>; // 譌ｧ 3 13
             layers = <NIC NICL>;
             bindings = <&macro_TAXTU>;
         };
 
-        // I (7) と同時打鍵 (-8) - 「え」段 + 「ぇ」の音
+        // I (7) 縺ｨ蜷梧凾謇馴嵯 (-8) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_RIE {
             timeout-ms = <50>;
-            key-positions = <7 2>; // 旧 8 3
+            key-positions = <7 2>; // 譌ｧ 8 3
             layers = <NIC NICL>;
             bindings = <&macro_RIE>;
         };
         combo_WE {
             timeout-ms = <50>;
-            key-positions = <7 10>; // 旧 8 13
+            key-positions = <7 10>; // 譌ｧ 8 13
             layers = <NIC NICL>;
             bindings = <&macro_WE>;
         };
         combo_SIE {
             timeout-ms = <50>;
-            key-positions = <7 11>; // 旧 8 14
+            key-positions = <7 11>; // 譌ｧ 8 14
             layers = <NIC NICL>;
             bindings = <&macro_SIE>;
         };
         combo_HIE {
             timeout-ms = <50>;
-            key-positions = <7 21>; // 旧 8 26
+            key-positions = <7 21>; // 譌ｧ 8 26
             layers = <NIC NICL>;
             bindings = <&macro_HIE>;
         };
         combo_FUE {
             timeout-ms = <50>;
-            key-positions = <7 23>; // 旧 8 28
+            key-positions = <7 23>; // 譌ｧ 8 28
             layers = <NIC NICL>;
             bindings = <&macro_FUE>;
         };
         combo_RUXTU {
             timeout-ms = <50>;
-            key-positions = <7 8>; // 旧 8 9
+            key-positions = <7 8>; // 譌ｧ 8 9
             layers = <NIC NICL>;
             bindings = <&macro_RUXTU>;
         };
         combo_PIXTU {
             timeout-ms = <50>;
-            key-positions = <7 9>; // 旧 8 10
+            key-positions = <7 9>; // 譌ｧ 8 10
             layers = <NIC NICL>;
             bindings = <&macro_PIXTU>;
         };
 
-        // Q (0) と同時打鍵 (-2) - 「え」段 + 「ぇ」の音
+        // Q (0) 縺ｨ蜷梧凾謇馴嵯 (-2) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_NIE {
             timeout-ms = <50>;
-            key-positions = <0 6>; // 旧 1 7
+            key-positions = <0 6>; // 譌ｧ 1 7
             layers = <NIC NICL>;
             bindings = <&macro_NIE>;
         };
         combo_GUE {
             timeout-ms = <50>;
-            key-positions = <0 7>; // 旧 1 8
+            key-positions = <0 7>; // 譌ｧ 1 8
             layers = <NIC NICL>;
             bindings = <&macro_GUE>;
         };
         combo_DUE {
             timeout-ms = <50>;
-            key-positions = <0 8>; // 旧 1 9
+            key-positions = <0 8>; // 譌ｧ 1 9
             layers = <NIC NICL>;
             bindings = <&macro_DUE>;
         };
         combo_MIE {
             timeout-ms = <50>;
-            key-positions = <0 14>; // 旧 1 17
+            key-positions = <0 14>; // 譌ｧ 1 17
             layers = <NIC NICL>;
             bindings = <&macro_MIE>;
         };
         combo_PIE {
             timeout-ms = <50>;
-            key-positions = <0 9>; // 旧 1 10
+            key-positions = <0 9>; // 譌ｧ 1 10
             layers = <NIC NICL>;
             bindings = <&macro_PIE>;
         };
 
-        // P (10) と同時打鍵 (-10) - 「え」段 + 「ぇ」の音、特殊な「ヴェ」
+        // P (10) 縺ｨ蜷梧凾謇馴嵯 (-10) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ縲∫音谿翫↑縲後Χ繧ｧ縲・
         combo_VE {
             timeout-ms = <50>;
-            key-positions = <9 10>; // 旧 10 13
+            key-positions = <9 10>; // 譌ｧ 10 13
             layers = <NIC NICL>;
             bindings = <&macro_VE>;
         };
         combo_JE {
             timeout-ms = <50>;
-            key-positions = <9 11>; // 旧 10 14
+            key-positions = <9 11>; // 譌ｧ 10 14
             layers = <NIC NICL>;
             bindings = <&macro_JE>;
         };
         combo_BIE {
             timeout-ms = <50>;
-            key-positions = <9 21>; // 旧 10 26
+            key-positions = <9 21>; // 譌ｧ 10 26
             layers = <NIC NICL>;
             bindings = <&macro_BIE>;
         };
         combo_BUE_ {
             timeout-ms = <50>;
-            key-positions = <9 23>; // 旧 10 28
+            key-positions = <9 23>; // 譌ｧ 10 28
             layers = <NIC NICL>;
             bindings = <&macro_BUE_>;
         };
         combo_MAXTU {
             timeout-ms = <50>;
-            key-positions = <9 8>; // 旧 10 9
+            key-positions = <9 8>; // 譌ｧ 10 9
             layers = <NIC NICL>;
             bindings = <&macro_MAXTU>;
         };
 
-        // D (12) と同時打鍵 (-15) - 「お」段 + 「ょ」の音、特殊な「くぉ」「ぬぉ」
+        // D (12) 縺ｨ蜷梧凾謇馴嵯 (-15) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後￥縺峨阪後〓縺峨・
         combo_CHO {
             timeout-ms = <50>;
-            key-positions = <12 6>; // 旧 15 7
+            key-positions = <12 6>; // 譌ｧ 15 7
             layers = <NIC NICL>;
             bindings = <&macro_CHO>;
         };
         combo_KUO {
             timeout-ms = <50>;
-            key-positions = <12 7>; // 旧 15 8
+            key-positions = <12 7>; // 譌ｧ 15 8
             layers = <NIC NICL>;
             bindings = <&macro_KUO>;
         };
         combo_TSO {
             timeout-ms = <50>;
-            key-positions = <12 8>; // 旧 15 9
+            key-positions = <12 8>; // 譌ｧ 15 9
             layers = <NIC NICL>;
             bindings = <&macro_TSO>;
         };
         combo_MYO {
             timeout-ms = <50>;
-            key-positions = <12 14>; // 旧 15 17
+            key-positions = <12 14>; // 譌ｧ 15 17
             layers = <NIC NICL>;
             bindings = <&macro_MYO>;
         };
         combo_KYO {
             timeout-ms = <50>;
-            key-positions = <12 17>; // 旧 15 20
+            key-positions = <12 17>; // 譌ｧ 15 20
             layers = <NIC NICL>;
             bindings = <&macro_KYO>;
         };
         combo_NUO {
             timeout-ms = <50>;
-            key-positions = <12 25>; // 旧 15 30
+            key-positions = <12 25>; // 譌ｧ 15 30
             layers = <NIC NICL>;
             bindings = <&macro_NUO>;
         };
         combo_PYO {
             timeout-ms = <50>;
-            key-positions = <12 9>; // 旧 15 10
+            key-positions = <12 9>; // 譌ｧ 15 10
             layers = <NIC NICL>;
             bindings = <&macro_PYO>;
         };
         combo_TEXTU {
             timeout-ms = <50>;
-            key-positions = <12 10>; // 旧 15 13
+            key-positions = <12 10>; // 譌ｧ 15 13
             layers = <NIC NICL>;
             bindings = <&macro_TEXTU>;
         };
 
-        // J (16) と同時打鍵 (-19) - 「お」段 + 「ょ」の音、特殊な「うぉ」「しょ」「ひょ」「ふぉ」
+        // J (16) 縺ｨ蜷梧凾謇馴嵯 (-19) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後≧縺峨阪後＠繧・阪後・繧・阪後・縺峨・
         combo_RYO {
             timeout-ms = <50>;
-            key-positions = <16 2>; // 旧 19 3
+            key-positions = <16 2>; // 譌ｧ 19 3
             layers = <NIC NICL>;
             bindings = <&macro_RYO>;
         };
         combo_WO_ {
             timeout-ms = <50>;
-            key-positions = <16 10>; // 旧 19 13
+            key-positions = <16 10>; // 譌ｧ 19 13
             layers = <NIC NICL>;
             bindings = <&macro_WO_>;
         };
         combo_SYO {
             timeout-ms = <50>;
-            key-positions = <16 11>; // 旧 19 14
+            key-positions = <16 11>; // 譌ｧ 19 14
             layers = <NIC NICL>;
             bindings = <&macro_SYO>;
         };
         combo_HYO {
             timeout-ms = <50>;
-            key-positions = <16 21>; // 旧 19 26
+            key-positions = <16 21>; // 譌ｧ 19 26
             layers = <NIC NICL>;
             bindings = <&macro_HYO>;
         };
         combo_FUO {
             timeout-ms = <50>;
-            key-positions = <16 23>; // 旧 19 28
+            key-positions = <16 23>; // 譌ｧ 19 28
             layers = <NIC NICL>;
             bindings = <&macro_FUO>;
         };
 
-        // S (14) と同時打鍵 (-14) - 「お」段 + 「ょ」の音
+        // S (14) 縺ｨ蜷梧凾謇馴嵯 (-14) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         combo_NYO {
             timeout-ms = <50>;
-            key-positions = <11 6>; // 旧 14 7
+            key-positions = <11 6>; // 譌ｧ 14 7
             layers = <NIC NICL>;
             bindings = <&macro_NYO>;
         };
         combo_GYO {
             timeout-ms = <50>;
-            key-positions = <11 17>; // 旧 14 20
+            key-positions = <11 17>; // 譌ｧ 14 20
             layers = <NIC NICL>;
             bindings = <&macro_GYO>;
         };
         combo_ZUO {
             timeout-ms = <50>;
-            key-positions = <11 8>; // 旧 14 9
+            key-positions = <11 8>; // 譌ｧ 14 9
             layers = <NIC NICL>;
             bindings = <&macro_ZUO>;
         };
         combo_AXTU {
             timeout-ms = <50>;
-            key-positions = <11 10>; // 旧 14 13
+            key-positions = <11 10>; // 譌ｧ 14 13
             layers = <NIC NICL>;
             bindings = <&macro_AXTU>;
         };
         combo_NAXTU {
             timeout-ms = <50>;
-            key-positions = <11 12>; // 旧 14 15
+            key-positions = <11 12>; // 譌ｧ 14 15
             layers = <NIC NICL>;
             bindings = <&macro_NAXTU>;
         };
 
-        // L (18) と同時打鍵 (-21) - 「お」段 + 「ょ」の音
+        // L (18) 縺ｨ蜷梧凾謇馴嵯 (-21) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         combo_VO {
             timeout-ms = <50>;
-            key-positions = <18 10>; // 旧 21 13
+            key-positions = <18 10>; // 譌ｧ 21 13
             layers = <NIC NICL>;
             bindings = <&macro_VO>;
         };
         combo_JO {
             timeout-ms = <50>;
-            key-positions = <18 11>; // 旧 21 14
+            key-positions = <18 11>; // 譌ｧ 21 14
             layers = <NIC NICL>;
             bindings = <&macro_JO>;
         };
         combo_BYO {
             timeout-ms = <50>;
-            key-positions = <18 21>; // 旧 21 26
+            key-positions = <18 21>; // 譌ｧ 21 26
             layers = <NIC NICL>;
             bindings = <&macro_BYO>;
         };
         combo_BUO {
             timeout-ms = <50>;
-            key-positions = <18 23>; // 旧 21 28
+            key-positions = <18 23>; // 譌ｧ 21 28
             layers = <NIC NICL>;
             bindings = <&macro_BUO>;
         };
         combo_NOXTU {
             timeout-ms = <50>;
-            key-positions = <18 17>; // 旧 21 20
+            key-positions = <18 17>; // 譌ｧ 21 20
             layers = <NIC NICL>;
             bindings = <&macro_NOXTU>;
         };
         combo_POXTU {
             timeout-ms = <50>;
-            key-positions = <18 19>; // 旧 21 22
+            key-positions = <18 19>; // 譌ｧ 21 22
             layers = <NIC NICL>;
             bindings = <&macro_POXTU>;
         };
 
-        // ; (19) と同時打鍵 (-22) - 清音の促音
+        // ; (19) 縺ｨ蜷梧凾謇馴嵯 (-22) - 貂・浹縺ｮ菫・浹
         combo_KATTU {
             timeout-ms = <50>;
-            key-positions = <19 1>; // 旧 22 2
+            key-positions = <19 1>; // 譌ｧ 22 2
             layers = <NIC NICL>;
             bindings = <&macro_KATTU>;
         };
         combo_TATTU {
             timeout-ms = <50>;
-            key-positions = <19 2>; // 旧 22 3
+            key-positions = <19 2>; // 譌ｧ 22 3
             layers = <NIC NICL>;
             bindings = <&macro_TATTU>;
         };
         combo_KOTTU {
             timeout-ms = <50>;
-            key-positions = <19 3>; // 旧 22 4
+            key-positions = <19 3>; // 譌ｧ 22 4
             layers = <NIC NICL>;
             bindings = <&macro_KOTTU>;
         };
         combo_SATTU {
             timeout-ms = <50>;
-            key-positions = <19 4>; // 旧 22 5
+            key-positions = <19 4>; // 譌ｧ 22 5
             layers = <NIC NICL>;
             bindings = <&macro_SATTU>;
         };
         combo_UTTU {
             timeout-ms = <50>;
-            key-positions = <19 10>; // 旧 22 13
+            key-positions = <19 10>; // 譌ｧ 22 13
             layers = <NIC NICL>;
             bindings = <&macro_UTTU>;
         };
         combo_SITTU {
             timeout-ms = <50>;
-            key-positions = <19 11>; // 旧 22 14
+            key-positions = <19 11>; // 譌ｧ 22 14
             layers = <NIC NICL>;
             bindings = <&macro_SITTU>;
         };
         combo_TETTU {
             timeout-ms = <50>;
-            key-positions = <19 12>; // 旧 22 15
+            key-positions = <19 12>; // 譌ｧ 22 15
             layers = <NIC NICL>;
             bindings = <&macro_TETTU>;
         };
         combo_KETTU {
             timeout-ms = <50>;
-            key-positions = <19 13>; // 旧 22 16
+            key-positions = <19 13>; // 譌ｧ 22 16
             layers = <NIC NICL>;
             bindings = <&macro_KETTU>;
         };
         combo_SETTU {
             timeout-ms = <50>;
-            key-positions = <19 14>; // 旧 22 17
+            key-positions = <19 14>; // 譌ｧ 22 17
             layers = <NIC NICL>;
             bindings = <&macro_SETTU>;
         };
         combo_HITTU {
             timeout-ms = <50>;
-            key-positions = <19 21>; // 旧 22 26
+            key-positions = <19 21>; // 譌ｧ 22 26
             layers = <NIC NICL>;
             bindings = <&macro_HITTU>;
         };
         combo_SUTTU {
             timeout-ms = <50>;
-            key-positions = <19 22>; // 旧 22 27
+            key-positions = <19 22>; // 譌ｧ 22 27
             layers = <NIC NICL>;
             bindings = <&macro_SUTTU>;
         };
         combo_FUTTU {
             timeout-ms = <50>;
-            key-positions = <19 23>; // 旧 22 28
+            key-positions = <19 23>; // 譌ｧ 22 28
             layers = <NIC NICL>;
             bindings = <&macro_FUTTU>;
         };
         combo_HETTU {
             timeout-ms = <50>;
-            key-positions = <19 24>; // 旧 22 29
+            key-positions = <19 24>; // 譌ｧ 22 29
             layers = <NIC NICL>;
             bindings = <&macro_HETTU>;
         };
 
-        // / (34) と同時打鍵 (-34) - 濁音/半濁音の促音
+        // / (34) 縺ｨ蜷梧凾謇馴嵯 (-34) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹
         combo_GATTU {
             timeout-ms = <50>;
-            key-positions = <29 1>; // 旧 34 2
+            key-positions = <29 1>; // 譌ｧ 34 2
             layers = <NIC NICL>;
             bindings = <&macro_GATTU>;
         };
         combo_DATTU {
             timeout-ms = <50>;
-            key-positions = <29 2>; // 旧 34 3
+            key-positions = <29 2>; // 譌ｧ 34 3
             layers = <NIC NICL>;
             bindings = <&macro_DATTU>;
         };
         combo_GOTTU {
             timeout-ms = <50>;
-            key-positions = <29 3>; // 旧 34 4
+            key-positions = <29 3>; // 譌ｧ 34 4
             layers = <NIC NICL>;
             bindings = <&macro_GOTTU>;
         };
         combo_ZATTU {
             timeout-ms = <50>;
-            key-positions = <29 4>; // 旧 34 5
+            key-positions = <29 4>; // 譌ｧ 34 5
             layers = <NIC NICL>;
             bindings = <&macro_ZATTU>;
         };
         combo_JITTU {
             timeout-ms = <50>;
-            key-positions = <29 11>; // 旧 34 14
+            key-positions = <29 11>; // 譌ｧ 34 14
             layers = <NIC NICL>;
             bindings = <&macro_JITTU>;
         };
         combo_DETTU {
             timeout-ms = <50>;
-            key-positions = <29 12>; // 旧 34 15
+            key-positions = <29 12>; // 譌ｧ 34 15
             layers = <NIC NICL>;
             bindings = <&macro_DETTU>;
         };
         combo_GETTU {
             timeout-ms = <50>;
-            key-positions = <29 13>; // 旧 34 16
+            key-positions = <29 13>; // 譌ｧ 34 16
             layers = <NIC NICL>;
             bindings = <&macro_GETTU>;
         };
         combo_ZETTU {
             timeout-ms = <50>;
-            key-positions = <29 14>; // 旧 34 17
+            key-positions = <29 14>; // 譌ｧ 34 17
             layers = <NIC NICL>;
             bindings = <&macro_ZETTU>;
         };
         combo_BITTU {
             timeout-ms = <50>;
-            key-positions = <29 21>; // 旧 34 26
+            key-positions = <29 21>; // 譌ｧ 34 26
             layers = <NIC NICL>;
             bindings = <&macro_BITTU>;
         };
         combo_ZUTTU {
             timeout-ms = <50>;
-            key-positions = <29 22>; // 旧 34 27
+            key-positions = <29 22>; // 譌ｧ 34 27
             layers = <NIC NICL>;
             bindings = <&macro_ZUTTU>;
         };
         combo_BUTTU {
             timeout-ms = <50>;
-            key-positions = <29 23>; // 旧 34 28
+            key-positions = <29 23>; // 譌ｧ 34 28
             layers = <NIC NICL>;
             bindings = <&macro_BUTTU>;
         };
         combo_BETTU {
             timeout-ms = <50>;
-            key-positions = <29 24>; // 旧 34 29
+            key-positions = <29 24>; // 譌ｧ 34 29
             layers = <NIC NICL>;
             bindings = <&macro_BETTU>;
         };
         combo_WATTU {
             timeout-ms = <50>;
-            key-positions = <29 28>; // 旧 34 33
+            key-positions = <29 28>; // 譌ｧ 34 33
             layers = <NIC NICL>;
             bindings = <&macro_WATTU>;
         };
 
-        // Q (0) と同時打鍵 (-1) - 清音の促音、その他
+        // Q (0) 縺ｨ蜷梧凾謇馴嵯 (-1) - 貂・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         combo_ETTU {
             timeout-ms = <50>;
-            key-positions = <0 1>; // 旧 1 2
+            key-positions = <0 1>; // 譌ｧ 1 2
             layers = <NIC NICL>;
             bindings = <&macro_ETTU>;
         };
         combo_RATTU {
             timeout-ms = <50>;
-            key-positions = <0 5>; // 旧 1 6
+            key-positions = <0 5>; // 譌ｧ 1 6
             layers = <NIC NICL>;
             bindings = <&macro_RATTU>;
         };
         combo_CHITTU {
             timeout-ms = <50>;
-            key-positions = <0 6>; // 旧 1 7
+            key-positions = <0 6>; // 譌ｧ 1 7
             layers = <NIC NICL>;
             bindings = <&macro_CHITTU>;
         };
         combo_KUTTU {
             timeout-ms = <50>;
-            key-positions = <0 7>; // 旧 1 8
+            key-positions = <0 7>; // 譌ｧ 1 8
             layers = <NIC NICL>;
             bindings = <&macro_KUTTU>;
         };
         combo_TSUTTU {
             timeout-ms = <50>;
-            key-positions = <0 8>; // 旧 1 9
+            key-positions = <0 8>; // 譌ｧ 1 9
             layers = <NIC NICL>;
             bindings = <&macro_TSUTTU>;
         };
         combo_PITTU {
             timeout-ms = <50>;
-            key-positions = <0 9>; // 旧 1 10
+            key-positions = <0 9>; // 譌ｧ 1 10
             layers = <NIC NICL>;
             bindings = <&macro_PITTU>;
         };
         combo_HATTU {
             timeout-ms = <50>;
-            key-positions = <0 15>; // 旧 1 18
+            key-positions = <0 15>; // 譌ｧ 1 18
             layers = <NIC NICL>;
             bindings = <&macro_HATTU>;
         };
         combo_TOTTU {
             timeout-ms = <50>;
-            key-positions = <0 16>; // 旧 1 19
+            key-positions = <0 16>; // 譌ｧ 1 19
             layers = <NIC NICL>;
             bindings = <&macro_TOTTU>;
         };
         combo_KITTTU {
             timeout-ms = <50>;
-            key-positions = <0 17>; // 旧 1 20
+            key-positions = <0 17>; // 譌ｧ 1 20
             layers = <NIC NICL>;
             bindings = <&macro_KITTTU>;
         };
         combo_ITTU {
             timeout-ms = <50>;
-            key-positions = <0 18>; // 旧 1 21
+            key-positions = <0 18>; // 譌ｧ 1 21
             layers = <NIC NICL>;
             bindings = <&macro_ITTU>;
         };
         combo_YOTTU {
             timeout-ms = <50>;
-            key-positions = <0 19>; // 旧 1 22
+            key-positions = <0 19>; // 譌ｧ 1 22
             layers = <NIC NICL>;
             bindings = <&macro_YOTTU>;
         };
         combo_METTU {
             timeout-ms = <50>;
-            key-positions = <0 25>; // 旧 1 30
+            key-positions = <0 25>; // 譌ｧ 1 30
             layers = <NIC NICL>;
             bindings = <&macro_METTU>;
         };
         combo_SOTTU {
             timeout-ms = <50>;
-            key-positions = <0 26>; // 旧 1 31
+            key-positions = <0 26>; // 譌ｧ 1 31
             layers = <NIC NICL>;
             bindings = <&macro_SOTTU>;
         };
         combo_NETTU {
             timeout-ms = <50>;
-            key-positions = <0 27>; // 旧 1 32
+            key-positions = <0 27>; // 譌ｧ 1 32
             layers = <NIC NICL>;
             bindings = <&macro_NETTU>;
         };
         combo_HOTTU {
             timeout-ms = <50>;
-            key-positions = <0 28>; // 旧 1 33
+            key-positions = <0 28>; // 譌ｧ 1 33
             layers = <NIC NICL>;
             bindings = <&macro_HOTTU>;
         };
 
-        // Z (25) と同時打鍵 (-25) - 濁音/半濁音の促音、その他
+        // Z (25) 縺ｨ蜷梧凾謇馴嵯 (-25) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         combo_YOTTU2 {
             timeout-ms = <50>;
-            key-positions = <20 4>; // 旧 25 5
+            key-positions = <20 4>; // 譌ｧ 25 5
             layers = <NIC NICL>;
             bindings = <&macro_YOTTU2>;
         };
         combo_JITTU2 {
             timeout-ms = <50>;
-            key-positions = <20 6>; // 旧 25 7
+            key-positions = <20 6>; // 譌ｧ 25 7
             layers = <NIC NICL>;
             bindings = <&macro_JITTU2>;
         };
         combo_GUTTU {
             timeout-ms = <50>;
-            key-positions = <20 7>; // 旧 25 8
+            key-positions = <20 7>; // 譌ｧ 25 8
             layers = <NIC NICL>;
             bindings = <&macro_GUTTU>;
         };
         combo_ZUTTU2 {
             timeout-ms = <50>;
-            key-positions = <20 8>; // 旧 25 9
+            key-positions = <20 8>; // 譌ｧ 25 9
             layers = <NIC NICL>;
             bindings = <&macro_ZUTTU2>;
         };
         combo_BATTU {
             timeout-ms = <50>;
-            key-positions = <20 15>; // 旧 25 18
+            key-positions = <20 15>; // 譌ｧ 25 18
             layers = <NIC NICL>;
             bindings = <&macro_BATTU>;
         };
         combo_DOTTU {
             timeout-ms = <50>;
-            key-positions = <20 16>; // 旧 25 19
+            key-positions = <20 16>; // 譌ｧ 25 19
             layers = <NIC NICL>;
             bindings = <&macro_DOTTU>;
         };
         combo_GITTU {
             timeout-ms = <50>;
-            key-positions = <20 17>; // 旧 25 20
+            key-positions = <20 17>; // 譌ｧ 25 20
             layers = <NIC NICL>;
             bindings = <&macro_GITTU>;
         };
         combo_POTTU {
             timeout-ms = <50>;
-            key-positions = <20 18>; // 旧 25 21
+            key-positions = <20 18>; // 譌ｧ 25 21
             layers = <NIC NICL>;
             bindings = <&macro_POTTU>;
         };
         combo_YOTTU3 {
             timeout-ms = <50>;
-            key-positions = <20 19>; // 旧 25 22
+            key-positions = <20 19>; // 譌ｧ 25 22
             layers = <NIC NICL>;
             bindings = <&macro_YOTTU3>;
         };
         combo_NUTTU {
             timeout-ms = <50>;
-            key-positions = <20 25>; // 旧 25 30
+            key-positions = <20 25>; // 譌ｧ 25 30
             layers = <NIC NICL>;
             bindings = <&macro_NUTTU>;
         };
         combo_ZOTTTU {
             timeout-ms = <50>;
-            key-positions = <20 26>; // 旧 25 31
+            key-positions = <20 26>; // 譌ｧ 25 31
             layers = <NIC NICL>;
             bindings = <&macro_ZOTTTU>;
         };
         combo_MUTTU {
             timeout-ms = <50>;
-            key-positions = <20 27>; // 旧 25 32
+            key-positions = <20 27>; // 譌ｧ 25 32
             layers = <NIC NICL>;
             bindings = <&macro_MUTTU>;
         };
         combo_BOTTU {
             timeout-ms = <50>;
-            key-positions = <20 28>; // 旧 25 33
+            key-positions = <20 28>; // 譌ｧ 25 33
             layers = <NIC NICL>;
             bindings = <&macro_BOTTU>;
         };
 
-        // T (6) と同時打鍵 (-7) - 促音「ぱっ」のみ
+        // T (6) 縺ｨ蜷梧凾謇馴嵯 (-7) - 菫・浹縲後・縺｣縲阪・縺ｿ
         combo_PATTU {
             timeout-ms = <50>;
-            key-positions = <6 5>; // 旧 7 6
+            key-positions = <6 5>; // 譌ｧ 7 6
             layers = <NIC NICL>;
             bindings = <&macro_PATTU>;
         };        
     };
 
     behaviors {
-        // LANG1用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_lang1)
+        // LANG1逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_lang1)
         ht_lg1: ht_lg1 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2345,7 +2345,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_lang1>;
         };
-        // LANG2用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_lang2)
+        // LANG2逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_lang2)
         ht_lg2: ht_lg2 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2353,7 +2353,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_lang2>;
         };
-        // // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_int4)
+        // // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_int4)
         // ht_it4: ht_it4 {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2361,7 +2361,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&mo>, <&t_int4>;
         // };
-        // // INT5用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_int5)
+        // // INT5逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_int5)
         // ht_it5: ht_it5 {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2369,7 +2369,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&mo>, <&t_int5>;
         // };
-        // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(tW_int4)
+        // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(tW_int4)
         htW_it4: htW_it4 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2377,7 +2377,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&tW_int4>;
         };
-        // INT5用のHold-Tap: ホールドで指定Layer, タップでマクロ(tC_int5)
+        // INT5逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(tC_int5)
         htC_it5: htC_it5 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2386,7 +2386,7 @@
             bindings = <&mo>, <&tC_int5>;
         };
 
-        // // LANG1用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_lang1)
+        // // LANG1逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_lang1)
         // ht_lg1: ht_lg1 {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2394,7 +2394,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&mo>, <&t_lang1>;
         // };
-        // // LANG2用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_lang2)
+        // // LANG2逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_lang2)
         // ht_lg2: ht_lg2 {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2402,7 +2402,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&mo>, <&t_lang2>;
         // };
-        // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_int4)
+        // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_int4)
         ht_it4: ht_it4 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2410,7 +2410,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_int4>;
         };
-        // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_eint2)
+        // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_eint2)
         ht_eit2: ht_eit2 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2418,7 +2418,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_eint2>;
         };
-        // INT5用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_int5)
+        // INT5逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_int5)
         ht_it5: ht_it5 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2426,7 +2426,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_int5>;
         };
-        // // AHK用のHold-Tap: ホールドでRALT, タップでマクロ(alt_home)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_home)
         // combo_ht_home: combo_ht_home {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2434,7 +2434,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_home>;
         // };
-        // // AHK用のHold-Tap: ホールドでRALT, タップでマクロ(alt_end)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_end)
         // combo_ht_end: combo_ht_end {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2442,7 +2442,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_end>;
         // };
-        // // AHK用のHold-Tap: ホールドでRALT, タップでマクロ(alt_comma)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_comma)
         // combo_ht_comma: combo_ht_comma {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2450,7 +2450,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_comma>;
         // };
-        // // AHK用のHold-Tap: ホールドでRALT, タップでマクロ(alt_dot)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_dot)
         // combo_ht_dot: combo_ht_dot {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2458,7 +2458,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_dot>;
         // };
-        // Hold-Tap: ホールドで&qm RSHIFT, タップで&caps_word
+        // Hold-Tap: 繝帙・繝ｫ繝峨〒&qm RSHIFT, 繧ｿ繝・・縺ｧ&caps_word
         combo_ht_caps_word: combo_ht_caps_word {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2466,95 +2466,95 @@
             tapping-term-ms = <150>;
             bindings = <&qm>, <&caps_word>;
         };
-        // ① ホールド・タップの挙動を定義
+        // 竭 繝帙・繝ｫ繝峨・繧ｿ繝・・縺ｮ謖吝虚繧貞ｮ夂ｾｩ
         // esc_ctrl_shift: esc_ctrl_shift {
         //     compatible = "zmk,behavior-hold-tap";
         //     label = "ESC_CTRL_SHIFT";
         //     #binding-cells = <2>;
-        //     tapping-term-ms = <150>;    // 長押しと判定されるまでの時間
+        //     tapping-term-ms = <150>;    // 髟ｷ謚ｼ縺励→蛻､螳壹＆繧後ｋ縺ｾ縺ｧ縺ｮ譎る俣
         //     quick-tap-ms = <0>;
-        //     flavor = "tap-preferred";   // タップを優先する設定
+        //     flavor = "tap-preferred";   // 繧ｿ繝・・繧貞━蜈医☆繧玖ｨｭ螳・
         //     bindings = <&kp>, <&kp>;
         // };
-        // td_lt_num_lbkt: tap_dance_layer_tap_num_lbkt {  // タップで[、ホールドでNUMレイヤ、ダブルタップでNUMレイヤ保持
+        // td_lt_num_lbkt: tap_dance_layer_tap_num_lbkt {  // 繧ｿ繝・・縺ｧ[縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUM LBKT>, <&to NUM>;
         // };
-        // td_lt_mov_rbkt: tap_dance_layer_tap_mov_rbkt {  // タップで]、ホールドでMOVレイヤ、ダブルタップでMOVレイヤ保持
+        // td_lt_mov_rbkt: tap_dance_layer_tap_mov_rbkt {  // 繧ｿ繝・・縺ｧ]縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOV RBKT>, <&to MOV>;
         // };
-        // td_lt_mov_l1: tap_dance_layer_tap_mov_l1 {  // タップでLANG1、ホールドでMOVレイヤ、ダブルタップでMOVレイヤ保持
+        // td_lt_mov_l1: tap_dance_layer_tap_mov_l1 {  // 繧ｿ繝・・縺ｧLANG1縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOV LANG1>, <&to MOV>;
         // };
-        // td_lt_num_l2: tap_dance_layer_tap_num_l2 {  // タップでLANG2、ホールドでNUMレイヤ、ダブルタップでNUMレイヤ保持
+        // td_lt_num_l2: tap_dance_layer_tap_num_l2 {  // 繧ｿ繝・・縺ｧLANG2縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUM LANG2>, <&to NUM>;
         // };
-        // td_lt_mov_i2: tap_dance_layer_tap_mov_i2 {  // タップでINT2、ホールドでMOVレイヤ、ダブルタップでMOVレイヤ保持
+        // td_lt_mov_i2: tap_dance_layer_tap_mov_i2 {  // 繧ｿ繝・・縺ｧINT2縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOV INT2>, <&to_MOV_i2>;
         // };
-        // td_lt_mov_esc: tap_dance_layer_tap_mov_esc {  // タップでESC、ホールドでMOVレイヤ、ダブルタップでMOVレイヤ保持
+        // td_lt_mov_esc: tap_dance_layer_tap_mov_esc {  // 繧ｿ繝・・縺ｧESC縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOV ESC>, <&to MOV>;
         // };
-        // td_lt_cad_i2: tap_dance_layer_tap_cad_i2 {  // タップでかな、ホールドでCADレイヤ、ダブルタップでCADレイヤ保持
+        // td_lt_cad_i2: tap_dance_layer_tap_cad_i2 {  // 繧ｿ繝・・縺ｧ縺九↑縲√・繝ｼ繝ｫ繝峨〒CAD繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧCAD繝ｬ繧､繝､菫晄戟
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt CAD INT2>, <&to_CAD_i2>;
         // };
-        // td_lt_movl_esc: tap_dance_layer_tap_movl_esc {  // タップでesc、ホールドでMOVLレイヤ、ダブルタップでMOVLレイヤ保持、無変換
+        // td_lt_movl_esc: tap_dance_layer_tap_movl_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒MOVL繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOVL繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOVL ESC>, <&to_MOVL_i5>;
         // };
-        // td_lt_movw_i2: tap_dance_layer_tap_movw_i2 {  // タップでかな、ホールドでMOVWレイヤ、ダブルタップでMOVWレイヤ保持、無変換
+        // td_lt_movw_i2: tap_dance_layer_tap_movw_i2 {  // 繧ｿ繝・・縺ｧ縺九↑縲√・繝ｼ繝ｫ繝峨〒MOVW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOVW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt MOVW INT2>, <&to_MOVW_i5>;
         // };
-        // td_lt_num_i5: tap_dance_layer_tap_num_i5 {  // タップで無変換、ホールドでNUMレイヤ、ダブルタップでNUMレイヤ保持、無変換
+        // td_lt_num_i5: tap_dance_layer_tap_num_i5 {  // 繧ｿ繝・・縺ｧ辟｡螟画鋤縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUM INT5>, <&to_NUM_i5>;
         // };
-        // td_lt_numw_i5: tap_dance_layer_tap_numw_i5 {  // タップで無変換、ホールドでNUMWレイヤ、ダブルタップでNUMWレイヤ保持、無変換
+        // td_lt_numw_i5: tap_dance_layer_tap_numw_i5 {  // 繧ｿ繝・・縺ｧ辟｡螟画鋤縲√・繝ｼ繝ｫ繝峨〒NUMW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUMW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUMW INT5>, <&to_NUMW_i5>;
         // };
-        // td_lt_num_esc: tap_dance_layer_tap_num_esc {  // タップでesc、ホールドでNUMレイヤ、ダブルタップでNUMレイヤ保持、無変換
+        // td_lt_num_esc: tap_dance_layer_tap_num_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUM ESC>, <&to_NUM_i5>;
         // };
-        // td_lt_numl_esc: tap_dance_layer_tap_numl_esc {  // タップでesc、ホールドでNUMLレイヤ、ダブルタップでNUMLレイヤ保持、無変換
+        // td_lt_numl_esc: tap_dance_layer_tap_numl_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUML繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUML繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
         //     tapping-term-ms = <190>;
         //     bindings = <&lt NUML ESC>, <&to_NUML_i5>;
         // };
-        // td_lt_numw_esc: tap_dance_layer_tap_numw_esc {  // タップでesc、ホールドでNUMWレイヤ、ダブルタップでNUMWレイヤ保持、無変換
+        // td_lt_numw_esc: tap_dance_layer_tap_numw_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUMW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUMW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         
         //     compatible = "zmk,behavior-tap-dance";
         //     #binding-cells = <0>;
@@ -2567,16 +2567,16 @@
             label = "LT_BALANCED";
             #binding-cells = <2>;
             tapping-term-ms = <190>;
-            flavor = "balanced";  // 他のキーがタップされたら即座にNUMレイヤーを確定
+            flavor = "balanced";  // 莉悶・繧ｭ繝ｼ縺後ち繝・・縺輔ｌ縺溘ｉ蜊ｳ蠎ｧ縺ｫNUM繝ｬ繧､繝､繝ｼ繧堤｢ｺ螳・
             bindings = <&mo>, <&kp>;
         };
 
-        // A-Z共通のHold-Tap定義
+        // A-Z蜈ｱ騾壹・Hold-Tap螳夂ｾｩ
         all_ht: all_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <230>; // タップダンスのタイムアウトと同じに設定
+            tapping-term-ms = <230>; // 繧ｿ繝・・繝繝ｳ繧ｹ縺ｮ繧ｿ繧､繝繧｢繧ｦ繝医→蜷後§縺ｫ險ｭ螳・
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
         };
@@ -2794,7 +2794,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 0.5mm , 3-Taps: 0.25mm
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 0.5mm , 3-Taps: 0.25mm
             bindings = <&all_ht RCTRL SEMI>, <&ctrl_alt_l>, <&ctrl_alt_semi>; 
         };
 
@@ -2803,7 +2803,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 銘板表編集 (Ctrl+F+c), 3-Taps:  銘板表 (Ctrl+F+d)
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 驫俶攸陦ｨ邱ｨ髮・(Ctrl+F+c), 3-Taps:  驫俶攸陦ｨ (Ctrl+F+d)
             bindings = <&all_ht COMMA COMMA>, <&ctrl_f_c>, <&ctrl_f_d>;
         };
 
@@ -2812,7 +2812,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 部品表編集 (Ctrl+F+g), 3-Taps:  集計表 (Ctrl+F+h)
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 驛ｨ蜩∬｡ｨ邱ｨ髮・(Ctrl+F+g), 3-Taps:  髮・ｨ郁｡ｨ (Ctrl+F+h)
             bindings = <&all_ht DOT DOT>, <&ctrl_f_g>, <&ctrl_f_h>;
         };
 
@@ -2821,11 +2821,11 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 1G , 3-Taps: 1/4G
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 1G , 3-Taps: 1/4G
             bindings = <&all_ht RGUI SLASH>, <&ctrl_alt_j>, <&ctrl_alt_k>;
         };
 
-        // 通常の判定時間（例: 240ms）
+        // 騾壼ｸｸ縺ｮ蛻､螳壽凾髢難ｼ井ｾ・ 240ms・・
         mt_s: mod_tap_slow {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2833,20 +2833,20 @@
             tapping-term-ms = <240>;
             bindings = <&kp>, <&kp>;
         };
-        // 特定のキー用の短い判定時間（例: 200ms）
+        // 迚ｹ螳壹・繧ｭ繝ｼ逕ｨ縺ｮ遏ｭ縺・愛螳壽凾髢難ｼ井ｾ・ 200ms・・
         mt_m: mod_tap_mid {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>; // ここを個別に設定
+            tapping-term-ms = <200>; // 縺薙％繧貞句挨縺ｫ險ｭ螳・
             bindings = <&kp>, <&kp>;
         };
-        // 特定のキー用の短い判定時間（例: 170ms）
+        // 迚ｹ螳壹・繧ｭ繝ｼ逕ｨ縺ｮ遏ｭ縺・愛螳壽凾髢難ｼ井ｾ・ 170ms・・
         mt_f: mod_tap_fast {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <170>; // ここを個別に設定
+            tapping-term-ms = <170>; // 縺薙％繧貞句挨縺ｫ險ｭ螳・
             bindings = <&kp>, <&kp>;
         };
     };
@@ -3486,13 +3486,13 @@
         compatible = "zmk,behavior-macro";
         label = "macro_JPLDKAGIR";
         #binding-cells = <0>;
-        bindings = <&kp LS(LBKT)>; // □を出したい
+        bindings = <&kp LS(LBKT)>; // 笆｡繧貞・縺励◆縺・
         };
         macro_JPRDKAGIR: macro_JPRDKAGIR{
         compatible = "zmk,behavior-macro";
         label = "macro_JPRDKAGIR";
         #binding-cells = <0>;
-        bindings = <&kp LS(RBKT)>; // ✓を出したい
+        bindings = <&kp LS(RBKT)>; // 笨薙ｒ蜃ｺ縺励◆縺・
         };
         macro_GA: macro_GA{
         compatible = "zmk,behavior-macro";
@@ -3663,8 +3663,8 @@
         bindings = <&kp X>, <&kp O>;
         };
 
-        // 以下拗音拡張
-        // R (4) と同時打鍵 (-4)
+        // 莉･荳区距髻ｳ諡｡蠑ｵ
+        // R (4) 縺ｨ蜷梧凾謇馴嵯 (-4)
         macro_CHYA: macro_CHYA{
             compatible = "zmk,behavior-macro";
             label = "macro_CHYA";
@@ -3696,7 +3696,7 @@
             bindings = <&kp P>, <&kp Y>, <&kp A>;
         };
 
-        // H (18) と同時打鍵 (-18)
+        // H (18) 縺ｨ蜷梧凾謇馴嵯 (-18)
         macro_RYA: macro_RYA{
             compatible = "zmk,behavior-macro";
             label = "macro_RYA";
@@ -3722,7 +3722,7 @@
             bindings = <&kp F>, <&kp U>, <&kp X>, <&kp A>;
         };
 
-        // T (5) と同時打鍵 (-5)
+        // T (5) 縺ｨ蜷梧凾謇馴嵯 (-5)
         macro_NYA: macro_NYA{
             compatible = "zmk,behavior-macro";
             label = "macro_NYA";
@@ -3754,7 +3754,7 @@
             bindings = <&kp G>, <&kp Y>, <&kp A>;
         };
 
-        // N (30) と同時打鍵 (-30)
+        // N (30) 縺ｨ蜷梧凾謇馴嵯 (-30)
         macro_VUA: macro_VUA{
             compatible = "zmk,behavior-macro";
             label = "macro_VUA";
@@ -3780,7 +3780,7 @@
             bindings = <&kp B>, <&kp U>, <&kp X>, <&kp A>;
         };
 
-        // C (27) と同時打鍵 (-27) - 「い」段 + 「ぃ」の音
+        // C (27) 縺ｨ蜷梧凾謇馴嵯 (-27) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         macro_CHII: macro_CHII{
             compatible = "zmk,behavior-macro";
             label = "macro_CHII";
@@ -3824,7 +3824,7 @@
             bindings = <&kp P>, <&kp E>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // B (29) と同時打鍵 (-29)
+        // B (29) 縺ｨ蜷梧凾謇馴嵯 (-29)
         macro_NII: macro_NIXI{
             compatible = "zmk,behavior-macro";
             label = "macro_NII";
@@ -3856,7 +3856,7 @@
             bindings = <&kp G>, <&kp I>, <&kp X>, <&kp I>;
         };
 
-        // \ (35) と同時打鍵 (-35)
+        // \ (35) 縺ｨ蜷梧凾謇馴嵯 (-35)
         macro_VII: macro_VII{
             compatible = "zmk,behavior-macro";
             label = "macro_VII";
@@ -3888,7 +3888,7 @@
             bindings = <&kp B>, <&kp U>, <&kp X>, <&kp I>;
         };
         
-        // . (33) と同時打鍵 (-33) - 「い」段 + 「ぃ」の音
+        // . (33) 縺ｨ蜷梧凾謇馴嵯 (-33) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         macro_RII: macro_RII{
             compatible = "zmk,behavior-macro";
             label = "macro_RII";
@@ -3926,7 +3926,7 @@
             bindings = <&kp F>, <&kp U>, <&kp X>, <&kp I>;
         };
 
-        // F (16) と同時打鍵 (-16) - 「う」段 + 「ゅ」の音、特殊な「ぅ」「くゎ」「とぅ」
+        // F (16) 縺ｨ蜷梧凾謇馴嵯 (-16) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後≦縲阪後￥繧弱阪後→縺・・
         macro_CHU: macro_CHU{
             compatible = "zmk,behavior-macro";
             label = "macro_CHU";
@@ -3937,7 +3937,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_KUWA";
             #binding-cells = <0>;
-            bindings = <&kp K>, <&kp U>, <&kp X>, <&kp W>, <&kp A>; // DvorakJは「くゎ」だが、マクロは「くぁ」と重複する場合があるため「くゎ」で定義
+            bindings = <&kp K>, <&kp U>, <&kp X>, <&kp W>, <&kp A>; // DvorakJ縺ｯ縲後￥繧弱阪□縺後√・繧ｯ繝ｭ縺ｯ縲後￥縺√阪→驥崎､・☆繧句ｴ蜷医′縺ゅｋ縺溘ａ縲後￥繧弱阪〒螳夂ｾｩ
         };
         macro_PYU: macro_PYU{
             compatible = "zmk,behavior-macro";
@@ -3964,7 +3964,7 @@
             bindings = <&kp M>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // M (31) と同時打鍵 (-31) - 「う」段 + 「ゅ」の音
+        // M (31) 縺ｨ蜷梧凾謇馴嵯 (-31) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         macro_RYU: macro_RYU{
             compatible = "zmk,behavior-macro";
             label = "macro_RYU";
@@ -4002,7 +4002,7 @@
             bindings = <&kp P>, <&kp U>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // G (17) と同時打鍵 (-17) - 「う」段 + 「ゅ」の音、特殊な「ぐゎ」「どぅ」
+        // G (17) 縺ｨ蜷梧凾謇馴嵯 (-17) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後＄繧弱阪後←縺・・
         macro_NYU: macro_NYU{
             compatible = "zmk,behavior-macro";
             label = "macro_NYU";
@@ -4034,7 +4034,7 @@
             bindings = <&kp G>, <&kp Y>, <&kp U>;
         };
 
-        // , (32) と同時打鍵 (-32) - 「う」段 + 「ゅ」の音
+        // , (32) 縺ｨ蜷梧凾謇馴嵯 (-32) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         macro_JYU: macro_JYU{
             compatible = "zmk,behavior-macro";
             label = "macro_JYU";
@@ -4066,12 +4066,12 @@
             bindings = <&kp Y>, <&kp U>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // E (3) と同時打鍵 (-3) - 「え」段 + 「ぇ」の音
+        // E (3) 縺ｨ蜷梧凾謇馴嵯 (-3) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_CHE: macro_CHE{
             compatible = "zmk,behavior-macro";
             label = "macro_CHE";
             #binding-cells = <0>;
-            bindings = <&kp C>, <&kp H>, <&kp E>; // 拗音拡張で「ちぇ」
+            bindings = <&kp C>, <&kp H>, <&kp E>; // 諡鈴浹諡｡蠑ｵ縺ｧ縲後■縺・・
         };
         macro_KUE: macro_KUE{
             compatible = "zmk,behavior-macro";
@@ -4116,7 +4116,7 @@
             bindings = <&kp T>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // I (8) と同時打鍵 (-8) - 「え」段 + 「ぇ」の音
+        // I (8) 縺ｨ蜷梧凾謇馴嵯 (-8) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_RIE: macro_RIE{
             compatible = "zmk,behavior-macro";
             label = "macro_RIE";
@@ -4133,7 +4133,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_SIE";
             #binding-cells = <0>;
-            bindings = <&kp S>, <&kp I>, <&kp X>, <&kp E>; //しぇ
+            bindings = <&kp S>, <&kp I>, <&kp X>, <&kp E>; //縺励∞
         };
         macro_HIE: macro_HIE{
             compatible = "zmk,behavior-macro";
@@ -4160,12 +4160,12 @@
             bindings = <&kp P>, <&kp I>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // Q (1) と同時打鍵 (-2) - 「え」段 + 「ぇ」の音
+        // Q (1) 縺ｨ蜷梧凾謇馴嵯 (-2) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_NIE: macro_NIE{
             compatible = "zmk,behavior-macro";
             label = "macro_NIE";
             #binding-cells = <0>;
-            bindings = <&kp N>, <&kp I>, <&kp X>, <&kp E>; // にえ
+            bindings = <&kp N>, <&kp I>, <&kp X>, <&kp E>; // 縺ｫ縺・
         };
         macro_GUE: macro_GUE{
             compatible = "zmk,behavior-macro";
@@ -4192,7 +4192,7 @@
             bindings = <&kp P>, <&kp I>, <&kp X>, <&kp E>;
         };
 
-        // P (10) と同時打鍵 (-10) - 「え」段 + 「ぇ」の音、特殊な「ヴェ」
+        // P (10) 縺ｨ蜷梧凾謇馴嵯 (-10) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ縲∫音谿翫↑縲後Χ繧ｧ縲・
         macro_VE: macro_VE{
             compatible = "zmk,behavior-macro";
             label = "macro_VE";
@@ -4224,7 +4224,7 @@
             bindings = <&kp M>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // D (15) と同時打鍵 (-15) - 「お」段 + 「ょ」の音、特殊な「くぉ」「ぬぉ」
+        // D (15) 縺ｨ蜷梧凾謇馴嵯 (-15) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後￥縺峨阪後〓縺峨・
         macro_CHO: macro_CHO{
             compatible = "zmk,behavior-macro";
             label = "macro_CHO";
@@ -4274,7 +4274,7 @@
             bindings = <&kp T>, <&kp E>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // J (19) と同時打鍵 (-19) - 「お」段 + 「ょ」の音、特殊な「うぉ」「しょ」「ひょ」「ふぉ」
+        // J (19) 縺ｨ蜷梧凾謇馴嵯 (-19) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後≧縺峨阪後＠繧・阪後・繧・阪後・縺峨・
         macro_RYO: macro_RYO{
             compatible = "zmk,behavior-macro";
             label = "macro_RYO";
@@ -4306,7 +4306,7 @@
             bindings = <&kp F>, <&kp U>, <&kp X>, <&kp O>;
         };
 
-        // S (14) と同時打鍵 (-14) - 「お」段 + 「ょ」の音
+        // S (14) 縺ｨ蜷梧凾謇馴嵯 (-14) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         macro_NYO: macro_NYO{
             compatible = "zmk,behavior-macro";
             label = "macro_NYO";
@@ -4338,7 +4338,7 @@
             bindings = <&kp N>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // L (21) と同時打鍵 (-21) - 「お」段 + 「ょ」の音
+        // L (21) 縺ｨ蜷梧凾謇馴嵯 (-21) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         macro_VO: macro_VO{
             compatible = "zmk,behavior-macro";
             label = "macro_VO";
@@ -4376,7 +4376,7 @@
             bindings = <&kp P>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // ; (22) と同時打鍵 (-22) - 清音の促音
+        // ; (22) 縺ｨ蜷梧凾謇馴嵯 (-22) - 貂・浹縺ｮ菫・浹
         macro_KATTU: macro_KATTU{
             compatible = "zmk,behavior-macro";
             label = "macro_KATTU";
@@ -4456,7 +4456,7 @@
             bindings = <&kp H>, <&kp E>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // / (34) と同時打鍵 (-34) - 濁音/半濁音の促音
+        // / (34) 縺ｨ蜷梧凾謇馴嵯 (-34) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹
         macro_GATTU: macro_GATTU{
             compatible = "zmk,behavior-macro";
             label = "macro_GATTU";
@@ -4536,7 +4536,7 @@
             bindings = <&kp W>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // Q (1) と同時打鍵 (-1) - 清音の促音、その他
+        // Q (1) 縺ｨ蜷梧凾謇馴嵯 (-1) - 貂・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         macro_ETTU: macro_ETTU{
             compatible = "zmk,behavior-macro";
             label = "macro_ETTU";
@@ -4628,7 +4628,7 @@
             bindings = <&kp H>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // Z (25) と同時打鍵 (-25) - 濁音/半濁音の促音、その他
+        // Z (25) 縺ｨ蜷梧凾謇馴嵯 (-25) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         macro_YOTTU2: macro_YOTTU2{
             compatible = "zmk,behavior-macro";
             label = "macro_YOTTU2";
@@ -4708,7 +4708,7 @@
             bindings = <&kp B>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // T (7) と同時打鍵 (-7) - 促音「ぱっ」のみ
+        // T (7) 縺ｨ蜷梧凾謇馴嵯 (-7) - 菫・浹縲後・縺｣縲阪・縺ｿ
         macro_PATTU: macro_PATTU{
             compatible = "zmk,behavior-macro";
             label = "macro_PATTU";
@@ -4748,7 +4748,7 @@
                 ;
         };
 
-        file_f: file_f { // ファイルの切り替え正
+        file_f: file_f { // 繝輔ぃ繧､繝ｫ縺ｮ蛻・ｊ譖ｿ縺域ｭ｣
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4759,7 +4759,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-        file_r: file_r { // ファイルの切り替え逆
+        file_r: file_r { // 繝輔ぃ繧､繝ｫ縺ｮ蛻・ｊ譖ｿ縺磯・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4772,7 +4772,7 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
-        pr_pg: pr_pg { // 前ページ切り替え
+        pr_pg: pr_pg { // 蜑阪・繝ｼ繧ｸ蛻・ｊ譖ｿ縺・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4783,7 +4783,7 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
-        nx_pg: nx_pg { // 次ページ切り替え
+        nx_pg: nx_pg { // 谺｡繝壹・繧ｸ蛻・ｊ譖ｿ縺・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4794,7 +4794,7 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
-        alt_right: alt_right { // フォルダ移動進む
+        alt_right: alt_right { // 繝輔か繝ｫ繝遘ｻ蜍暮ｲ繧
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4805,7 +4805,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_left: alt_left { // フォルダ移動戻る
+        alt_left: alt_left { // 繝輔か繝ｫ繝遘ｻ蜍墓綾繧・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4816,7 +4816,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_up: alt_up { // フォルダ移動上
+        alt_up: alt_up { // 繝輔か繝ｫ繝遘ｻ蜍穂ｸ・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4827,7 +4827,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_down: alt_down { // フォルダ移動下
+        alt_down: alt_down { // 繝輔か繝ｫ繝遘ｻ蜍穂ｸ・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4838,7 +4838,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        cmd_x: cmd_x { // 切り取り
+        cmd_x: cmd_x { // 蛻・ｊ蜿悶ｊ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4847,7 +4847,7 @@
                 , <&macro_release &kp LGUI>
                 ;
         };
-        cmd_c: cmd_c { // コピー
+        cmd_c: cmd_c { // 繧ｳ繝斐・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4856,7 +4856,7 @@
                 , <&macro_release &kp LGUI>
                 ;
         };
-        cmd_v: cmd_v { // 貼り付け
+        cmd_v: cmd_v { // 雋ｼ繧贋ｻ倥￠
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4865,7 +4865,7 @@
                 , <&macro_release &kp LGUI>
                 ;
         };
-        ctrl_x: ctrl_x { // 切り取り
+        ctrl_x: ctrl_x { // 蛻・ｊ蜿悶ｊ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4874,7 +4874,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-        ctrl_c: ctrl_c { // コピー
+        ctrl_c: ctrl_c { // 繧ｳ繝斐・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4883,7 +4883,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-        ctrl_v: ctrl_v { // 貼り付け
+        ctrl_v: ctrl_v { // 雋ｼ繧贋ｻ倥￠
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -4892,7 +4892,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-        shft_mb1: shft_mb1 { // Shiftキー+左クリック
+        shft_mb1: shft_mb1 { // Shift繧ｭ繝ｼ+蟾ｦ繧ｯ繝ｪ繝・け
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -4925,10 +4925,10 @@
                 , <&macro_release &kp RGUI>
                 ;
         };
-        ctrl_shift: ctrl_shift { // ctrl+shiftマクロ
+        ctrl_shift: ctrl_shift { // ctrl+shift繝槭け繝ｭ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LSHFT>; // Ctrl+Shiftを押しっぱなしにするマクロ
+            bindings = <&kp LCTRL &kp LSHFT>; // Ctrl+Shift繧呈款縺励▲縺ｱ縺ｪ縺励↓縺吶ｋ繝槭け繝ｭ
             // bindings
             //     = <&macro_press &kp LCTRL>
             //     , <&macro_press &kp LSHFT>
@@ -5031,7 +5031,7 @@
             bindings = <&to NUMW>, <&kp INT5>;
         };
 
-        int5_g: int5_g { // 端点再設定(AHK)
+        int5_g: int5_g { // 遶ｯ轤ｹ蜀崎ｨｭ螳・AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -5042,7 +5042,7 @@
                 , <&macro_release &kp INT5>
                 ;
         };	
-        exl_fill: excel_fill_menu { // Excelのフィルター
+        exl_fill: excel_fill_menu { // Excel縺ｮ繝輔ぅ繝ｫ繧ｿ繝ｼ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -5050,9 +5050,9 @@
             bindings
                 = <&macro_tap &kp LALT>
                 , <&macro_tap &kp E &kp I &kp S>;
-            // ここで止まるので、設定を確認して手動でEnter
+            // 縺薙％縺ｧ豁｢縺ｾ繧九・縺ｧ縲∬ｨｭ螳壹ｒ遒ｺ隱阪＠縺ｦ謇句虚縺ｧEnter
         };
-        alt_int4: alt_int4 { // Alt+変換 選択位置移動(複写)(AHK)
+        alt_int4: alt_int4 { // Alt+螟画鋤 驕ｸ謚樔ｽ咲ｽｮ遘ｻ蜍・隍・・)(AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -5061,7 +5061,7 @@
                 , <&macro_release &kp RALT>
                 ;
         };	
-        alt_int5: alt_int5 { // Alt+無変換 選択位置移動(移動)(AHK)
+        alt_int5: alt_int5 { // Alt+辟｡螟画鋤 驕ｸ謚樔ｽ咲ｽｮ遘ｻ蜍・遘ｻ蜍・(AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -5075,7 +5075,7 @@
             #binding-cells = <0>;
             bindings = <&kp LGUI>, <&kp LCTRL>;
         };
-        win_right: win_right { // デスクトップ移動進む
+        win_right: win_right { // 繝・せ繧ｯ繝医ャ繝礼ｧｻ蜍暮ｲ繧
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -5088,7 +5088,7 @@
                 , <&macro_release &kp LGUI>
                 ;
         };
-        win_left: win_left { // デスクトップ移動戻る
+        win_left: win_left { // 繝・せ繧ｯ繝医ャ繝礼ｧｻ蜍墓綾繧・
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
@@ -5125,17 +5125,17 @@
         //     #binding-cells = <0>;
         //     bindings = <&kp LANG2>, <&to QWE>;
         // };
-        // タップ時の動作: 指定レイヤーへ移動し、LANG1を送信
-        // LANG1用のマクロ
+        // 繧ｿ繝・・譎ゅ・蜍穂ｽ・ 謖・ｮ壹Ξ繧､繝､繝ｼ縺ｸ遘ｻ蜍輔＠縲´ANG1繧帝∽ｿ｡
+        // LANG1逕ｨ縺ｮ繝槭け繝ｭ
         t_lang1: t_lang1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to NIC &kp LANG1>; // レイヤー2（NIC）に戻る
+            bindings = <&to NIC &kp LANG1>; // 繝ｬ繧､繝､繝ｼ2・・IC・峨↓謌ｻ繧・
         };
         t_lang2: t_lang2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &kp LANG2>; // レイヤー0（QWE）に戻る
+            bindings = <&to QWE &kp LANG2>; // 繝ｬ繧､繝､繝ｼ0・・WE・峨↓謌ｻ繧・
         };
         t_eint2: t_eint2 {
             compatible = "zmk,behavior-macro";
@@ -5145,121 +5145,121 @@
         t_int4: t_int4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to NICL &kp INT4 &kp LANG1>; // レイヤー5（NICL）に戻る
+            bindings = <&to NICL &kp INT4 &kp LANG1>; // 繝ｬ繧､繝､繝ｼ5・・ICL・峨↓謌ｻ繧・
         };
         t_int5: t_int5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>; // 全体の基本遅延
+            wait-ms = <10>; // 蜈ｨ菴薙・蝓ｺ譛ｬ驕・ｻｶ
             tap-ms = <10>;
             bindings 
-                = <&to LIN> // レイヤー3（LIN）に戻る
-                , <&macro_wait_time 20> // ここで20ミリ秒待機
+                = <&to LIN> // 繝ｬ繧､繝､繝ｼ3・・IN・峨↓謌ｻ繧・
+                , <&macro_wait_time 20> // 縺薙％縺ｧ20繝溘Μ遘貞ｾ・ｩ・
                 , <&kp  INT5>
                 , <&kp  LANG2>;
         };
         tW_int4: tW_int4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to WIN &kp INT4 &kp LANG1>; // レイヤー7（WIN）に戻る
+            bindings = <&to WIN &kp INT4 &kp LANG1>; // 繝ｬ繧､繝､繝ｼ7・・IN・峨↓謌ｻ繧・
         };
         tC_int5: tC_int5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>; // 全体の基本遅延
+            wait-ms = <10>; // 蜈ｨ菴薙・蝓ｺ譛ｬ驕・ｻｶ
             tap-ms = <10>;
             bindings 
-                = <&to CAD> // レイヤー6（CAD）に戻る
-                , <&macro_wait_time 30> // ここで30ミリ秒待機
+                = <&to CAD> // 繝ｬ繧､繝､繝ｼ6・・AD・峨↓謌ｻ繧・
+                , <&macro_wait_time 30> // 縺薙％縺ｧ30繝溘Μ遘貞ｾ・ｩ・
                 , <&kp  INT5>
                 , <&kp  LANG2>;
         };
-        bt0_lQWE: bt0_lQWE { // Bluetoothプロファイル0を選択し、レイヤーQWEを有効化
+        bt0_lQWE: bt0_lQWE { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ0繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼQWE繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 0 &to QWE>;
         };
-        bt0_lNIC: bt0_lNIC { // Bluetoothプロファイル0を選択し、レイヤーNICを有効化
+        bt0_lNIC: bt0_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ0繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 0 &to NIC>;
         };
-        bt1_lNIC: bt1_lNIC { // Bluetoothプロファイル1を選択し、レイヤーNICを有効化
+        bt1_lNIC: bt1_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 1 &to NIC>;
         };
-        bt1_lNICL: bt1_lNICL { // Bluetoothプロファイル1を選択し、レイヤーNICLを有効化
+        bt1_lNICL: bt1_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 1 &to NICL>;
         };
-        bt1_lWIN: bt1_lWIN { // Bluetoothプロファイル1を選択し、レイヤーWINを有効化
+        bt1_lWIN: bt1_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 1 &to WIN>;
         };
-        bt2_lLIN: bt2_lLIN { // Bluetoothプロファイル2を選択し、レイヤーLINを有効化
+        bt2_lLIN: bt2_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 2 &to LIN>;
         };
-        bt2_lWIN: bt2_lWIN { // Bluetoothプロファイル2を選択し、レイヤーWINを有効化
+        bt2_lWIN: bt2_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 2 &to WIN>;
         };
-        bt2_lNICL: bt2_lNICL { // Bluetoothプロファイル2を選択し、レイヤーNICLを有効化
+        bt2_lNICL: bt2_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 2 &to NICL>;
         };
-        bt3_lLIN: bt3_lLIN { // Bluetoothプロファイル3を選択し、レイヤーLINを有効化
+        bt3_lLIN: bt3_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 3 &to LIN>;
         };
-        bt3_lCAD: bt3_lCAD { // Bluetoothプロファイル3を選択し、レイヤーCADを有効化
+        bt3_lCAD: bt3_lCAD { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼCAD繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 3 &to CAD>;
         };
-        bt3_lWIN: bt3_lWIN { // Bluetoothプロファイル3を選択し、レイヤーWINを有効化
+        bt3_lWIN: bt3_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 3 &to WIN>;
         };
-        bt3_lNICL: bt3_lNICL { // Bluetoothプロファイル3を選択し、レイヤーNICLを有効化
+        bt3_lNICL: bt3_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 3 &to NICL>;
         };
-        bt4_lNIC: bt4_lNIC { // Bluetoothプロファイル4を選択し、レイヤーNICを有効化
+        bt4_lNIC: bt4_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 4 &to NIC>;
         };
-        bt4_lLIN: bt4_lLIN { // Bluetoothプロファイル4を選択し、レイヤーLINを有効化
+        bt4_lLIN: bt4_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 4 &to LIN>;
         };
-        bt4_lNICL: bt4_lNICL { // Bluetoothプロファイル4を選択し、レイヤーNICLを有効化
+        bt4_lNICL: bt4_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &bt BT_SEL 4 &to NICL>;
         };
-        usb_lLIN: usb_lLIN { // USB接続を選択し、レイヤーLINを有効化
+        usb_lLIN: usb_lLIN { // USB謗･邯壹ｒ驕ｸ謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &out OUT_USB &to LIN>;
         };
-        usb_lCAD: usb_lCAD { // USB接続を選択し、レイヤーCADを有効化
+        usb_lCAD: usb_lCAD { // USB謗･邯壹ｒ驕ｸ謚槭＠縲√Ξ繧､繝､繝ｼCAD繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &out OUT_USB &to CAD>;
         };
-        usb_lWIN: usb_lWIN { // USB接続を選択し、レイヤーWINを有効化
+        usb_lWIN: usb_lWIN { // USB謗･邯壹ｒ驕ｸ謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to QWE &out OUT_USB &to WIN>;
@@ -5269,7 +5269,7 @@
         // --- 2. Ctrl + A (<Key1> + Ctrl + A) ---
         // =========================================================================
         
-        // Ctrl + A, A: 回転
+        // Ctrl + A, A: 蝗櫁ｻ｢
         ctrl_a_a: ctrl_a_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5280,7 +5280,7 @@
                 ;
         };
 
-        // Ctrl + A, B: 長方形(サイズ)
+        // Ctrl + A, B: 髟ｷ譁ｹ蠖｢(繧ｵ繧､繧ｺ)
         ctrl_a_b: ctrl_a_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5291,7 +5291,7 @@
                 ;
         };
 
-        // Ctrl + A, C: コピー
+        // Ctrl + A, C: 繧ｳ繝斐・
         ctrl_a_c: ctrl_a_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5302,7 +5302,7 @@
                 ;
         };
 
-        // Ctrl + A, D: 補助線削除
+        // Ctrl + A, D: 陬懷勧邱壼炎髯､
         ctrl_a_d: ctrl_a_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5313,7 +5313,7 @@
                 ;
         };
 
-        // Ctrl + A, E: 文字種別変更
+        // Ctrl + A, E: 譁・ｭ礼ｨｮ蛻･螟画峩
         ctrl_a_e: ctrl_a_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5324,7 +5324,7 @@
                 ;
         };
 
-        // Ctrl + A, F: 多相結線
+        // Ctrl + A, F: 螟夂嶌邨千ｷ・
         ctrl_a_f: ctrl_a_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5335,7 +5335,7 @@
                 ;
         };
 
-        // Ctrl + A, G: 図形グループ化解除
+        // Ctrl + A, G: 蝗ｳ蠖｢繧ｰ繝ｫ繝ｼ繝怜喧隗｣髯､
         ctrl_a_g: ctrl_a_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5346,7 +5346,7 @@
                 ;
         };
 
-        // Ctrl + A, H: 文字列置換
+        // Ctrl + A, H: 譁・ｭ怜・鄂ｮ謠・
         ctrl_a_h: ctrl_a_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5357,7 +5357,7 @@
                 ;
         };
 
-        // Ctrl + A, I: 連続寸法線
+        // Ctrl + A, I: 騾｣邯壼ｯｸ豕慕ｷ・
         ctrl_a_i: ctrl_a_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5368,7 +5368,7 @@
                 ;
         };
 
-        // Ctrl + A, J: 図面管理情報
+        // Ctrl + A, J: 蝗ｳ髱｢邂｡逅・ュ蝣ｱ
         ctrl_a_j: ctrl_a_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5379,7 +5379,7 @@
                 ;
         };
 
-        // Ctrl + A, K: コメント
+        // Ctrl + A, K: 繧ｳ繝｡繝ｳ繝・
         ctrl_a_k: ctrl_a_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5390,7 +5390,7 @@
                 ;
         };
 
-        // Ctrl + A, L: 直線(中心線)
+        // Ctrl + A, L: 逶ｴ邱・荳ｭ蠢・ｷ・
         ctrl_a_l: ctrl_a_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5401,7 +5401,7 @@
                 ;
         };
 
-        // Ctrl + A, M: 上下中央間隔揃え
+        // Ctrl + A, M: 荳贋ｸ倶ｸｭ螟ｮ髢馴囈謠・∴
         ctrl_a_m: ctrl_a_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5412,7 +5412,7 @@
                 ;
         };
 
-        // Ctrl + A, N: 自動線番範囲選択
+        // Ctrl + A, N: 閾ｪ蜍慕ｷ夂分遽・峇驕ｸ謚・
         ctrl_a_n: ctrl_a_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5429,7 +5429,7 @@
                 ;
         };
 
-        // Ctrl + A, O: 図形要素分解
+        // Ctrl + A, O: 蝗ｳ蠖｢隕∫ｴ蛻・ｧ｣
         ctrl_a_o: ctrl_a_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5440,7 +5440,7 @@
                 ;
         };
 
-        // Ctrl + A, P: ページ編集
+        // Ctrl + A, P: 繝壹・繧ｸ邱ｨ髮・
         ctrl_a_p: ctrl_a_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5451,7 +5451,7 @@
                 ;
         };
 
-        // Ctrl + A, Q: 円(中心)
+        // Ctrl + A, Q: 蜀・荳ｭ蠢・
         ctrl_a_q: ctrl_a_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5462,7 +5462,7 @@
                 ;
         };
 
-        // Ctrl + A, R: Ｒ枠変更
+        // Ctrl + A, R: ・ｲ譫螟画峩
         ctrl_a_r: ctrl_a_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5473,7 +5473,7 @@
                 ;
         };
 
-        // Ctrl + A, S: シンボル置換
+        // Ctrl + A, S: 繧ｷ繝ｳ繝懊Ν鄂ｮ謠・
         ctrl_a_s: ctrl_a_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5484,7 +5484,7 @@
                 ;
         };
 
-        // Ctrl + A, T: 文章
+        // Ctrl + A, T: 譁・ｫ
         ctrl_a_t: ctrl_a_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5495,7 +5495,7 @@
                 ;
         };
 
-        // Ctrl + A, U: 連続寸法線削除
+        // Ctrl + A, U: 騾｣邯壼ｯｸ豕慕ｷ壼炎髯､
         ctrl_a_u: ctrl_a_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5506,7 +5506,7 @@
                 ;
         };
 
-        // Ctrl + A, V: 貼り付け
+        // Ctrl + A, V: 雋ｼ繧贋ｻ倥￠
         ctrl_a_v: ctrl_a_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5517,7 +5517,7 @@
                 ;
         };
 
-        // Ctrl + A, W: 渡りページ編集
+        // Ctrl + A, W: 貂｡繧翫・繝ｼ繧ｸ邱ｨ髮・
         ctrl_a_w: ctrl_a_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5528,7 +5528,7 @@
                 ;
         };
 
-        // Ctrl + A, X: 範囲切断
+        // Ctrl + A, X: 遽・峇蛻・妙
         ctrl_a_x: ctrl_a_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5539,7 +5539,7 @@
                 ;
         };
 
-        // Ctrl + A, Y: シンボルレイヤ変更
+        // Ctrl + A, Y: 繧ｷ繝ｳ繝懊Ν繝ｬ繧､繝､螟画峩
         ctrl_a_y: ctrl_a_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5550,7 +5550,7 @@
                 ;
         };
 
-        // Ctrl + A, Z: フォーマット情報
+        // Ctrl + A, Z: 繝輔か繝ｼ繝槭ャ繝域ュ蝣ｱ
         ctrl_a_z: ctrl_a_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5566,7 +5566,7 @@
         // --- 3. Ctrl + D (<Key1> + Ctrl + D) ---
         // =========================================================================
 
-        // Ctrl + D, A: 拡大・縮小
+        // Ctrl + D, A: 諡｡螟ｧ繝ｻ邵ｮ蟆・
         ctrl_d_a: ctrl_d_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5577,7 +5577,7 @@
                 ;
         };
 
-        // Ctrl + D, B: 面取り
+        // Ctrl + D, B: 髱｢蜿悶ｊ
         ctrl_d_b: ctrl_d_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5588,7 +5588,7 @@
                 ;
         };
 
-        // Ctrl + D, C: 円弧(中心)
+        // Ctrl + D, C: 蜀・ｼｧ(荳ｭ蠢・
         ctrl_d_c: ctrl_d_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5599,7 +5599,7 @@
                 ;
         };
 
-        // Ctrl + D, D: 補助線全削除
+        // Ctrl + D, D: 陬懷勧邱壼・蜑企勁
         ctrl_d_d: ctrl_d_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5610,7 +5610,7 @@
                 ;
         };
 
-        // Ctrl + D, E: 文章修正
+        // Ctrl + D, E: 譁・ｫ菫ｮ豁｣
         ctrl_d_e: ctrl_d_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5621,7 +5621,7 @@
                 ;
         };
 
-        // Ctrl + D, F: ツイスト線
+        // Ctrl + D, F: 繝・う繧ｹ繝育ｷ・
         ctrl_d_f: ctrl_d_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5632,7 +5632,7 @@
                 ;
         };
 
-        // Ctrl + D, G: 図形配列
+        // Ctrl + D, G: 蝗ｳ蠖｢驟榊・
         ctrl_d_g: ctrl_d_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5643,7 +5643,7 @@
                 ;
         };
 
-        // Ctrl + D, H: 文字列検索
+        // Ctrl + D, H: 譁・ｭ怜・讀懃ｴ｢
         ctrl_d_h: ctrl_d_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5654,7 +5654,7 @@
                 ;
         };
 
-        // Ctrl + D, I: 寸法線グループ化解除
+        // Ctrl + D, I: 蟇ｸ豕慕ｷ壹げ繝ｫ繝ｼ繝怜喧隗｣髯､
         ctrl_d_i: ctrl_d_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5665,7 +5665,7 @@
                 ;
         };
 
-        // Ctrl + D, J: ページ管理情報
+        // Ctrl + D, J: 繝壹・繧ｸ邂｡逅・ュ蝣ｱ
         ctrl_d_j: ctrl_d_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5676,7 +5676,7 @@
                 ;
         };
 
-        // Ctrl + D, K: 目次作成
+        // Ctrl + D, K: 逶ｮ谺｡菴懈・
         ctrl_d_k: ctrl_d_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5687,7 +5687,7 @@
                 ;
         };
 
-        // Ctrl + D, L: 平行補助線入力
+        // Ctrl + D, L: 蟷ｳ陦瑚｣懷勧邱壼・蜉・
         ctrl_d_l: ctrl_d_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5698,7 +5698,7 @@
                 ;
         };
 
-        // Ctrl + D, M: 左右中央間隔揃え
+        // Ctrl + D, M: 蟾ｦ蜿ｳ荳ｭ螟ｮ髢馴囈謠・∴
         ctrl_d_m: ctrl_d_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5709,7 +5709,7 @@
                 ;
         };
 
-        // Ctrl + D, N: 三相線番
+        // Ctrl + D, N: 荳臥嶌邱夂分
         ctrl_d_n: ctrl_d_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5720,7 +5720,7 @@
                 ;
         };
 
-        // Ctrl + D, O: 図形要素分割
+        // Ctrl + D, O: 蝗ｳ蠖｢隕∫ｴ蛻・牡
         ctrl_d_o: ctrl_d_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5731,7 +5731,7 @@
                 ;
         };
 
-        // Ctrl + D, P: 印刷情報
+        // Ctrl + D, P: 蜊ｰ蛻ｷ諠・ｱ
         ctrl_d_p: ctrl_d_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5742,7 +5742,7 @@
                 ;
         };
 
-        // Ctrl + D, Q: 雲形
+        // Ctrl + D, Q: 髮ｲ蠖｢
         ctrl_d_q: ctrl_d_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5753,7 +5753,7 @@
                 ;
         };
 
-        // Ctrl + D, R: 接続点
+        // Ctrl + D, R: 謗･邯夂せ
         ctrl_d_r: ctrl_d_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5764,7 +5764,7 @@
                 ;
         };
 
-        // Ctrl + D, S: DXF/DWGファイル入力
+        // Ctrl + D, S: DXF/DWG繝輔ぃ繧､繝ｫ蜈･蜉・
         ctrl_d_s: ctrl_d_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5775,7 +5775,7 @@
                 ;
         };
 
-        // Ctrl + D, T: 製品情報
+        // Ctrl + D, T: 陬ｽ蜩∵ュ蝣ｱ
         ctrl_d_t: ctrl_d_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5786,7 +5786,7 @@
                 ;
         };
 
-        // Ctrl + D, U: 寸法線グループ化
+        // Ctrl + D, U: 蟇ｸ豕慕ｷ壹げ繝ｫ繝ｼ繝怜喧
         ctrl_d_u: ctrl_d_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5797,7 +5797,7 @@
                 ;
         };
 
-        // Ctrl + D, V: 盤枠線(矩形)
+        // Ctrl + D, V: 逶､譫邱・遏ｩ蠖｢)
         ctrl_d_v: ctrl_d_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5808,7 +5808,7 @@
                 ;
         };
 
-        // Ctrl + D, W: 一時補助線全削除
+        // Ctrl + D, W: 荳譎り｣懷勧邱壼・蜑企勁
         ctrl_d_w: ctrl_d_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5819,7 +5819,7 @@
                 ;
         };
 
-        // Ctrl + D, X: 長円
+        // Ctrl + D, X: 髟ｷ蜀・
         ctrl_d_x: ctrl_d_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5830,7 +5830,7 @@
                 ;
         };
 
-        // Ctrl + D, Y: 引出寸法線
+        // Ctrl + D, Y: 蠑募・蟇ｸ豕慕ｷ・
         ctrl_d_y: ctrl_d_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5841,7 +5841,7 @@
                 ;
         };
 
-        // Ctrl + D, Z: 図面種別情報
+        // Ctrl + D, Z: 蝗ｳ髱｢遞ｮ蛻･諠・ｱ
         ctrl_d_z: ctrl_d_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5857,7 +5857,7 @@
         // --- 4. Ctrl + F (<Key1> + Ctrl + F) ---
         // =========================================================================
         
-        // Ctrl + F, A: 未設定
+        // Ctrl + F, A: 譛ｪ險ｭ螳・
         ctrl_f_a: ctrl_f_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5868,7 +5868,7 @@
                 ;
         };
 
-        // Ctrl + F, B: 正方形(一辺)
+        // Ctrl + F, B: 豁｣譁ｹ蠖｢(荳霎ｺ)
         ctrl_f_b: ctrl_f_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5879,7 +5879,7 @@
                 ;
         };
 
-        // Ctrl + F, C: 銘板表編集
+        // Ctrl + F, C: 驫俶攸陦ｨ邱ｨ髮・
         ctrl_f_c: ctrl_f_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5890,7 +5890,7 @@
                 ;
         };
 
-        // Ctrl + F, D: 銘板表
+        // Ctrl + F, D: 驫俶攸陦ｨ
         ctrl_f_d: ctrl_f_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5901,7 +5901,7 @@
                 ;
         };
 
-        // Ctrl + F, E: 閉じる
+        // Ctrl + F, E: 髢峨§繧・
         ctrl_f_e: ctrl_f_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5912,7 +5912,7 @@
                 ;
         };
 
-        // Ctrl + F, F: 未設定
+        // Ctrl + F, F: 譛ｪ險ｭ螳・
         ctrl_f_f: ctrl_f_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5923,7 +5923,7 @@
                 ;
         };
 
-        // Ctrl + F, G: 部品表編集+再作成
+        // Ctrl + F, G: 驛ｨ蜩∬｡ｨ邱ｨ髮・蜀堺ｽ懈・
         ctrl_f_g: ctrl_f_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5938,7 +5938,7 @@
                 ;
         };
 
-        // Ctrl + F, H: 集計表
+        // Ctrl + F, H: 髮・ｨ郁｡ｨ
         ctrl_f_h: ctrl_f_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5949,7 +5949,7 @@
                 ;
         };
 
-        // Ctrl + F, I: 上揃え
+        // Ctrl + F, I: 荳頑純縺・
         ctrl_f_i: ctrl_f_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5960,7 +5960,7 @@
                 ;
         };
 
-        // Ctrl + F, J: 左揃え
+        // Ctrl + F, J: 蟾ｦ謠・∴
         ctrl_f_j: ctrl_f_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5971,7 +5971,7 @@
                 ;
         };
 
-        // Ctrl + F, K: 下揃え
+        // Ctrl + F, K: 荳区純縺・
         ctrl_f_k: ctrl_f_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5982,7 +5982,7 @@
                 ;
         };
 
-        // Ctrl + F, L: 右揃え
+        // Ctrl + F, L: 蜿ｳ謠・∴
         ctrl_f_l: ctrl_f_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5993,7 +5993,7 @@
                 ;
         };
 
-        // Ctrl + F, M: 従属文字位置変更
+        // Ctrl + F, M: 蠕灘ｱ樊枚蟄嶺ｽ咲ｽｮ螟画峩
         ctrl_f_m: ctrl_f_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6004,7 +6004,7 @@
                 ;
         };
 
-        // Ctrl + F, N: 未設定
+        // Ctrl + F, N: 譛ｪ險ｭ螳・
         ctrl_f_n: ctrl_f_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6015,7 +6015,7 @@
                 ;
         };
 
-        // Ctrl + F, O: 上下中央揃え
+        // Ctrl + F, O: 荳贋ｸ倶ｸｭ螟ｮ謠・∴
         ctrl_f_o: ctrl_f_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6026,7 +6026,7 @@
                 ;
         };
 
-        // Ctrl + F, P: 印刷
+        // Ctrl + F, P: 蜊ｰ蛻ｷ
         ctrl_f_p: ctrl_f_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6037,7 +6037,7 @@
                 ;
         };
 
-        // Ctrl + F, Q: 未設定
+        // Ctrl + F, Q: 譛ｪ險ｭ螳・
         ctrl_f_q: ctrl_f_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6048,7 +6048,7 @@
                 ;
         };
 
-        // Ctrl + F, R: 未設定
+        // Ctrl + F, R: 譛ｪ險ｭ螳・
         ctrl_f_r: ctrl_f_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6059,7 +6059,7 @@
                 ;
         };
 
-        // Ctrl + F, S: 上書き保存
+        // Ctrl + F, S: 荳頑嶌縺堺ｿ晏ｭ・
         ctrl_f_s: ctrl_f_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6070,7 +6070,7 @@
                 ;
         };
 
-        // Ctrl + F, T: 未設定
+        // Ctrl + F, T: 譛ｪ險ｭ螳・
         ctrl_f_t: ctrl_f_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6081,7 +6081,7 @@
                 ;
         };
 
-        // Ctrl + F, U: 左右中央揃え
+        // Ctrl + F, U: 蟾ｦ蜿ｳ荳ｭ螟ｮ謠・∴
         ctrl_f_u: ctrl_f_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6092,7 +6092,7 @@
                 ;
         };
 
-        // Ctrl + F, V: 盤枠製品番号
+        // Ctrl + F, V: 逶､譫陬ｽ蜩∫分蜿ｷ
         ctrl_f_v: ctrl_f_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6103,7 +6103,7 @@
                 ;
         };
 
-        // Ctrl + F, W: 未設定
+        // Ctrl + F, W: 譛ｪ險ｭ螳・
         ctrl_f_w: ctrl_f_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6114,7 +6114,7 @@
                 ;
         };
 
-        // Ctrl + F, X: 未設定
+        // Ctrl + F, X: 譛ｪ險ｭ螳・
         ctrl_f_x: ctrl_f_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6125,7 +6125,7 @@
                 ;
         };
 
-        // Ctrl + F, Y: 未設定
+        // Ctrl + F, Y: 譛ｪ險ｭ螳・
         ctrl_f_y: ctrl_f_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6136,7 +6136,7 @@
                 ;
         };
 
-        // Ctrl + F, Z: 未設定
+        // Ctrl + F, Z: 譛ｪ險ｭ螳・
         ctrl_f_z: ctrl_f_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6196,7 +6196,7 @@
                 ;
         };
 
-        win_shift_s: win_shift_s { // スクリーンショット
+        win_shift_s: win_shift_s { // 繧ｹ繧ｯ繝ｪ繝ｼ繝ｳ繧ｷ繝ｧ繝・ヨ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6207,7 +6207,7 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };	
-        ctrl_alt_s: ctrl_alt_s { // シンボル一覧(AHK)
+        ctrl_alt_s: ctrl_alt_s { // 繧ｷ繝ｳ繝懊Ν荳隕ｧ(AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6218,7 +6218,7 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };	
-        alt_home: alt_home { // 複写左90度回転[AHK]
+        alt_home: alt_home { // 隍・・蟾ｦ90蠎ｦ蝗櫁ｻ｢[AHK]
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6227,7 +6227,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_end: alt_end { // 複写右90度回転[AHK]
+        alt_end: alt_end { // 隍・・蜿ｳ90蠎ｦ蝗櫁ｻ｢[AHK]
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6236,7 +6236,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_comma: alt_comma { // 移動左90度回転[AHK]
+        alt_comma: alt_comma { // 遘ｻ蜍募ｷｦ90蠎ｦ蝗櫁ｻ｢[AHK]
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6245,7 +6245,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        alt_dot: alt_dot { // 移動右90度回転[AHK]
+        alt_dot: alt_dot { // 遘ｻ蜍募承90蠎ｦ蝗櫁ｻ｢[AHK]
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -6254,7 +6254,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        tab_1: tab_1 { // TAB*回数
+        tab_1: tab_1 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6263,7 +6263,7 @@
                 = <&macro_tap &kp TAB>
                 ;
         };
-        tab_2: tab_2 { // TAB*回数
+        tab_2: tab_2 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6273,7 +6273,7 @@
                 , <&macro_tap &kp TAB>
                 ;
         };
-        tab_3: tab_3 { // TAB*回数
+        tab_3: tab_3 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6284,19 +6284,7 @@
                 , <&macro_tap &kp TAB>
                 ;
         };
-        tab_4: tab_4 { // TAB*回数
-            compatible = "zmk,behavior-macro";
-            wait-ms = <30>;
-            tap-ms = <30>;
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
-                ;
-        };
-        tab_5: tab_5 { // TAB*回数
+        tab_4: tab_4 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6306,10 +6294,9 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
                 ;
         };
-        tab_6: tab_6 { // TAB*回数
+        tab_5: tab_5 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6320,10 +6307,9 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
                 ;
         };
-        tab_7: tab_7 { // TAB*回数
+        tab_6: tab_6 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6335,10 +6321,9 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
                 ;
         };
-        tab_8: tab_8 { // TAB*回数
+        tab_7: tab_7 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6351,10 +6336,9 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
-                , <&macro_tap &kp TAB>
                 ;
         };
-        tab_9: tab_9 { // TAB*回数
+        tab_8: tab_8 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6368,10 +6352,26 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
+                ;
+        };
+        tab_9: tab_9 { // TAB*蝗樊焚
+            compatible = "zmk,behavior-macro";
+            wait-ms = <30>;
+            tap-ms = <30>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
+                , <&macro_tap &kp TAB>
                 , <&macro_tap &kp TAB>
                 ;
         };
-        tab_0: tab_0 { // TAB*回数
+        tab_0: tab_0 { // TAB*蝗樊焚
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
@@ -6390,13 +6390,13 @@
                 ;
         };
         
-        k_tab_1: k_tab_1 { // カウントアップ数
+        k_tab_1: k_tab_1 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6404,13 +6404,13 @@
                 , <&macro_tap &kp TAB>
                 ;
         };
-        k_tab_2: k_tab_2 { // カウントアップ数2
+        k_tab_2: k_tab_2 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ2
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6419,13 +6419,13 @@
                 , <&macro_tap &kp N2>
                 ;
         };
-        k_tab_3: k_tab_3 { // カウントアップ数3
+        k_tab_3: k_tab_3 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ3
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6434,13 +6434,13 @@
                 , <&macro_tap &kp N3>
                 ;
         };
-        k_tab_4: k_tab_4 { // カウントアップ数4
+        k_tab_4: k_tab_4 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ4
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6449,13 +6449,13 @@
                 , <&macro_tap &kp N4>
                 ;
         };
-        k_tab_5: k_tab_5 { // カウントアップ数5
+        k_tab_5: k_tab_5 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ5
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6464,13 +6464,13 @@
                 , <&macro_tap &kp N5>
                 ;
         };
-        k_tab_6: k_tab_6 { // カウントアップ数6
+        k_tab_6: k_tab_6 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ6
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6479,13 +6479,13 @@
                 , <&macro_tap &kp N6>
                 ;
         };
-        k_tab_7: k_tab_7 { // カウントアップ数7
+        k_tab_7: k_tab_7 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ7
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6494,13 +6494,13 @@
                 , <&macro_tap &kp N7>
                 ;
         };
-        k_tab_8: k_tab_8 { // カウントアップ数8
+        k_tab_8: k_tab_8 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ8
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6509,13 +6509,13 @@
                 , <&macro_tap &kp N8>
                 ;
         };
-        k_tab_9: k_tab_9 { // カウントアップ数9
+        k_tab_9: k_tab_9 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ9
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // =  <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6524,13 +6524,13 @@
                 , <&macro_tap &kp N9>
                 ;
         };
-        k_tab_10: k_tab_10 { // カウントアップ数10
+        k_tab_10: k_tab_10 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ10
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6541,13 +6541,13 @@
                 ;
         };
 
-        k_tab_minus_1: k_tab_minus_1 { // カウントアップ数-1
+        k_tab_minus_1: k_tab_minus_1 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-1
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6557,13 +6557,13 @@
             , <&macro_tap &kp N1>
                 ;
         };
-        k_tab_minus_2: k_tab_minus_2 { // カウントアップ数-2
+        k_tab_minus_2: k_tab_minus_2 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-2
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6573,13 +6573,13 @@
                 , <&macro_tap &kp N2>
                 ;
         };
-        k_tab_minus_3: k_tab_minus_3 { // カウントアップ数-3
+        k_tab_minus_3: k_tab_minus_3 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-3
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6589,13 +6589,13 @@
                 , <&macro_tap &kp N3>
                 ;
         };
-        k_tab_minus_4: k_tab_minus_4 { // カウントアップ数-4
+        k_tab_minus_4: k_tab_minus_4 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-4
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6605,13 +6605,13 @@
                 , <&macro_tap &kp N4>
                 ;
         };
-        k_tab_minus_5: k_tab_minus_5 { // カウントアップ数-5
+        k_tab_minus_5: k_tab_minus_5 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-5
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6621,13 +6621,13 @@
                 , <&macro_tap &kp N5>
                 ;
         };
-        k_tab_minus_6: k_tab_minus_6 { // カウントアップ数-6
+        k_tab_minus_6: k_tab_minus_6 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-6
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6637,13 +6637,13 @@
                 , <&macro_tap &kp N6>
                 ;
         };
-        k_tab_minus_7: k_tab_minus_7 { // カウントアップ数-7
+        k_tab_minus_7: k_tab_minus_7 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-7
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6653,13 +6653,13 @@
                 , <&macro_tap &kp N7>
                 ;
         };
-        k_tab_minus_8: k_tab_minus_8 { // カウントアップ数-8
+        k_tab_minus_8: k_tab_minus_8 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-8
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6669,13 +6669,13 @@
                 , <&macro_tap &kp N8>
                 ;
         };
-        k_tab_minus_9: k_tab_minus_9 { // カウントアップ数-9
+        k_tab_minus_9: k_tab_minus_9 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-9
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6685,13 +6685,13 @@
                 , <&macro_tap &kp N9>
                 ;
         };
-        k_tab_minus_10: k_tab_minus_10 { // カウントアップ数-10
+        k_tab_minus_10: k_tab_minus_10 { // 繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-10
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                // = <&macro_tap &kp K> // ECADカウントアップ
+                // = <&macro_tap &kp K> // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・
                 // , <&macro_tap &mkp MB1>
                 // = <&macro_tap &kp ENTER>
                 = <&macro_tap &kp TAB>
@@ -6703,7 +6703,7 @@
                 ;
         };
 
-		// ハイコントラスト切り替え (Win: Shift + Alt + PrintScreen)
+		// 繝上う繧ｳ繝ｳ繝医Λ繧ｹ繝亥・繧頑崛縺・(Win: Shift + Alt + PrintScreen)
         m_hi_con: m_hi_con {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6714,17 +6714,17 @@
                 , <&macro_tap &kp PRINTSCREEN>
                 , <&macro_release &kp LSHFT &kp LALT>;
         };
-		// Excel: シート名変更マクロ
+		// Excel: 繧ｷ繝ｼ繝亥錐螟画峩繝槭け繝ｭ
         m_xl_rename: m_xl_rename {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <30>;
             wait-ms = <30>;
             bindings
-                = <&macro_tap &kp LALT>      // リボンをアクティブ化
-                , <&macro_tap &kp H>         // ホームタブ
-                , <&macro_tap &kp O>         // 書式(Format)
-                , <&macro_tap &kp R>;        // シート名の変更(Rename)
+                = <&macro_tap &kp LALT>      // 繝ｪ繝懊Φ繧偵い繧ｯ繝・ぅ繝門喧
+                , <&macro_tap &kp H>         // 繝帙・繝繧ｿ繝・
+                , <&macro_tap &kp O>         // 譖ｸ蠑・Format)
+                , <&macro_tap &kp R>;        // 繧ｷ繝ｼ繝亥錐縺ｮ螟画峩(Rename)
         };
         sk_ctrl: sk_ctrl {
             compatible = "zmk,behavior-macro";
