@@ -729,7 +729,7 @@ layers:
   - Gui+]
   - Ctl+PG DN
   - {t: ▽, type: trans}
-  - '&trans9'
+  - {t: ▽, type: trans}
   - Ctl+C
   - Ctl+V
   - '&mkp MB2'
