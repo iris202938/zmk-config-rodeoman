@@ -1,6 +1,211 @@
 layout: {zmk_keyboard: rodeoman}
 layers:
   '0':
+  - {t: Q, h: LSHFT}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - {t: P, h: RSHFT}
+  - {t: A, h: LCTRL}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: RCTRL}
+  - {t: Z, h: LGUI}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: RALT}
+  - LCTRL
+  - LGUI
+  - {t: '[', h: '18'}
+  - {t: SPACE, h: LSHFT}
+  - {t: TAB, h: '6'}
+  - {t: ENTER, h: '9'}
+  - {t: SPACE, h: RSHFT}
+  - {t: ']', h: '15'}
+  - RGUI
+  - RCTRL
+  '1':
+  - '&macro_JPPERIOD'
+  - '&macro_KA'
+  - '&macro_TA'
+  - '&macro_KO'
+  - '&macro_SA'
+  - '&macro_RA'
+  - '&macro_TI'
+  - '&macro_KU'
+  - '&macro_TU'
+  - '&macro_JPCOMMA1'
+  - '&macro_U'
+  - '&macro_SI'
+  - '&macro_TE'
+  - '&macro_KE'
+  - '&macro_SE'
+  - '&macro_HA'
+  - '&macro_TO'
+  - '&macro_KI'
+  - '&macro_I'
+  - '&macro_NN'
+  - '&macro_JPTEN'
+  - '&macro_HI'
+  - '&macro_SU'
+  - '&macro_HU'
+  - '&macro_HE'
+  - '&macro_ME'
+  - '&macro_SO'
+  - '&macro_NE'
+  - '&macro_HO'
+  - '&macro_JPNAKATEN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '[', h: '18'}
+  - SPACE
+  - {t: TAB, h: '6'}
+  - {t: ENTER, h: '9'}
+  - Sft+SPACE
+  - {t: ']', h: '15'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '2':
+  - {t: Q, h: LSHFT}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - {t: P, h: RSHFT}
+  - {t: A, h: LCTRL}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: RCTRL}
+  - {t: Z, h: LALT}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESC, h: '19'}
+  - {t: SPACE, h: LSHFT}
+  - {t: TAB, h: '7'}
+  - {t: ENTER, h: '10'}
+  - {t: SPACE, h: RSHFT}
+  - {t: ESC, h: '16'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - '&macro_JPPERIOD'
+  - '&macro_KA'
+  - '&macro_TA'
+  - '&macro_KO'
+  - '&macro_SA'
+  - '&macro_RA'
+  - '&macro_TI'
+  - '&macro_KU'
+  - '&macro_TU'
+  - '&macro_JPCOMMA1'
+  - '&macro_U'
+  - '&macro_SI'
+  - '&macro_TE'
+  - '&macro_KE'
+  - '&macro_SE'
+  - '&macro_HA'
+  - '&macro_TO'
+  - '&macro_KI'
+  - '&macro_I'
+  - '&macro_NN'
+  - '&macro_JPTEN'
+  - '&macro_HI'
+  - '&macro_SU'
+  - '&macro_HU'
+  - '&macro_HE'
+  - '&macro_ME'
+  - '&macro_SO'
+  - '&macro_NE'
+  - '&macro_HO'
+  - '&macro_JPNAKATEN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESC, h: '19'}
+  - SPACE
+  - {t: TAB, h: '7'}
+  - {t: ENTER, h: '10'}
+  - Sft+SPACE
+  - {t: ESC, h: '16'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - '&td_Q'
+  - '&td_W'
+  - '&td_E'
+  - '&td_R'
+  - '&td_T'
+  - '&td_Y'
+  - '&td_U'
+  - '&td_I'
+  - '&td_O'
+  - '&td_P'
+  - '&td_A'
+  - '&td_S'
+  - '&td_D'
+  - '&td_F'
+  - '&td_G'
+  - '&td_H'
+  - '&td_J'
+  - '&td_K'
+  - '&td_L'
+  - '&td_SEMI'
+  - '&td_Z'
+  - '&td_X'
+  - '&td_C'
+  - '&td_V'
+  - '&td_B'
+  - '&td_N'
+  - '&td_M'
+  - '&td_COMMA'
+  - '&td_DOT'
+  - '&td_SLASH'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: INT5, h: '20'}
+  - SPACE
+  - {t: TAB, h: '8'}
+  - {t: ENTER, h: '11'}
+  - {t: ESC, h: RSHFT}
+  - {t: INT4, h: '17'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '5':
   - Q
   - W
   - E
@@ -20,8 +225,8 @@ layers:
   - J
   - K
   - L
-  - ENTER
-  - {t: Z, h: LSHIFT}
+  - ;
+  - Z
   - X
   - C
   - V
@@ -30,19 +235,193 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RSHIFT}
-  - LCTRL
-  - LGUI
-  - LALT
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESC, h: '20'}
   - SPACE
-  - {t: LANG2, h: '1'}
-  - {t: LANG1, h: '2'}
+  - {t: TAB, h: '8'}
+  - {t: ENTER, h: '11'}
+  - INT4
+  - {t: ESC, h: '17'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '6':
+  - {t: PG UP, h: LSHFT}
+  - Ctl+A
+  - UP
+  - Ctl+E
+  - Sft+TAB
+  - DEL
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: SCRL UP, h: RSHFT}
+  - {t: PG DN, h: LCTRL}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
   - BSPC
-  - RALT
-  - RGUI
-  - RCTRL
-  '1':
-  - '1'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: SCRL DOWN, h: RCTRL}
+  - {t: Ctl+V, h: LGUI}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - ENTER
+  - Alt+LEFT
+  - Alt+RIGHT
+  - {t: Gui+V, h: RALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - '&sk_ctrl'
+  - {type: held}
+  - {t: '&t_lang1', h: '12'}
+  - Sft+Ctl+V
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
+  - {t: PG UP, h: LSHFT}
+  - HOME
+  - UP
+  - END
+  - Sft+TAB
+  - DEL
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: SCRL UP, h: RSHFT}
+  - {t: PG DN, h: LCTRL}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - BSPC
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: SCRL DOWN, h: RCTRL}
+  - {t: Ctl+V, h: LALT}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - ENTER
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - {t: Gui+V, h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - '&sk_ctrl'
+  - {type: held}
+  - {t: '&t_int4', h: '13'}
+  - Sft+Ctl+V
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '8':
+  - {t: PG UP, h: LSHFT}
+  - HOME
+  - UP
+  - END
+  - Sft+TAB
+  - DEL
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: SCRL UP, h: RSHFT}
+  - {t: PG DN, h: LCTRL}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - BSPC
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: SCRL DOWN, h: RCTRL}
+  - {t: Ctl+V, h: LALT}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - ENTER
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - {t: Gui+V, h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - '&sk_ctrl'
+  - {type: held}
+  - {t: '&tW_int4', h: '14'}
+  - Sft+Ctl+V
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '9':
+  - {t: F1, h: LSHFT}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - {t: F10, h: RSHFT}
+  - '&macro_JPN1'
+  - '&macro_JPN2'
+  - '&macro_JPN3'
+  - '&macro_JPN4'
+  - '&macro_JPN5'
+  - '&macro_JPN6'
+  - '&macro_JPN7'
+  - '&macro_JPN8'
+  - '&macro_JPN9'
+  - '&macro_JPN0'
+  - {t: INT1, h: LGUI}
+  - \
+  - INT3
+  - /
+  - '*'
+  - '-'
+  - +
+  - '['
+  - ']'
+  - {t: Gui+V, h: RALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - SPACE
+  - {t: '&t_lang2', h: '12'}
+  - {type: held}
+  - '&sk_gui'
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '10':
+  - {t: F1, h: LSHFT}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - {t: F10, h: RSHFT}
+  - {t: '1', h: LCTRL}
   - '2'
   - '3'
   - '4'
@@ -51,205 +430,1513 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PAGE DOWN
-  - PAGE UP
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
+  - {t: '0', h: RCTRL}
+  - {t: INT1, h: LALT}
+  - \
+  - INT3
+  - /
   - '*'
-  - (
-  - )
-  - '`'
-  - '~'
-  - '"'
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '-'
-  - _
+  - +
   - '['
   - ']'
-  - '|'
-  - \
-  - ':'
-  - ;
+  - {t: Ctl+V, h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '='
-  - +
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - SPACE
+  - {t: '&t_int5', h: '13'}
   - {type: held}
+  - '&sk_gui'
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F5
-  - F6
-  - F4
-  - F8
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F1
+  '11':
+  - {t: F1, h: LSHFT}
   - F2
   - F3
   - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - {t: F10, h: RSHFT}
+  - {t: '1', h: LCTRL}
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - {t: '0', h: RCTRL}
+  - {t: INT1, h: LALT}
+  - \
+  - INT3
+  - /
+  - '*'
+  - '-'
+  - +
+  - '['
+  - ']'
+  - {t: Ctl+V, h: GUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LSHFT
+  - SPACE
+  - {t: '&tC_int5', h: '14'}
+  - {type: held}
+  - '&sk_gui'
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '12':
+  - {t: F11, h: LSHFT}
+  - F12
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - CAPS
+  - PSCRN
+  - SLCK
+  - PAUSE BREAK
+  - Sft+UP
+  - OUT BLE
+  - '&usb_lCAD'
+  - '&bt3_lCAD'
+  - Sft+RIGHT
+  - G
+  - INT5
+  - '&file_r'
+  - '&pr_pg'
+  - '&nx_pg'
+  - '&file_f'
+  - '&bt0_lQWE'
+  - '&bt1_lNICL'
+  - '&bt2_lNICL'
+  - APP
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+Gui+LEFT
+  - Sft+Alt+LEFT
+  - Sft+Alt+RIGHT
+  - Sft+Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - '&grave_uc'
   - {type: held}
   - {type: held}
+  - '&tilde_uc'
+  - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '13':
+  - {t: F11, h: LSHFT}
+  - F12
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - CAPS
+  - PSCRN
+  - SLCK
+  - PAUSE BREAK
+  - Sft+UP
+  - OUT BLE
+  - '&usb_lCAD'
+  - '&bt3_lCAD'
+  - Sft+RIGHT
+  - G
+  - INT5
+  - '&file_r'
+  - '&pr_pg'
+  - '&nx_pg'
+  - '&file_f'
+  - '&bt0_lQWE'
+  - '&bt1_lNICL'
+  - '&bt2_lNICL'
+  - APP
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+HOME
+  - Sft+Ctl+LEFT
+  - Sft+Ctl+RIGHT
+  - Sft+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  - {t: '0', h: toggle}
+  - '&grave_uc'
+  - {type: held}
+  - {type: held}
+  - '&tilde_uc'
+  - {t: '4', h: toggle}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '14':
+  - {t: F11, h: LSHFT}
+  - F12
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - CAPS
+  - PSCRN
+  - SLCK
+  - PAUSE BREAK
+  - Sft+UP
+  - OUT BLE
+  - '&usb_lCAD'
+  - '&bt3_lCAD'
+  - Sft+RIGHT
+  - G
+  - INT5
+  - '&file_r'
+  - '&pr_pg'
+  - '&nx_pg'
+  - '&file_f'
+  - '&bt0_lQWE'
+  - '&bt1_lNICL'
+  - '&bt2_lNICL'
+  - APP
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+HOME
+  - Sft+Ctl+LEFT
+  - Sft+Ctl+RIGHT
+  - Sft+END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - '&grave_uc'
+  - {type: held}
+  - {type: held}
+  - '&tilde_uc'
+  - {t: '4', h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '15':
+  - Sft+Ctl+TAB
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Ctl+Y, h: '22'}
+  - Ctl+A
+  - UP
+  - Ctl+E
+  - PG UP
+  - {t: MB1, h: LCTRL}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&msc SCRL_DOWN'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: BSPC, h: '22'}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: Z, h: LGUI}
+  - Gui+[
   - '&mkp MB3'
+  - Gui+]
+  - Ctl+TAB
+  - Ctl+Z
+  - Sft+Ctl+TAB
+  - Alt+LEFT
+  - Alt+RIGHT
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+C
+  - Gui+V
+  - '&mkp MB2'
+  - ENTER
+  - '&mkp MB1'
+  - {t: '0', h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '16':
+  - Sft+Ctl+TAB
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - {t: Ctl+Y, h: '22'}
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - {t: MB1, h: LCTRL}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_DOWN'
+  - {t: BSPC, h: '22'}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: Z, h: LALT}
+  - Alt+LEFT
+  - '&mkp MB3'
+  - Alt+RIGHT
+  - Ctl+TAB
+  - Ctl+Z
+  - Ctl+PG UP
+  - Gui+[
+  - Gui+]
+  - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+C
+  - Ctl+V
+  - '&mkp MB2'
+  - ENTER
+  - '&mkp MB1'
+  - {t: '2', h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '17':
+  - Sft+Ctl+TAB
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - {t: Ctl+Y, h: '22'}
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - {t: MB1, h: LCTRL}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_DOWN'
+  - {t: BSPC, h: '22'}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: Z, h: LALT}
+  - Alt+LEFT
+  - '&mkp MB3'
+  - Alt+RIGHT
+  - Ctl+TAB
+  - Ctl+Z
+  - Ctl+PG UP
+  - Gui+[
+  - Gui+]
+  - Ctl+PG DN
+  - {t: ▽, type: trans}
+  - '&trans9'
+  - Ctl+C
+  - Ctl+V
+  - '&mkp MB2'
+  - ENTER
+  - '&mkp MB1'
+  - {t: '4', h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '18':
+  - PG UP
+  - Ctl+A
+  - UP
+  - Ctl+E
+  - {t: ^, h: '22'}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: DEL, h: '22'}
+  - BSPC
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - '&alt_left'
+  - '&alt_down'
+  - '&alt_up'
+  - '&alt_right'
+  - '='
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '&t_lang2', type: held}
+  - '&pr_pg'
+  - '&nx_pg'
+  - KP ENTER
+  - _
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '19':
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - {t: ^, h: '22'}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: DEL, h: '22'}
+  - BSPC
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - '&alt_left'
+  - '&alt_down'
+  - '&alt_up'
+  - '&alt_right'
+  - '='
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '&t_int5', type: held}
+  - '&pr_pg'
+  - '&nx_pg'
+  - KP ENTER
+  - _
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '20':
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - {t: ^, h: '22'}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: DEL, h: '22'}
+  - BSPC
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - '&alt_left'
+  - '&alt_down'
+  - '&alt_up'
+  - '&alt_right'
+  - '='
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '&tC_int5', type: held}
+  - '&pr_pg'
+  - '&nx_pg'
+  - KP ENTER
+  - _
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  '21':
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&qm LSHFT'
+  - SPACE
+  - TAB
+  - ENTER
+  - INT4
+  - '&qm RALT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '22':
+  - '&sys_reset'
+  - '&bootloader'
+  - INT3
+  - INT6
+  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
+  - '&m_hi_con'
+  - '`'
+  - '&bootloader'
+  - '&sys_reset'
+  - Ctl+Gui+T
+  - Ctl+Gui+C
+  - Ctl+Gui+P
+  - Ctl+Gui+G
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+E
+  - Ctl+Gui+A
+  - Ctl+Gui+L
+  - Ctl+Gui+X
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - '&bootloader'
+  - '&bootloader'
+  - '&bt4_lLIN'
+  - '~'
+  - '~'
+  - CALC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - OUT BLE
-  - OUT USB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+F23
   - BT CLR
-  - BT CLR ALL
+  - BT CLR
+  - Alt+Gui+G
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
+- p: [32, 33]
+  k: '12'
+  l: ['0', '1']
+- p: [32, 33]
+  k: '13'
+  l: ['2', '3']
+- p: [32, 33]
+  k: '14'
+  l: ['4', '5']
+- p: [30, 35]
+  k: {t: '2', h: toggle}
+  l: ['12', '13', '14']
+- p: [30, 32]
+  k: {t: '18', h: toggle}
+  l: ['0', '1']
+- p: [30, 32]
+  k: {t: '19', h: toggle}
+  l: ['2', '3']
+- p: [30, 32]
+  k: {t: '20', h: toggle}
+  l: ['4', '5']
+- p: [33, 35]
+  k: {t: '15', h: toggle}
+  l: ['0', '1']
+- p: [33, 35]
+  k: {t: '16', h: toggle}
+  l: ['2', '3']
+- p: [33, 35]
+  k: {t: '17', h: toggle}
+  l: ['4', '5']
+- p: [0, 10]
   k: ESC
-- p: [10, 11]
-  k: TAB
+  l: ['0', '2', '15', '4', '12', '13', '14']
+- p: [9, 19]
+  k: ESC
+  l: ['0', '2', '15', '4']
+- p: [11, 12]
+  k: '&win_left'
+  l: ['6', '7', '8']
+- p: [12, 13]
+  k: '&win_right'
+  l: ['6', '7', '8']
+- p: [30, 35]
+  k: '&qm RSHIFT'
+  l: ['5', '1', '3']
+- p: [30, 35]
+  k: {t: '&caps_word', h: '&qm RSHIFT'}
+  l: ['0', '2', '4']
+- p: [28, 29]
+  k: RGUI
+  l: ['0', '6', '9', '12', '15']
+- p: [20, 21]
+  k: LGUI
+  l: ['2', '4', '7', '8', '10', '11', '16', '17']
+- p: [20, 21]
+  k: LALT
+  l: ['0', '6', '9', '12']
+- p: [28, 29]
+  k: RALT
+  l: ['2', '4', '7', '8', '10', '11', '13', '14', '16', '17']
 - p: [30, 31]
-  k: '5'
+  k: '&sk_ct_sh'
+  l: ['6', '7', '8']
+- p: [34, 35]
+  k: '&sk_alt'
+  l: ['9', '10', '11']
+- p: [10, 20]
+  k: '&LGUI_LCTRL'
+  l: ['7', '8']
+- p: [18, 19]
+  k: ''''
+  l: ['0', '2', '4']
+- p: [18, 29]
+  k: '&file_f'
+  l: ['4']
+- p: [21, 22]
+  k: Gui+LEFT
+  l: ['7', '8']
+- p: [22, 23]
+  k: Gui+RIGHT
+  l: ['7', '8']
+- p: [0, 1]
+  k: Ctl+PG UP
+  l: ['6', '7', '8']
+- p: [10, 11]
+  k: Ctl+PG DN
+  l: ['6', '7', '8']
+- p: [8, 9]
+  k: '&cmd_x'
+  l: ['7', '8', '9']
+- p: [18, 19]
+  k: '&cmd_c'
+  l: ['7', '8', '9']
+- p: [27, 28]
+  k: '&cmd_v'
+  l: ['7', '8', '9']
+- p: [8, 9]
+  k: '&ctrl_x'
+  l: ['10', '11']
+- p: [18, 19]
+  k: '&ctrl_c'
+  l: ['10', '11']
+- p: [27, 28]
+  k: '&ctrl_v'
+  l: ['10', '11']
+- p: [25, 26]
+  k: E
+  l: ['4', '11']
+- p: [8, 9]
+  k: KP NLCK
+  l: ['18', '19', '20']
+- p: [18, 19]
+  k: KP DOT
+  l: ['18', '19', '20']
+- p: [10, 11]
+  k: '`'
+  l: ['9', '10', '11']
+- p: [1, 2]
+  k: '&file_f'
+  l: ['4']
+- p: [2, 3]
+  k: '&file_r'
+  l: ['4']
+- p: [21, 22]
+  k: '&pr_pg'
+  l: ['0', '2', '4']
+- p: [22, 23]
+  k: '&nx_pg'
+  l: ['0', '2', '4']
+- p: [2, 7, 11]
+  k: '&exl_fill'
+  l: ['0', '2', '4', '9', '10', '11']
+- p: [15, 8, 3]
+  k: '&m_xl_rename'
+  l: ['0', '2', '4', '9', '10', '11']
+- p: [3, 6]
+  k: Sft+Gui+3
+  l: ['12']
+- p: [13, 16]
+  k: Sft+Gui+4
+  l: ['12']
+- p: [3, 6]
+  k: Gui+S
+  l: ['13']
+- p: [13, 16]
+  k: '&win_shift_s'
+  l: ['13']
+- p: [3, 6]
+  k: Gui+S
+  l: ['14']
+- p: [13, 16]
+  k: '&win_shift_s'
+  l: ['14']
+- p: [26, 27]
+  k: '&mkp MB1'
+  l: ['0', '2', '4', '6', '7', '8', '21']
+- p: [27, 28]
+  k: '&mkp MB2'
+  l: ['0', '2', '4', '6', '7', '8', '21']
+- p: [26, 28]
+  k: '&mkp MB3'
+  l: ['0', '2', '4', '6', '7', '8', '21']
+- p: [26, 27, 28]
+  k: '&shft_mb1'
+  l: ['4', '8']
+- p: [13, 22, 32]
+  k: '&shft_mb1'
+  l: ['4']
+- p: [13, 22]
+  k: '&mkp MB1'
+  l: ['0', '2', '4', '21']
+- p: [13, 32]
+  k: '&mkp MB2'
+  l: ['0', '2', '4', '21']
+- p: [22, 32]
+  k: '&mkp MB3'
+  l: ['0', '2', '4', '21']
+- p: [19, 29]
+  k: '&int5_g'
+  l: ['4']
+- p: [10, 11, 29]
+  k: '&ctrl_alt_s'
+  l: ['4']
+- p: [1, 32, 29]
+  k: '&alt_home'
+  l: ['4']
+- p: [3, 32, 29]
+  k: '&alt_end'
+  l: ['4']
+- p: [33, 27, 29]
+  k: '&alt_comma'
+  l: ['4']
+- p: [33, 28, 29]
+  k: '&alt_dot'
+  l: ['4']
+- p: [32, 26]
+  k: '&tab_1'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 27]
+  k: '&tab_2'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 28]
+  k: '&tab_3'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 16]
+  k: '&tab_4'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 17]
+  k: '&tab_5'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 18]
+  k: '&tab_6'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 6]
+  k: '&tab_7'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 7]
+  k: '&tab_8'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 8]
+  k: '&tab_9'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [32, 25]
+  k: '&tab_0'
+  l: ['0', '2', '4', '18', '19', '20']
+- p: [34, 26]
+  k: '&k_tab_1'
+  l: ['4']
+- p: [34, 27]
+  k: '&k_tab_2'
+  l: ['4']
+- p: [34, 28]
+  k: '&k_tab_3'
+  l: ['4']
+- p: [34, 16]
+  k: '&k_tab_4'
+  l: ['4']
+- p: [34, 17]
+  k: '&k_tab_5'
+  l: ['4']
+- p: [34, 18]
+  k: '&k_tab_6'
+  l: ['4']
+- p: [34, 6]
+  k: '&k_tab_7'
+  l: ['4']
+- p: [34, 7]
+  k: '&k_tab_8'
+  l: ['4']
+- p: [34, 8]
+  k: '&k_tab_9'
+  l: ['4']
+- p: [34, 25]
+  k: '&k_tab_10'
+  l: ['4']
+- p: [34, 26, 19]
+  k: '&k_tab_minus_1'
+  l: ['4']
+- p: [34, 27, 19]
+  k: '&k_tab_minus_2'
+  l: ['4']
+- p: [34, 28, 19]
+  k: '&k_tab_minus_3'
+  l: ['4']
+- p: [34, 16, 19]
+  k: '&k_tab_minus_4'
+  l: ['4']
+- p: [34, 17, 19]
+  k: '&k_tab_minus_5'
+  l: ['4']
+- p: [34, 18, 19]
+  k: '&k_tab_minus_6'
+  l: ['4']
+- p: [34, 6, 19]
+  k: '&k_tab_minus_7'
+  l: ['4']
+- p: [34, 7, 19]
+  k: '&k_tab_minus_8'
+  l: ['4']
+- p: [34, 8, 19]
+  k: '&k_tab_minus_9'
+  l: ['4']
+- p: [34, 25, 19]
+  k: '&k_tab_minus_10'
+  l: ['4']
+- p: [10, 31]
+  k: '&macro_JPQMARKL'
+  l: ['9']
+- p: [11, 31]
+  k: '&macro_JPSLASHL'
+  l: ['9']
+- p: [12, 31]
+  k: '&macro_JPTILDEL'
+  l: ['9']
+- p: [13, 31]
+  k: '&macro_JPLKAGIL'
+  l: ['9']
+- p: [14, 31]
+  k: '&macro_JPRKAGIL'
+  l: ['9']
+- p: [15, 31]
+  k: '&macro_JPLKADOL'
+  l: ['9']
+- p: [16, 31]
+  k: '&macro_JPRKADOL'
+  l: ['9']
+- p: [17, 31]
+  k: '&macro_JPLMARUL'
+  l: ['9']
+- p: [18, 31]
+  k: '&macro_JPRMARUL'
+  l: ['9']
+- p: [19, 31]
+  k: '&macro_JPLDKAGIL'
+  l: ['9']
+- p: [19, 31]
+  k: '&macro_JPRDKAGIL'
+  l: ['9']
+- p: [0, 31]
+  k: '&macro_XA'
+  l: ['1', '3']
+- p: [1, 31]
+  k: '&macro_E'
+  l: ['1', '3']
+- p: [2, 31]
+  k: '&macro_RI'
+  l: ['1', '3']
+- p: [3, 31]
+  k: '&macro_XYA'
+  l: ['1', '3']
+- p: [4, 31]
+  k: '&macro_RE'
+  l: ['1', '3']
+- p: [5, 31]
+  k: '&macro_PA'
+  l: ['1', '3']
+- p: [6, 31]
+  k: '&macro_DI'
+  l: ['1', '3']
+- p: [7, 31]
+  k: '&macro_GU'
+  l: ['1', '3']
+- p: [8, 31]
+  k: '&macro_DU'
+  l: ['1', '3']
+- p: [9, 31]
+  k: '&macro_PI'
+  l: ['1', '3']
+- p: [10, 31]
+  k: '&macro_WO'
+  l: ['1', '3']
+- p: [11, 31]
+  k: '&macro_A'
+  l: ['1', '3']
+- p: [12, 31]
+  k: '&macro_NA'
+  l: ['1', '3']
+- p: [13, 31]
+  k: '&macro_XYU'
+  l: ['1', '3']
+- p: [14, 31]
+  k: '&macro_MO'
+  l: ['1', '3']
+- p: [15, 31]
+  k: '&macro_BA'
+  l: ['1', '3']
+- p: [16, 31]
+  k: '&macro_DO'
+  l: ['1', '3']
+- p: [17, 31]
+  k: '&macro_GI'
+  l: ['1', '3']
+- p: [18, 31]
+  k: '&macro_PO'
+  l: ['1', '3']
+- p: [19, 31]
+  k: '&macro_ZL'
+  l: ['1', '3']
+- p: [20, 31]
+  k: '&macro_XU'
+  l: ['1', '3']
+- p: [21, 31]
+  k: '&macro_JPMINUS2'
+  l: ['1', '3']
+- p: [22, 31]
+  k: '&macro_RO'
+  l: ['1', '3']
+- p: [23, 31]
+  k: '&macro_YA'
+  l: ['1', '3']
+- p: [24, 31]
+  k: '&macro_XI'
+  l: ['1', '3']
+- p: [25, 31]
+  k: '&macro_PU'
+  l: ['1', '3']
+- p: [26, 31]
+  k: '&macro_ZO'
+  l: ['1', '3']
+- p: [27, 31]
+  k: '&macro_PE'
+  l: ['1', '3']
+- p: [28, 31]
+  k: '&macro_BO'
+  l: ['1', '3']
+- p: [0, 34]
+  k: '&macro_JPTILDER'
+  l: ['1', '3']
+- p: [1, 34]
+  k: '&macro_GA'
+  l: ['1', '3']
+- p: [2, 34]
+  k: '&macro_DA'
+  l: ['1', '3']
+- p: [3, 34]
+  k: '&macro_GO'
+  l: ['1', '3']
+- p: [4, 34]
+  k: '&macro_ZA'
+  l: ['1', '3']
+- p: [5, 34]
+  k: '&macro_YO'
+  l: ['1', '3']
+- p: [6, 34]
+  k: '&macro_NI'
+  l: ['1', '3']
+- p: [7, 34]
+  k: '&macro_RU'
+  l: ['1', '3']
+- p: [8, 34]
+  k: '&macro_MA'
+  l: ['1', '3']
+- p: [9, 34]
+  k: '&macro_XE'
+  l: ['1', '3']
+- p: [10, 34]
+  k: '&macro_VU'
+  l: ['1', '3']
+- p: [11, 34]
+  k: '&macro_JI'
+  l: ['1', '3']
+- p: [12, 34]
+  k: '&macro_DE'
+  l: ['1', '3']
+- p: [13, 34]
+  k: '&macro_GE'
+  l: ['1', '3']
+- p: [14, 34]
+  k: '&macro_ZE'
+  l: ['1', '3']
+- p: [15, 34]
+  k: '&macro_MI'
+  l: ['1', '3']
+- p: [16, 34]
+  k: '&macro_O'
+  l: ['1', '3']
+- p: [17, 34]
+  k: '&macro_NO'
+  l: ['1', '3']
+- p: [18, 34]
+  k: '&macro_XYO'
+  l: ['1', '3']
+- p: [19, 34]
+  k: '&macro_XTU'
+  l: ['1', '3']
+- p: [20, 34]
+  k: '&macro_JPCOMMA2'
+  l: ['1', '3']
+- p: [21, 34]
+  k: '&macro_BI'
+  l: ['1', '3']
+- p: [22, 34]
+  k: '&macro_ZU'
+  l: ['1', '3']
+- p: [23, 34]
+  k: '&macro_BU'
+  l: ['1', '3']
+- p: [24, 34]
+  k: '&macro_BE'
+  l: ['1', '3']
+- p: [25, 34]
+  k: '&macro_NU'
+  l: ['1', '3']
+- p: [26, 34]
+  k: '&macro_YU'
+  l: ['1', '3']
+- p: [27, 34]
+  k: '&macro_MU'
+  l: ['1', '3']
+- p: [28, 34]
+  k: '&macro_WA'
+  l: ['1', '3']
+- p: [29, 34]
+  k: '&macro_XO'
+  l: ['1', '3']
+- p: [3, 6]
+  k: '&macro_CHYA'
+  l: ['1', '3']
+- p: [3, 17]
+  k: '&macro_KYA'
+  l: ['1', '3']
+- p: [3, 7]
+  k: '&macro_KWA'
+  l: ['1', '3']
+- p: [3, 8]
+  k: '&macro_TSA'
+  l: ['1', '3']
+- p: [3, 9]
+  k: '&macro_PYA'
+  l: ['1', '3']
+- p: [15, 1]
+  k: '&macro_RYA'
+  l: ['1', '3']
+- p: [15, 11]
+  k: '&macro_SYA'
+  l: ['1', '3']
+- p: [15, 21]
+  k: '&macro_HYA'
+  l: ['1', '3']
+- p: [15, 23]
+  k: '&macro_FUA'
+  l: ['1', '3']
+- p: [4, 6]
+  k: '&macro_NYA'
+  l: ['1', '3']
+- p: [4, 7]
+  k: '&macro_GUA'
+  l: ['1', '3']
+- p: [4, 8]
+  k: '&macro_DUA'
+  l: ['1', '3']
+- p: [4, 15]
+  k: '&macro_MYA'
+  l: ['1', '3']
+- p: [4, 17]
+  k: '&macro_GYA'
+  l: ['1', '3']
+- p: [25, 10]
+  k: '&macro_VUA'
+  l: ['1', '3']
+- p: [25, 11]
+  k: '&macro_JYA'
+  l: ['1', '3']
+- p: [25, 21]
+  k: '&macro_BYA'
+  l: ['1', '3']
+- p: [25, 23]
+  k: '&macro_BUA'
+  l: ['1', '3']
+- p: [22, 6]
+  k: '&macro_CHII'
+  l: ['1', '3']
+- p: [22, 7]
+  k: '&macro_KUYI'
+  l: ['1', '3']
+- p: [22, 8]
+  k: '&macro_TSYI'
+  l: ['1', '3']
+- p: [22, 17]
+  k: '&macro_KII'
+  l: ['1', '3']
+- p: [22, 21]
+  k: '&macro_ROO'
+  l: ['1', '3']
+- p: [22, 23]
+  k: '&macro_YAA'
+  l: ['1', '3']
+- p: [28, 2]
+  k: '&macro_RII'
+  l: ['1', '3']
+- p: [28, 10]
+  k: '&macro_WII'
+  l: ['1', '3']
+- p: [28, 11]
+  k: '&macro_SII'
+  l: ['1', '3']
+- p: [28, 12]
+  k: '&macro_TII'
+  l: ['1', '3']
+- p: [28, 21]
+  k: '&macro_HII'
+  l: ['1', '3']
+- p: [28, 23]
+  k: '&macro_FUYI'
+  l: ['1', '3']
+- p: [28, 27]
+  k: '&macro_PEXTU'
+  l: ['1', '3']
+- p: [24, 6]
+  k: '&macro_NII'
+  l: ['1', '3']
+- p: [24, 7]
+  k: '&macro_GUYI'
+  l: ['1', '3']
+- p: [24, 8]
+  k: '&macro_ZUYI'
+  l: ['1', '3']
+- p: [24, 14]
+  k: '&macro_MII'
+  l: ['1', '3']
+- p: [24, 17]
+  k: '&macro_GII'
+  l: ['1', '3']
+- p: [29, 10]
+  k: '&macro_VII'
+  l: ['1', '3']
+- p: [29, 11]
+  k: '&macro_JII'
+  l: ['1', '3']
+- p: [29, 12]
+  k: '&macro_DEI'
+  l: ['1', '3']
+- p: [29, 21]
+  k: '&macro_BII'
+  l: ['1', '3']
+- p: [29, 23]
+  k: '&macro_BUYI'
+  l: ['1', '3']
+- p: [13, 6]
+  k: '&macro_CHU'
+  l: ['1', '3']
+- p: [13, 7]
+  k: '&macro_KUWA'
+  l: ['1', '3']
+- p: [13, 9]
+  k: '&macro_PYU'
+  l: ['1', '3']
+- p: [13, 16]
+  k: '&macro_TXU'
+  l: ['1', '3']
+- p: [13, 17]
+  k: '&macro_KYU'
+  l: ['1', '3']
+- p: [13, 14]
+  k: '&macro_MOXTU'
+  l: ['1', '3']
+- p: [26, 2]
+  k: '&macro_RYU'
+  l: ['1', '3']
+- p: [26, 11]
+  k: '&macro_SYU'
+  l: ['1', '3']
+- p: [26, 12]
+  k: '&macro_TYU'
+  l: ['1', '3']
+- p: [26, 21]
+  k: '&macro_HYU'
+  l: ['1', '3']
+- p: [26, 23]
+  k: '&macro_FUYU'
+  l: ['1', '3']
+- p: [26, 25]
+  k: '&macro_PUXTU'
+  l: ['1', '3']
+- p: [14, 6]
+  k: '&macro_NYU'
+  l: ['1', '3']
+- p: [14, 7]
+  k: '&macro_GUWA'
+  l: ['1', '3']
+- p: [14, 15]
+  k: '&macro_MYU'
+  l: ['1', '3']
+- p: [14, 16]
+  k: '&macro_DXU'
+  l: ['1', '3']
+- p: [14, 17]
+  k: '&macro_GYU'
+  l: ['1', '3']
+- p: [27, 11]
+  k: '&macro_JYU'
+  l: ['1', '3']
+- p: [27, 12]
+  k: '&macro_DEYU'
+  l: ['1', '3']
+- p: [27, 21]
+  k: '&macro_BYU'
+  l: ['1', '3']
+- p: [27, 23]
+  k: '&macro_BUYU'
+  l: ['1', '3']
+- p: [27, 26]
+  k: '&macro_YUXTU'
+  l: ['1', '3']
+- p: [2, 6]
+  k: '&macro_CHE'
+  l: ['1', '3']
+- p: [2, 7]
+  k: '&macro_KUE'
+  l: ['1', '3']
+- p: [2, 8]
+  k: '&macro_TSE'
+  l: ['1', '3']
+- p: [2, 17]
+  k: '&macro_KIE'
+  l: ['1', '3']
+- p: [2, 18]
+  k: '&macro_IE'
+  l: ['1', '3']
+- p: [2, 1]
+  k: '&macro_RIXTU'
+  l: ['1', '3']
+- p: [2, 3]
+  k: '&macro_REXTU'
+  l: ['1', '3']
+- p: [2, 10]
+  k: '&macro_TAXTU'
+  l: ['1', '3']
+- p: [7, 2]
+  k: '&macro_RIE'
+  l: ['1', '3']
+- p: [7, 10]
+  k: '&macro_WE'
+  l: ['1', '3']
+- p: [7, 11]
+  k: '&macro_SIE'
+  l: ['1', '3']
+- p: [7, 21]
+  k: '&macro_HIE'
+  l: ['1', '3']
+- p: [7, 23]
+  k: '&macro_FUE'
+  l: ['1', '3']
+- p: [7, 8]
+  k: '&macro_RUXTU'
+  l: ['1', '3']
+- p: [7, 9]
+  k: '&macro_PIXTU'
+  l: ['1', '3']
+- p: [0, 6]
+  k: '&macro_NIE'
+  l: ['1', '3']
+- p: [0, 7]
+  k: '&macro_GUE'
+  l: ['1', '3']
+- p: [0, 8]
+  k: '&macro_DUE'
+  l: ['1', '3']
+- p: [0, 14]
+  k: '&macro_MIE'
+  l: ['1', '3']
+- p: [0, 9]
+  k: '&macro_PIE'
+  l: ['1', '3']
+- p: [9, 10]
+  k: '&macro_VE'
+  l: ['1', '3']
+- p: [9, 11]
+  k: '&macro_JE'
+  l: ['1', '3']
+- p: [9, 21]
+  k: '&macro_BIE'
+  l: ['1', '3']
+- p: [9, 23]
+  k: '&macro_BUE_'
+  l: ['1', '3']
+- p: [9, 8]
+  k: '&macro_MAXTU'
+  l: ['1', '3']
+- p: [12, 6]
+  k: '&macro_CHO'
+  l: ['1', '3']
+- p: [12, 7]
+  k: '&macro_KUO'
+  l: ['1', '3']
+- p: [12, 8]
+  k: '&macro_TSO'
+  l: ['1', '3']
+- p: [12, 14]
+  k: '&macro_MYO'
+  l: ['1', '3']
+- p: [12, 17]
+  k: '&macro_KYO'
+  l: ['1', '3']
+- p: [12, 25]
+  k: '&macro_NUO'
+  l: ['1', '3']
+- p: [12, 9]
+  k: '&macro_PYO'
+  l: ['1', '3']
+- p: [12, 10]
+  k: '&macro_TEXTU'
+  l: ['1', '3']
+- p: [16, 2]
+  k: '&macro_RYO'
+  l: ['1', '3']
+- p: [16, 10]
+  k: '&macro_WO_'
+  l: ['1', '3']
+- p: [16, 11]
+  k: '&macro_SYO'
+  l: ['1', '3']
+- p: [16, 21]
+  k: '&macro_HYO'
+  l: ['1', '3']
+- p: [16, 23]
+  k: '&macro_FUO'
+  l: ['1', '3']
+- p: [11, 6]
+  k: '&macro_NYO'
+  l: ['1', '3']
+- p: [11, 17]
+  k: '&macro_GYO'
+  l: ['1', '3']
+- p: [11, 8]
+  k: '&macro_ZUO'
+  l: ['1', '3']
+- p: [11, 10]
+  k: '&macro_AXTU'
+  l: ['1', '3']
+- p: [11, 12]
+  k: '&macro_NAXTU'
+  l: ['1', '3']
+- p: [18, 10]
+  k: '&macro_VO'
+  l: ['1', '3']
+- p: [18, 11]
+  k: '&macro_JO'
+  l: ['1', '3']
+- p: [18, 21]
+  k: '&macro_BYO'
+  l: ['1', '3']
+- p: [18, 23]
+  k: '&macro_BUO'
+  l: ['1', '3']
+- p: [18, 17]
+  k: '&macro_NOXTU'
+  l: ['1', '3']
+- p: [18, 19]
+  k: '&macro_POXTU'
+  l: ['1', '3']
+- p: [19, 1]
+  k: '&macro_KATTU'
+  l: ['1', '3']
+- p: [19, 2]
+  k: '&macro_TATTU'
+  l: ['1', '3']
+- p: [19, 3]
+  k: '&macro_KOTTU'
+  l: ['1', '3']
+- p: [19, 4]
+  k: '&macro_SATTU'
+  l: ['1', '3']
+- p: [19, 10]
+  k: '&macro_UTTU'
+  l: ['1', '3']
+- p: [19, 11]
+  k: '&macro_SITTU'
+  l: ['1', '3']
+- p: [19, 12]
+  k: '&macro_TETTU'
+  l: ['1', '3']
+- p: [19, 13]
+  k: '&macro_KETTU'
+  l: ['1', '3']
+- p: [19, 14]
+  k: '&macro_SETTU'
+  l: ['1', '3']
+- p: [19, 21]
+  k: '&macro_HITTU'
+  l: ['1', '3']
+- p: [19, 22]
+  k: '&macro_SUTTU'
+  l: ['1', '3']
+- p: [19, 23]
+  k: '&macro_FUTTU'
+  l: ['1', '3']
+- p: [19, 24]
+  k: '&macro_HETTU'
+  l: ['1', '3']
+- p: [29, 1]
+  k: '&macro_GATTU'
+  l: ['1', '3']
+- p: [29, 2]
+  k: '&macro_DATTU'
+  l: ['1', '3']
+- p: [29, 3]
+  k: '&macro_GOTTU'
+  l: ['1', '3']
+- p: [29, 4]
+  k: '&macro_ZATTU'
+  l: ['1', '3']
+- p: [29, 11]
+  k: '&macro_JITTU'
+  l: ['1', '3']
+- p: [29, 12]
+  k: '&macro_DETTU'
+  l: ['1', '3']
+- p: [29, 13]
+  k: '&macro_GETTU'
+  l: ['1', '3']
+- p: [29, 14]
+  k: '&macro_ZETTU'
+  l: ['1', '3']
+- p: [29, 21]
+  k: '&macro_BITTU'
+  l: ['1', '3']
+- p: [29, 22]
+  k: '&macro_ZUTTU'
+  l: ['1', '3']
+- p: [29, 23]
+  k: '&macro_BUTTU'
+  l: ['1', '3']
+- p: [29, 24]
+  k: '&macro_BETTU'
+  l: ['1', '3']
+- p: [29, 28]
+  k: '&macro_WATTU'
+  l: ['1', '3']
+- p: [0, 1]
+  k: '&macro_ETTU'
+  l: ['1', '3']
+- p: [0, 5]
+  k: '&macro_RATTU'
+  l: ['1', '3']
+- p: [0, 6]
+  k: '&macro_CHITTU'
+  l: ['1', '3']
+- p: [0, 7]
+  k: '&macro_KUTTU'
+  l: ['1', '3']
+- p: [0, 8]
+  k: '&macro_TSUTTU'
+  l: ['1', '3']
+- p: [0, 9]
+  k: '&macro_PITTU'
+  l: ['1', '3']
+- p: [0, 15]
+  k: '&macro_HATTU'
+  l: ['1', '3']
+- p: [0, 16]
+  k: '&macro_TOTTU'
+  l: ['1', '3']
+- p: [0, 17]
+  k: '&macro_KITTTU'
+  l: ['1', '3']
+- p: [0, 18]
+  k: '&macro_ITTU'
+  l: ['1', '3']
+- p: [0, 19]
+  k: '&macro_YOTTU'
+  l: ['1', '3']
+- p: [0, 25]
+  k: '&macro_METTU'
+  l: ['1', '3']
+- p: [0, 26]
+  k: '&macro_SOTTU'
+  l: ['1', '3']
+- p: [0, 27]
+  k: '&macro_NETTU'
+  l: ['1', '3']
+- p: [0, 28]
+  k: '&macro_HOTTU'
+  l: ['1', '3']
+- p: [20, 4]
+  k: '&macro_YOTTU2'
+  l: ['1', '3']
+- p: [20, 6]
+  k: '&macro_JITTU2'
+  l: ['1', '3']
+- p: [20, 7]
+  k: '&macro_GUTTU'
+  l: ['1', '3']
+- p: [20, 8]
+  k: '&macro_ZUTTU2'
+  l: ['1', '3']
+- p: [20, 15]
+  k: '&macro_BATTU'
+  l: ['1', '3']
+- p: [20, 16]
+  k: '&macro_DOTTU'
+  l: ['1', '3']
+- p: [20, 17]
+  k: '&macro_GITTU'
+  l: ['1', '3']
+- p: [20, 18]
+  k: '&macro_POTTU'
+  l: ['1', '3']
+- p: [20, 19]
+  k: '&macro_YOTTU3'
+  l: ['1', '3']
+- p: [20, 25]
+  k: '&macro_NUTTU'
+  l: ['1', '3']
+- p: [20, 26]
+  k: '&macro_ZOTTTU'
+  l: ['1', '3']
+- p: [20, 27]
+  k: '&macro_MUTTU'
+  l: ['1', '3']
+- p: [20, 28]
+  k: '&macro_BOTTU'
+  l: ['1', '3']
+- p: [6, 5]
+  k: '&macro_PATTU'
+  l: ['1', '3']
