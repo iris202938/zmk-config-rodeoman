@@ -75,13 +75,13 @@
         combo_ADJ {
             timeout-ms = <70>;
             key-positions = <32 33>;
-            layers = <QWE NGN NIC>;
+            layers = <QWE NIC>;
             bindings = <&mo ADJ>;
         };
         combo_ADJL {
             timeout-ms = <70>;
             key-positions = <32 33>;
-            layers = <LIN NGNL NICL>;
+            layers = <LIN NICL>;
             bindings = <&mo ADJL>;
         };
         combo_ADJW {
@@ -99,13 +99,13 @@
         combo_to_NUM {
             timeout-ms = <70>;
             key-positions = <30 32>;
-            layers = <QWE NIC NGN>;
+            layers = <QWE NIC>;
             bindings = <&to NUM>;
         };
         combo_to_NUML {
             timeout-ms = <70>;
             key-positions = <30 32>;
-            layers = <LIN NICL NGNL>;
+            layers = <LIN NICL>;
             bindings = <&to NUML>;
         };
         combo_to_NUMW {
@@ -117,13 +117,13 @@
         combo_to_MOV {
             timeout-ms = <70>;
             key-positions = <33 35>;
-            layers = <QWE NIC NGN>;
+            layers = <QWE NIC>;
             bindings = <&to MOV>;
         };
         combo_to_MOVL {
             timeout-ms = <70>;
             key-positions = <33 35>;
-            layers = <LIN NICL NGNL>;
+            layers = <LIN NICL>;
             bindings = <&to MOVL>;
         };
         combo_to_MOVW {
@@ -190,7 +190,7 @@
         combo_TSHIFT {
             bindings = <&qm RSHIFT>;
             key-positions = <30 35>;
-            layers = <WIN NGN NIC NGNL NICL>;            
+            layers = <WIN NIC NICL>;            
             timeout-ms = <65>;
         };
         combo_caps_word {
@@ -241,30 +241,6 @@
             layers = <RSE RSEL RSEW>;
             timeout-ms = <80>;
         };
-        // ctrl_l {
-        //     bindings = <&kp LCTRL>;
-        //     key-positions = <10 11>;
-        //     layers = <QWE LIN CAD>;
-        //     timeout-ms = <80>;
-        // };
-        // ctrl_r {
-        //     bindings = <&kp RCTRL>;
-        //     key-positions = <18 19>;
-        //     layers = <QWE LIN CAD>;
-        //     timeout-ms = <80>;
-        // };
-        // gui_l {
-        //     bindings = <&kp LGUI>;
-        //     key-positions = <20 21>;
-        //     layers = <LWRL LWRW RSEL RSEW>;
-        //     timeout-ms = <80>;
-        // };
-        // gui_r {
-        //     bindings = <&kp RGUI>;
-        //     key-positions = <28 29>;
-        //     layers = <LWR RSE>;
-        //     timeout-ms = <80>;
-        // };
         combo_LGUI_LCTRL {
             bindings = <&LGUI_LCTRL>;
             key-positions = <10 20>;
@@ -526,24 +502,6 @@
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        // combo_alt_home {   // タップで複写左90度回転[AHK]、ホールドでRALT
-        //     bindings = <&combo_ht_home RALT 0>;
-        //     key-positions = <1 32 29>;
-        //     layers = <CAD>;
-        //     timeout-ms = <70>;
-        // };
-        // combo_alt_end {   // タップで複写右90度回転[AHK]、ホールドでRALT
-        //     bindings = <&combo_ht_end RALT 0>;
-        //     key-positions = <3 32 29>;
-        //     layers = <CAD>;
-        //     timeout-ms = <70>;
-        // };
-        // combo_alt_comma { // タップで移動左90度回転[AHK]、ホールドでRALT
-        //     bindings = <&combo_ht_comma RALT 0>;
-        //     key-positions = <27 29>;
-        //     layers = <CAD>;
-        //     timeout-ms = <80>;
-        // };
         combo_alt_home {   // 複写左90度回転[AHK]
             bindings = <&alt_home>;
             key-positions = <1 32 29>;
@@ -2866,7 +2824,7 @@
             // 1-Tap: 通常キー, 2-Taps: 1G , 3-Taps: 1/4G
             bindings = <&all_ht RGUI SLASH>, <&ctrl_alt_j>, <&ctrl_alt_k>;
         };
-        
+
         // 通常の判定時間（例: 240ms）
         mt_s: mod_tap_slow {
             compatible = "zmk,behavior-hold-tap";
@@ -6745,34 +6703,6 @@
                 ;
         };
 
-        ng_on: ng_on {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LANGUAGE_1 &kp INTERNATIONAL_4 &to 1>
-                ;
-        };
-        ng_off: ng_off {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LANGUAGE_2 &kp INTERNATIONAL_5 &to 0>
-                ;
-        };
-        ng_onl: ng_onl {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LANG1 &kp INT4 &to NGNL>
-                ;
-        };
-        ng_offl: ng_offl {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LANG2 &kp INT5 &to LIN>
-                ;
-        };
 		// ハイコントラスト切り替え (Win: Shift + Alt + PrintScreen)
         m_hi_con: m_hi_con {
             compatible = "zmk,behavior-macro";
