@@ -661,348 +661,346 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-4">
-<path d="M56,112 l-22,-66" class="combo"/>
-<path d="M56,112 l22,66" class="combo"/>
-<rect rx="6" ry="6" x="42" y="99" width="28" height="26" class="combo"/>
-<text x="56" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XA</tspan></text>
+<path d="M112,112 l-71,-71" class="combo"/>
+<path d="M112,112 l71,71" class="combo"/>
+<rect rx="6" ry="6" x="98" y="99" width="28" height="26" class="combo"/>
+<text x="112" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XA</tspan></text>
 </g>
 <g class="combo combopos-5">
-<path d="M84,112 l0,-65" class="combo"/>
-<path d="M84,112 l0,65" class="combo"/>
-<rect rx="6" ry="6" x="70" y="99" width="28" height="26" class="combo"/>
-<text x="84" y="112" class="combo tap"><tspan style="font-size: 88%">&amp;macro_E</tspan></text>
+<path d="M140,112 l-46,-68" class="combo"/>
+<path d="M140,112 l46,68" class="combo"/>
+<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
+<text x="140" y="112" class="combo tap"><tspan style="font-size: 88%">&amp;macro_E</tspan></text>
 </g>
 <g class="combo combopos-6">
-<path d="M112,112 l22,-66" class="combo"/>
-<path d="M112,112 l-22,66" class="combo"/>
-<rect rx="6" ry="6" x="98" y="99" width="28" height="26" class="combo"/>
-<text x="112" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RI</tspan></text>
+<path d="M168,112 l-22,-66" class="combo"/>
+<path d="M168,112 l22,66" class="combo"/>
+<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
+<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RI</tspan></text>
 </g>
 <g class="combo combopos-7">
-<path d="M140,112 l46,-68" class="combo"/>
-<path d="M140,112 l-46,68" class="combo"/>
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYA</tspan></text>
+<path d="M196,112 l0,-65" class="combo"/>
+<path d="M196,112 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYA</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M168,112 l71,-71" class="combo"/>
-<path d="M168,112 l-71,71" class="combo"/>
-<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
-<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RE</tspan></text>
+<path d="M224,112 l22,-66" class="combo"/>
+<path d="M224,112 l-22,66" class="combo"/>
+<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
+<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RE</tspan></text>
 </g>
 <g class="combo combopos-9">
-<path d="M224,112 l124,-74" class="combo"/>
-<path d="M224,112 l-124,74" class="combo"/>
-<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
-<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PA</tspan></text>
+<path d="M280,112 l71,-71" class="combo"/>
+<path d="M280,112 l-71,71" class="combo"/>
+<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
+<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PA</tspan></text>
 </g>
 <g class="combo combopos-10">
-<path d="M252,112 l151,-76" class="combo"/>
-<path d="M252,112 l-151,76" class="combo"/>
-<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
-<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DI</tspan></text>
+<path d="M308,112 l97,-73" class="combo"/>
+<path d="M308,112 l-97,73" class="combo"/>
+<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
+<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DI</tspan></text>
 </g>
 <g class="combo combopos-11">
-<path d="M280,112 l179,-77" class="combo"/>
-<path d="M280,112 l-179,77" class="combo"/>
-<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
-<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GU</tspan></text>
+<path d="M336,112 l124,-74" class="combo"/>
+<path d="M336,112 l-124,74" class="combo"/>
+<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
+<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GU</tspan></text>
 </g>
 <g class="combo combopos-12">
-<path d="M308,112 l207,-77" class="combo"/>
-<path d="M308,112 l-207,77" class="combo"/>
-<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
-<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DU</tspan></text>
+<path d="M364,112 l151,-76" class="combo"/>
+<path d="M364,112 l-151,76" class="combo"/>
+<rect rx="6" ry="6" x="350" y="99" width="28" height="26" class="combo"/>
+<text x="364" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DU</tspan></text>
 </g>
 <g class="combo combopos-13">
-<path d="M336,112 l234,-78" class="combo"/>
-<path d="M336,112 l-234,78" class="combo"/>
-<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
-<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PI</tspan></text>
+<path d="M392,112 l179,-77" class="combo"/>
+<path d="M392,112 l-179,77" class="combo"/>
+<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
+<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PI</tspan></text>
 </g>
 <g class="combo combopos-14">
-<path d="M56,140 l-20,-39" class="combo"/>
-<path d="M56,140 l20,39" class="combo"/>
-<rect rx="6" ry="6" x="42" y="127" width="28" height="26" class="combo"/>
-<text x="56" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WO</tspan></text>
+<path d="M112,140 l-68,-46" class="combo"/>
+<path d="M112,140 l68,46" class="combo"/>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WO</tspan></text>
 </g>
 <g class="combo combopos-15">
-<path d="M84,140 l0,-37" class="combo"/>
-<path d="M84,140 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="127" width="28" height="26" class="combo"/>
-<text x="84" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_A</tspan></text>
+<path d="M140,140 l-43,-43" class="combo"/>
+<path d="M140,140 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
+<text x="140" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_A</tspan></text>
 </g>
 <g class="combo combopos-16">
-<path d="M112,140 l20,-39" class="combo"/>
-<path d="M112,140 l-20,39" class="combo"/>
-<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
-<text x="112" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NA</tspan></text>
+<path d="M168,140 l-20,-39" class="combo"/>
+<path d="M168,140 l20,39" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NA</tspan></text>
 </g>
 <g class="combo combopos-17">
-<path d="M140,140 l43,-43" class="combo"/>
-<path d="M140,140 l-43,43" class="combo"/>
-<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
-<text x="140" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYU</tspan></text>
+<path d="M196,140 l0,-37" class="combo"/>
+<path d="M196,140 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
+<text x="196" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYU</tspan></text>
 </g>
 <g class="combo combopos-18">
-<path d="M168,140 l68,-46" class="combo"/>
-<path d="M168,140 l-68,46" class="combo"/>
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MO</tspan></text>
+<path d="M224,140 l20,-39" class="combo"/>
+<path d="M224,140 l-20,39" class="combo"/>
+<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
+<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MO</tspan></text>
 </g>
 <g class="combo combopos-19">
-<path d="M224,140 l123,-49" class="combo"/>
-<path d="M224,140 l-123,49" class="combo"/>
-<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BA</tspan></text>
+<path d="M280,140 l68,-46" class="combo"/>
+<path d="M280,140 l-68,46" class="combo"/>
+<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
+<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BA</tspan></text>
 </g>
 <g class="combo combopos-20">
-<path d="M252,140 l150,-50" class="combo"/>
-<path d="M252,140 l-150,50" class="combo"/>
-<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
-<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DO</tspan></text>
+<path d="M308,140 l95,-48" class="combo"/>
+<path d="M308,140 l-95,48" class="combo"/>
+<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DO</tspan></text>
 </g>
 <g class="combo combopos-21">
-<path d="M280,140 l178,-51" class="combo"/>
-<path d="M280,140 l-178,51" class="combo"/>
-<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
-<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GI</tspan></text>
+<path d="M336,140 l123,-49" class="combo"/>
+<path d="M336,140 l-123,49" class="combo"/>
+<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
+<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GI</tspan></text>
 </g>
 <g class="combo combopos-22">
-<path d="M308,140 l206,-51" class="combo"/>
-<path d="M308,140 l-206,51" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
-<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PO</tspan></text>
+<path d="M364,140 l150,-50" class="combo"/>
+<path d="M364,140 l-150,50" class="combo"/>
+<rect rx="6" ry="6" x="350" y="127" width="28" height="26" class="combo"/>
+<text x="364" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PO</tspan></text>
 </g>
 <g class="combo combopos-23">
-<path d="M336,140 l234,-52" class="combo"/>
-<path d="M336,140 l-234,52" class="combo"/>
-<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
-<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZL</tspan></text>
+<path d="M392,140 l178,-51" class="combo"/>
+<path d="M392,140 l-178,51" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZL</tspan></text>
 </g>
 <g class="combo combopos-24">
-<rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
-<text x="56" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XU</tspan></text>
+<path d="M112,168 l-66,-22" class="combo"/>
+<path d="M112,168 l66,22" class="combo"/>
+<rect rx="6" ry="6" x="98" y="155" width="28" height="26" class="combo"/>
+<text x="112" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XU</tspan></text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<text x="84" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPM…</tspan></text>
+<path d="M140,168 l-39,-20" class="combo"/>
+<path d="M140,168 l39,20" class="combo"/>
+<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
+<text x="140" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPM…</tspan></text>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="98" y="155" width="28" height="26" class="combo"/>
-<text x="112" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RO</tspan></text>
+<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
+<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RO</tspan></text>
 </g>
 <g class="combo combopos-27">
-<path d="M140,168 l39,-20" class="combo"/>
-<path d="M140,168 l-39,20" class="combo"/>
-<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
-<text x="140" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YA</tspan></text>
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YA</tspan></text>
 </g>
 <g class="combo combopos-28">
-<path d="M168,168 l66,-22" class="combo"/>
-<path d="M168,168 l-66,22" class="combo"/>
-<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
-<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XI</tspan></text>
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XI</tspan></text>
 </g>
 <g class="combo combopos-29">
-<path d="M224,168 l122,-24" class="combo"/>
-<path d="M224,168 l-122,24" class="combo"/>
-<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
-<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PU</tspan></text>
+<path d="M280,168 l66,-22" class="combo"/>
+<path d="M280,168 l-66,22" class="combo"/>
+<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
+<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PU</tspan></text>
 </g>
 <g class="combo combopos-30">
-<path d="M252,168 l150,-25" class="combo"/>
-<path d="M252,168 l-150,25" class="combo"/>
-<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
-<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZO</tspan></text>
+<path d="M308,168 l94,-23" class="combo"/>
+<path d="M308,168 l-94,23" class="combo"/>
+<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
+<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZO</tspan></text>
 </g>
 <g class="combo combopos-31">
-<path d="M280,168 l178,-25" class="combo"/>
-<path d="M280,168 l-178,25" class="combo"/>
-<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
-<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PE</tspan></text>
+<path d="M336,168 l122,-24" class="combo"/>
+<path d="M336,168 l-122,24" class="combo"/>
+<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
+<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PE</tspan></text>
 </g>
 <g class="combo combopos-32">
-<path d="M308,168 l205,-26" class="combo"/>
-<path d="M308,168 l-205,26" class="combo"/>
-<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
-<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BO</tspan></text>
+<path d="M364,168 l150,-25" class="combo"/>
+<path d="M364,168 l-150,25" class="combo"/>
+<rect rx="6" ry="6" x="350" y="155" width="28" height="26" class="combo"/>
+<text x="364" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BO</tspan></text>
 </g>
 <g class="combo combopos-33">
-<path d="M140,112 l-97,-73" class="combo"/>
-<path d="M140,112 l97,73" class="combo"/>
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
+<path d="M224,112 l-179,-77" class="combo"/>
+<path d="M224,112 l179,77" class="combo"/>
+<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
+<text x="224" y="112" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
 </g>
 <g class="combo combopos-34">
-<path d="M168,112 l-71,-71" class="combo"/>
-<path d="M168,112 l71,71" class="combo"/>
-<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
-<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GA</tspan></text>
+<path d="M252,112 l-151,-76" class="combo"/>
+<path d="M252,112 l151,76" class="combo"/>
+<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
+<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GA</tspan></text>
 </g>
 <g class="combo combopos-35">
-<path d="M196,112 l-46,-68" class="combo"/>
-<path d="M196,112 l46,68" class="combo"/>
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DA</tspan></text>
+<path d="M280,112 l-124,-74" class="combo"/>
+<path d="M280,112 l124,74" class="combo"/>
+<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
+<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DA</tspan></text>
 </g>
 <g class="combo combopos-36">
-<path d="M224,112 l-22,-66" class="combo"/>
-<path d="M224,112 l22,66" class="combo"/>
-<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
-<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GO</tspan></text>
+<path d="M308,112 l-97,-73" class="combo"/>
+<path d="M308,112 l97,73" class="combo"/>
+<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
+<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GO</tspan></text>
 </g>
 <g class="combo combopos-37">
-<path d="M252,112 l0,-65" class="combo"/>
-<path d="M252,112 l0,65" class="combo"/>
-<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
-<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZA</tspan></text>
+<path d="M336,112 l-71,-71" class="combo"/>
+<path d="M336,112 l71,71" class="combo"/>
+<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
+<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZA</tspan></text>
 </g>
 <g class="combo combopos-38">
-<path d="M308,112 l46,-68" class="combo"/>
-<path d="M308,112 l-46,68" class="combo"/>
-<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
-<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YO</tspan></text>
+<path d="M392,112 l-22,-66" class="combo"/>
+<path d="M392,112 l22,66" class="combo"/>
+<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
+<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YO</tspan></text>
 </g>
 <g class="combo combopos-39">
-<path d="M336,112 l71,-71" class="combo"/>
-<path d="M336,112 l-71,71" class="combo"/>
-<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
-<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NI</tspan></text>
+<path d="M420,112 l0,-65" class="combo"/>
+<path d="M420,112 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NI</tspan></text>
 </g>
 <g class="combo combopos-40">
-<path d="M364,112 l97,-73" class="combo"/>
-<path d="M364,112 l-97,73" class="combo"/>
-<rect rx="6" ry="6" x="350" y="99" width="28" height="26" class="combo"/>
-<text x="364" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RU</tspan></text>
+<path d="M448,112 l22,-66" class="combo"/>
+<path d="M448,112 l-22,66" class="combo"/>
+<rect rx="6" ry="6" x="434" y="99" width="28" height="26" class="combo"/>
+<text x="448" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RU</tspan></text>
 </g>
 <g class="combo combopos-41">
-<path d="M392,112 l124,-74" class="combo"/>
-<path d="M392,112 l-124,74" class="combo"/>
-<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
-<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MA</tspan></text>
+<path d="M476,112 l46,-68" class="combo"/>
+<path d="M476,112 l-46,68" class="combo"/>
+<rect rx="6" ry="6" x="462" y="99" width="28" height="26" class="combo"/>
+<text x="476" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MA</tspan></text>
 </g>
 <g class="combo combopos-42">
-<path d="M420,112 l151,-76" class="combo"/>
-<path d="M420,112 l-151,76" class="combo"/>
-<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
-<text x="420" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XE</tspan></text>
+<path d="M504,112 l71,-71" class="combo"/>
+<path d="M504,112 l-71,71" class="combo"/>
+<rect rx="6" ry="6" x="490" y="99" width="28" height="26" class="combo"/>
+<text x="504" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XE</tspan></text>
 </g>
 <g class="combo combopos-43">
-<path d="M140,140 l-95,-48" class="combo"/>
-<path d="M140,140 l95,48" class="combo"/>
-<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
-<text x="140" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_VU</tspan></text>
+<path d="M224,140 l-178,-51" class="combo"/>
+<path d="M224,140 l178,51" class="combo"/>
+<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
+<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_VU</tspan></text>
 </g>
 <g class="combo combopos-44">
-<path d="M168,140 l-68,-46" class="combo"/>
-<path d="M168,140 l68,46" class="combo"/>
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_JI</tspan></text>
+<path d="M252,140 l-150,-50" class="combo"/>
+<path d="M252,140 l150,50" class="combo"/>
+<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
+<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_JI</tspan></text>
 </g>
 <g class="combo combopos-45">
-<path d="M196,140 l-43,-43" class="combo"/>
-<path d="M196,140 l43,43" class="combo"/>
-<rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
-<text x="196" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DE</tspan></text>
+<path d="M280,140 l-123,-49" class="combo"/>
+<path d="M280,140 l123,49" class="combo"/>
+<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
+<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DE</tspan></text>
 </g>
 <g class="combo combopos-46">
-<path d="M224,140 l-20,-39" class="combo"/>
-<path d="M224,140 l20,39" class="combo"/>
-<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GE</tspan></text>
+<path d="M308,140 l-95,-48" class="combo"/>
+<path d="M308,140 l95,48" class="combo"/>
+<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GE</tspan></text>
 </g>
 <g class="combo combopos-47">
-<path d="M252,140 l0,-37" class="combo"/>
-<path d="M252,140 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
-<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZE</tspan></text>
+<path d="M336,140 l-68,-46" class="combo"/>
+<path d="M336,140 l68,46" class="combo"/>
+<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
+<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZE</tspan></text>
 </g>
 <g class="combo combopos-48">
-<path d="M308,140 l43,-43" class="combo"/>
-<path d="M308,140 l-43,43" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
-<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MI</tspan></text>
+<path d="M392,140 l-20,-39" class="combo"/>
+<path d="M392,140 l20,39" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MI</tspan></text>
 </g>
 <g class="combo combopos-49">
-<path d="M336,140 l68,-46" class="combo"/>
-<path d="M336,140 l-68,46" class="combo"/>
-<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
-<text x="336" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_O</tspan></text>
+<path d="M420,140 l0,-37" class="combo"/>
+<path d="M420,140 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="406" y="127" width="28" height="26" class="combo"/>
+<text x="420" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_O</tspan></text>
 </g>
 <g class="combo combopos-50">
-<path d="M364,140 l95,-48" class="combo"/>
-<path d="M364,140 l-95,48" class="combo"/>
-<rect rx="6" ry="6" x="350" y="127" width="28" height="26" class="combo"/>
-<text x="364" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NO</tspan></text>
+<path d="M448,140 l20,-39" class="combo"/>
+<path d="M448,140 l-20,39" class="combo"/>
+<rect rx="6" ry="6" x="434" y="127" width="28" height="26" class="combo"/>
+<text x="448" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NO</tspan></text>
 </g>
 <g class="combo combopos-51">
-<path d="M392,140 l123,-49" class="combo"/>
-<path d="M392,140 l-123,49" class="combo"/>
-<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
-<text x="392" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYO</tspan></text>
+<path d="M476,140 l43,-43" class="combo"/>
+<path d="M476,140 l-43,43" class="combo"/>
+<rect rx="6" ry="6" x="462" y="127" width="28" height="26" class="combo"/>
+<text x="476" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYO</tspan></text>
 </g>
 <g class="combo combopos-52">
-<path d="M420,140 l150,-50" class="combo"/>
-<path d="M420,140 l-150,50" class="combo"/>
-<rect rx="6" ry="6" x="406" y="127" width="28" height="26" class="combo"/>
-<text x="420" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XTU</tspan></text>
+<path d="M504,140 l68,-46" class="combo"/>
+<path d="M504,140 l-68,46" class="combo"/>
+<rect rx="6" ry="6" x="490" y="127" width="28" height="26" class="combo"/>
+<text x="504" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XTU</tspan></text>
 </g>
 <g class="combo combopos-53">
-<path d="M140,168 l-94,-23" class="combo"/>
-<path d="M140,168 l94,23" class="combo"/>
-<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
-<text x="140" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPC…</tspan></text>
+<path d="M224,168 l-178,-25" class="combo"/>
+<path d="M224,168 l178,25" class="combo"/>
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<text x="224" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPC…</tspan></text>
 </g>
 <g class="combo combopos-54">
-<path d="M168,168 l-66,-22" class="combo"/>
-<path d="M168,168 l66,22" class="combo"/>
-<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
-<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BI</tspan></text>
+<path d="M252,168 l-150,-25" class="combo"/>
+<path d="M252,168 l150,25" class="combo"/>
+<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
+<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BI</tspan></text>
 </g>
 <g class="combo combopos-55">
-<path d="M196,168 l-39,-20" class="combo"/>
-<path d="M196,168 l39,20" class="combo"/>
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<text x="196" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZU</tspan></text>
+<path d="M280,168 l-122,-24" class="combo"/>
+<path d="M280,168 l122,24" class="combo"/>
+<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
+<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZU</tspan></text>
 </g>
 <g class="combo combopos-56">
-<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
-<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BU</tspan></text>
+<path d="M308,168 l-94,-23" class="combo"/>
+<path d="M308,168 l94,23" class="combo"/>
+<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
+<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BU</tspan></text>
 </g>
 <g class="combo combopos-57">
-<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
-<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BE</tspan></text>
+<path d="M336,168 l-66,-22" class="combo"/>
+<path d="M336,168 l66,22" class="combo"/>
+<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
+<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BE</tspan></text>
 </g>
 <g class="combo combopos-58">
-<path d="M308,168 l39,-20" class="combo"/>
-<path d="M308,168 l-39,20" class="combo"/>
-<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
-<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NU</tspan></text>
+<rect rx="6" ry="6" x="378" y="155" width="28" height="26" class="combo"/>
+<text x="392" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NU</tspan></text>
 </g>
 <g class="combo combopos-59">
-<path d="M336,168 l66,-22" class="combo"/>
-<path d="M336,168 l-66,22" class="combo"/>
-<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
-<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YU</tspan></text>
+<rect rx="6" ry="6" x="406" y="155" width="28" height="26" class="combo"/>
+<text x="420" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YU</tspan></text>
 </g>
 <g class="combo combopos-60">
-<path d="M364,168 l94,-23" class="combo"/>
-<path d="M364,168 l-94,23" class="combo"/>
-<rect rx="6" ry="6" x="350" y="155" width="28" height="26" class="combo"/>
-<text x="364" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MU</tspan></text>
+<rect rx="6" ry="6" x="434" y="155" width="28" height="26" class="combo"/>
+<text x="448" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MU</tspan></text>
 </g>
 <g class="combo combopos-61">
-<path d="M392,168 l122,-24" class="combo"/>
-<path d="M392,168 l-122,24" class="combo"/>
-<rect rx="6" ry="6" x="378" y="155" width="28" height="26" class="combo"/>
-<text x="392" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WA</tspan></text>
+<path d="M476,168 l39,-20" class="combo"/>
+<path d="M476,168 l-39,20" class="combo"/>
+<rect rx="6" ry="6" x="462" y="155" width="28" height="26" class="combo"/>
+<text x="476" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WA</tspan></text>
 </g>
 <g class="combo combopos-62">
-<path d="M420,168 l150,-25" class="combo"/>
-<path d="M420,168 l-150,25" class="combo"/>
-<rect rx="6" ry="6" x="406" y="155" width="28" height="26" class="combo"/>
-<text x="420" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XO</tspan></text>
+<path d="M504,168 l66,-22" class="combo"/>
+<path d="M504,168 l-66,22" class="combo"/>
+<rect rx="6" ry="6" x="490" y="155" width="28" height="26" class="combo"/>
+<text x="504" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XO</tspan></text>
 </g>
 <g class="combo combopos-63">
 <path d="M308,28 l-93,0" class="combo"/>
@@ -2509,348 +2507,346 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-4">
-<path d="M56,112 l-22,-66" class="combo"/>
-<path d="M56,112 l22,66" class="combo"/>
-<rect rx="6" ry="6" x="42" y="99" width="28" height="26" class="combo"/>
-<text x="56" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XA</tspan></text>
+<path d="M112,112 l-71,-71" class="combo"/>
+<path d="M112,112 l71,71" class="combo"/>
+<rect rx="6" ry="6" x="98" y="99" width="28" height="26" class="combo"/>
+<text x="112" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XA</tspan></text>
 </g>
 <g class="combo combopos-5">
-<path d="M84,112 l0,-65" class="combo"/>
-<path d="M84,112 l0,65" class="combo"/>
-<rect rx="6" ry="6" x="70" y="99" width="28" height="26" class="combo"/>
-<text x="84" y="112" class="combo tap"><tspan style="font-size: 88%">&amp;macro_E</tspan></text>
+<path d="M140,112 l-46,-68" class="combo"/>
+<path d="M140,112 l46,68" class="combo"/>
+<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
+<text x="140" y="112" class="combo tap"><tspan style="font-size: 88%">&amp;macro_E</tspan></text>
 </g>
 <g class="combo combopos-6">
-<path d="M112,112 l22,-66" class="combo"/>
-<path d="M112,112 l-22,66" class="combo"/>
-<rect rx="6" ry="6" x="98" y="99" width="28" height="26" class="combo"/>
-<text x="112" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RI</tspan></text>
+<path d="M168,112 l-22,-66" class="combo"/>
+<path d="M168,112 l22,66" class="combo"/>
+<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
+<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RI</tspan></text>
 </g>
 <g class="combo combopos-7">
-<path d="M140,112 l46,-68" class="combo"/>
-<path d="M140,112 l-46,68" class="combo"/>
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYA</tspan></text>
+<path d="M196,112 l0,-65" class="combo"/>
+<path d="M196,112 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYA</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M168,112 l71,-71" class="combo"/>
-<path d="M168,112 l-71,71" class="combo"/>
-<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
-<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RE</tspan></text>
+<path d="M224,112 l22,-66" class="combo"/>
+<path d="M224,112 l-22,66" class="combo"/>
+<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
+<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RE</tspan></text>
 </g>
 <g class="combo combopos-9">
-<path d="M224,112 l124,-74" class="combo"/>
-<path d="M224,112 l-124,74" class="combo"/>
-<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
-<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PA</tspan></text>
+<path d="M280,112 l71,-71" class="combo"/>
+<path d="M280,112 l-71,71" class="combo"/>
+<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
+<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PA</tspan></text>
 </g>
 <g class="combo combopos-10">
-<path d="M252,112 l151,-76" class="combo"/>
-<path d="M252,112 l-151,76" class="combo"/>
-<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
-<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DI</tspan></text>
+<path d="M308,112 l97,-73" class="combo"/>
+<path d="M308,112 l-97,73" class="combo"/>
+<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
+<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DI</tspan></text>
 </g>
 <g class="combo combopos-11">
-<path d="M280,112 l179,-77" class="combo"/>
-<path d="M280,112 l-179,77" class="combo"/>
-<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
-<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GU</tspan></text>
+<path d="M336,112 l124,-74" class="combo"/>
+<path d="M336,112 l-124,74" class="combo"/>
+<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
+<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GU</tspan></text>
 </g>
 <g class="combo combopos-12">
-<path d="M308,112 l207,-77" class="combo"/>
-<path d="M308,112 l-207,77" class="combo"/>
-<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
-<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DU</tspan></text>
+<path d="M364,112 l151,-76" class="combo"/>
+<path d="M364,112 l-151,76" class="combo"/>
+<rect rx="6" ry="6" x="350" y="99" width="28" height="26" class="combo"/>
+<text x="364" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DU</tspan></text>
 </g>
 <g class="combo combopos-13">
-<path d="M336,112 l234,-78" class="combo"/>
-<path d="M336,112 l-234,78" class="combo"/>
-<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
-<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PI</tspan></text>
+<path d="M392,112 l179,-77" class="combo"/>
+<path d="M392,112 l-179,77" class="combo"/>
+<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
+<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PI</tspan></text>
 </g>
 <g class="combo combopos-14">
-<path d="M56,140 l-20,-39" class="combo"/>
-<path d="M56,140 l20,39" class="combo"/>
-<rect rx="6" ry="6" x="42" y="127" width="28" height="26" class="combo"/>
-<text x="56" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WO</tspan></text>
+<path d="M112,140 l-68,-46" class="combo"/>
+<path d="M112,140 l68,46" class="combo"/>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WO</tspan></text>
 </g>
 <g class="combo combopos-15">
-<path d="M84,140 l0,-37" class="combo"/>
-<path d="M84,140 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="127" width="28" height="26" class="combo"/>
-<text x="84" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_A</tspan></text>
+<path d="M140,140 l-43,-43" class="combo"/>
+<path d="M140,140 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
+<text x="140" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_A</tspan></text>
 </g>
 <g class="combo combopos-16">
-<path d="M112,140 l20,-39" class="combo"/>
-<path d="M112,140 l-20,39" class="combo"/>
-<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
-<text x="112" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NA</tspan></text>
+<path d="M168,140 l-20,-39" class="combo"/>
+<path d="M168,140 l20,39" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NA</tspan></text>
 </g>
 <g class="combo combopos-17">
-<path d="M140,140 l43,-43" class="combo"/>
-<path d="M140,140 l-43,43" class="combo"/>
-<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
-<text x="140" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYU</tspan></text>
+<path d="M196,140 l0,-37" class="combo"/>
+<path d="M196,140 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
+<text x="196" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYU</tspan></text>
 </g>
 <g class="combo combopos-18">
-<path d="M168,140 l68,-46" class="combo"/>
-<path d="M168,140 l-68,46" class="combo"/>
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MO</tspan></text>
+<path d="M224,140 l20,-39" class="combo"/>
+<path d="M224,140 l-20,39" class="combo"/>
+<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
+<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MO</tspan></text>
 </g>
 <g class="combo combopos-19">
-<path d="M224,140 l123,-49" class="combo"/>
-<path d="M224,140 l-123,49" class="combo"/>
-<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BA</tspan></text>
+<path d="M280,140 l68,-46" class="combo"/>
+<path d="M280,140 l-68,46" class="combo"/>
+<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
+<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BA</tspan></text>
 </g>
 <g class="combo combopos-20">
-<path d="M252,140 l150,-50" class="combo"/>
-<path d="M252,140 l-150,50" class="combo"/>
-<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
-<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DO</tspan></text>
+<path d="M308,140 l95,-48" class="combo"/>
+<path d="M308,140 l-95,48" class="combo"/>
+<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DO</tspan></text>
 </g>
 <g class="combo combopos-21">
-<path d="M280,140 l178,-51" class="combo"/>
-<path d="M280,140 l-178,51" class="combo"/>
-<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
-<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GI</tspan></text>
+<path d="M336,140 l123,-49" class="combo"/>
+<path d="M336,140 l-123,49" class="combo"/>
+<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
+<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GI</tspan></text>
 </g>
 <g class="combo combopos-22">
-<path d="M308,140 l206,-51" class="combo"/>
-<path d="M308,140 l-206,51" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
-<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PO</tspan></text>
+<path d="M364,140 l150,-50" class="combo"/>
+<path d="M364,140 l-150,50" class="combo"/>
+<rect rx="6" ry="6" x="350" y="127" width="28" height="26" class="combo"/>
+<text x="364" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PO</tspan></text>
 </g>
 <g class="combo combopos-23">
-<path d="M336,140 l234,-52" class="combo"/>
-<path d="M336,140 l-234,52" class="combo"/>
-<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
-<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZL</tspan></text>
+<path d="M392,140 l178,-51" class="combo"/>
+<path d="M392,140 l-178,51" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZL</tspan></text>
 </g>
 <g class="combo combopos-24">
-<rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
-<text x="56" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XU</tspan></text>
+<path d="M112,168 l-66,-22" class="combo"/>
+<path d="M112,168 l66,22" class="combo"/>
+<rect rx="6" ry="6" x="98" y="155" width="28" height="26" class="combo"/>
+<text x="112" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XU</tspan></text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="70" y="155" width="28" height="26" class="combo"/>
-<text x="84" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPM…</tspan></text>
+<path d="M140,168 l-39,-20" class="combo"/>
+<path d="M140,168 l39,20" class="combo"/>
+<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
+<text x="140" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPM…</tspan></text>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="98" y="155" width="28" height="26" class="combo"/>
-<text x="112" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RO</tspan></text>
+<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
+<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RO</tspan></text>
 </g>
 <g class="combo combopos-27">
-<path d="M140,168 l39,-20" class="combo"/>
-<path d="M140,168 l-39,20" class="combo"/>
-<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
-<text x="140" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YA</tspan></text>
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YA</tspan></text>
 </g>
 <g class="combo combopos-28">
-<path d="M168,168 l66,-22" class="combo"/>
-<path d="M168,168 l-66,22" class="combo"/>
-<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
-<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XI</tspan></text>
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XI</tspan></text>
 </g>
 <g class="combo combopos-29">
-<path d="M224,168 l122,-24" class="combo"/>
-<path d="M224,168 l-122,24" class="combo"/>
-<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
-<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PU</tspan></text>
+<path d="M280,168 l66,-22" class="combo"/>
+<path d="M280,168 l-66,22" class="combo"/>
+<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
+<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PU</tspan></text>
 </g>
 <g class="combo combopos-30">
-<path d="M252,168 l150,-25" class="combo"/>
-<path d="M252,168 l-150,25" class="combo"/>
-<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
-<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZO</tspan></text>
+<path d="M308,168 l94,-23" class="combo"/>
+<path d="M308,168 l-94,23" class="combo"/>
+<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
+<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZO</tspan></text>
 </g>
 <g class="combo combopos-31">
-<path d="M280,168 l178,-25" class="combo"/>
-<path d="M280,168 l-178,25" class="combo"/>
-<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
-<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PE</tspan></text>
+<path d="M336,168 l122,-24" class="combo"/>
+<path d="M336,168 l-122,24" class="combo"/>
+<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
+<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_PE</tspan></text>
 </g>
 <g class="combo combopos-32">
-<path d="M308,168 l205,-26" class="combo"/>
-<path d="M308,168 l-205,26" class="combo"/>
-<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
-<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BO</tspan></text>
+<path d="M364,168 l150,-25" class="combo"/>
+<path d="M364,168 l-150,25" class="combo"/>
+<rect rx="6" ry="6" x="350" y="155" width="28" height="26" class="combo"/>
+<text x="364" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BO</tspan></text>
 </g>
 <g class="combo combopos-33">
-<path d="M140,112 l-97,-73" class="combo"/>
-<path d="M140,112 l97,73" class="combo"/>
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
+<path d="M224,112 l-179,-77" class="combo"/>
+<path d="M224,112 l179,77" class="combo"/>
+<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
+<text x="224" y="112" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
 </g>
 <g class="combo combopos-34">
-<path d="M168,112 l-71,-71" class="combo"/>
-<path d="M168,112 l71,71" class="combo"/>
-<rect rx="6" ry="6" x="154" y="99" width="28" height="26" class="combo"/>
-<text x="168" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GA</tspan></text>
+<path d="M252,112 l-151,-76" class="combo"/>
+<path d="M252,112 l151,76" class="combo"/>
+<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
+<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GA</tspan></text>
 </g>
 <g class="combo combopos-35">
-<path d="M196,112 l-46,-68" class="combo"/>
-<path d="M196,112 l46,68" class="combo"/>
-<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
-<text x="196" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DA</tspan></text>
+<path d="M280,112 l-124,-74" class="combo"/>
+<path d="M280,112 l124,74" class="combo"/>
+<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
+<text x="280" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DA</tspan></text>
 </g>
 <g class="combo combopos-36">
-<path d="M224,112 l-22,-66" class="combo"/>
-<path d="M224,112 l22,66" class="combo"/>
-<rect rx="6" ry="6" x="210" y="99" width="28" height="26" class="combo"/>
-<text x="224" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GO</tspan></text>
+<path d="M308,112 l-97,-73" class="combo"/>
+<path d="M308,112 l97,73" class="combo"/>
+<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
+<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GO</tspan></text>
 </g>
 <g class="combo combopos-37">
-<path d="M252,112 l0,-65" class="combo"/>
-<path d="M252,112 l0,65" class="combo"/>
-<rect rx="6" ry="6" x="238" y="99" width="28" height="26" class="combo"/>
-<text x="252" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZA</tspan></text>
+<path d="M336,112 l-71,-71" class="combo"/>
+<path d="M336,112 l71,71" class="combo"/>
+<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
+<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZA</tspan></text>
 </g>
 <g class="combo combopos-38">
-<path d="M308,112 l46,-68" class="combo"/>
-<path d="M308,112 l-46,68" class="combo"/>
-<rect rx="6" ry="6" x="294" y="99" width="28" height="26" class="combo"/>
-<text x="308" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YO</tspan></text>
+<path d="M392,112 l-22,-66" class="combo"/>
+<path d="M392,112 l22,66" class="combo"/>
+<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
+<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YO</tspan></text>
 </g>
 <g class="combo combopos-39">
-<path d="M336,112 l71,-71" class="combo"/>
-<path d="M336,112 l-71,71" class="combo"/>
-<rect rx="6" ry="6" x="322" y="99" width="28" height="26" class="combo"/>
-<text x="336" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NI</tspan></text>
+<path d="M420,112 l0,-65" class="combo"/>
+<path d="M420,112 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NI</tspan></text>
 </g>
 <g class="combo combopos-40">
-<path d="M364,112 l97,-73" class="combo"/>
-<path d="M364,112 l-97,73" class="combo"/>
-<rect rx="6" ry="6" x="350" y="99" width="28" height="26" class="combo"/>
-<text x="364" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RU</tspan></text>
+<path d="M448,112 l22,-66" class="combo"/>
+<path d="M448,112 l-22,66" class="combo"/>
+<rect rx="6" ry="6" x="434" y="99" width="28" height="26" class="combo"/>
+<text x="448" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_RU</tspan></text>
 </g>
 <g class="combo combopos-41">
-<path d="M392,112 l124,-74" class="combo"/>
-<path d="M392,112 l-124,74" class="combo"/>
-<rect rx="6" ry="6" x="378" y="99" width="28" height="26" class="combo"/>
-<text x="392" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MA</tspan></text>
+<path d="M476,112 l46,-68" class="combo"/>
+<path d="M476,112 l-46,68" class="combo"/>
+<rect rx="6" ry="6" x="462" y="99" width="28" height="26" class="combo"/>
+<text x="476" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MA</tspan></text>
 </g>
 <g class="combo combopos-42">
-<path d="M420,112 l151,-76" class="combo"/>
-<path d="M420,112 l-151,76" class="combo"/>
-<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
-<text x="420" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XE</tspan></text>
+<path d="M504,112 l71,-71" class="combo"/>
+<path d="M504,112 l-71,71" class="combo"/>
+<rect rx="6" ry="6" x="490" y="99" width="28" height="26" class="combo"/>
+<text x="504" y="112" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XE</tspan></text>
 </g>
 <g class="combo combopos-43">
-<path d="M140,140 l-95,-48" class="combo"/>
-<path d="M140,140 l95,48" class="combo"/>
-<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
-<text x="140" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_VU</tspan></text>
+<path d="M224,140 l-178,-51" class="combo"/>
+<path d="M224,140 l178,51" class="combo"/>
+<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
+<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_VU</tspan></text>
 </g>
 <g class="combo combopos-44">
-<path d="M168,140 l-68,-46" class="combo"/>
-<path d="M168,140 l68,46" class="combo"/>
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_JI</tspan></text>
+<path d="M252,140 l-150,-50" class="combo"/>
+<path d="M252,140 l150,50" class="combo"/>
+<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
+<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_JI</tspan></text>
 </g>
 <g class="combo combopos-45">
-<path d="M196,140 l-43,-43" class="combo"/>
-<path d="M196,140 l43,43" class="combo"/>
-<rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
-<text x="196" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DE</tspan></text>
+<path d="M280,140 l-123,-49" class="combo"/>
+<path d="M280,140 l123,49" class="combo"/>
+<rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
+<text x="280" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_DE</tspan></text>
 </g>
 <g class="combo combopos-46">
-<path d="M224,140 l-20,-39" class="combo"/>
-<path d="M224,140 l20,39" class="combo"/>
-<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<text x="224" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GE</tspan></text>
+<path d="M308,140 l-95,-48" class="combo"/>
+<path d="M308,140 l95,48" class="combo"/>
+<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_GE</tspan></text>
 </g>
 <g class="combo combopos-47">
-<path d="M252,140 l0,-37" class="combo"/>
-<path d="M252,140 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
-<text x="252" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZE</tspan></text>
+<path d="M336,140 l-68,-46" class="combo"/>
+<path d="M336,140 l68,46" class="combo"/>
+<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
+<text x="336" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZE</tspan></text>
 </g>
 <g class="combo combopos-48">
-<path d="M308,140 l43,-43" class="combo"/>
-<path d="M308,140 l-43,43" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
-<text x="308" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MI</tspan></text>
+<path d="M392,140 l-20,-39" class="combo"/>
+<path d="M392,140 l20,39" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MI</tspan></text>
 </g>
 <g class="combo combopos-49">
-<path d="M336,140 l68,-46" class="combo"/>
-<path d="M336,140 l-68,46" class="combo"/>
-<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
-<text x="336" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_O</tspan></text>
+<path d="M420,140 l0,-37" class="combo"/>
+<path d="M420,140 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="406" y="127" width="28" height="26" class="combo"/>
+<text x="420" y="140" class="combo tap"><tspan style="font-size: 88%">&amp;macro_O</tspan></text>
 </g>
 <g class="combo combopos-50">
-<path d="M364,140 l95,-48" class="combo"/>
-<path d="M364,140 l-95,48" class="combo"/>
-<rect rx="6" ry="6" x="350" y="127" width="28" height="26" class="combo"/>
-<text x="364" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NO</tspan></text>
+<path d="M448,140 l20,-39" class="combo"/>
+<path d="M448,140 l-20,39" class="combo"/>
+<rect rx="6" ry="6" x="434" y="127" width="28" height="26" class="combo"/>
+<text x="448" y="140" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NO</tspan></text>
 </g>
 <g class="combo combopos-51">
-<path d="M392,140 l123,-49" class="combo"/>
-<path d="M392,140 l-123,49" class="combo"/>
-<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
-<text x="392" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYO</tspan></text>
+<path d="M476,140 l43,-43" class="combo"/>
+<path d="M476,140 l-43,43" class="combo"/>
+<rect rx="6" ry="6" x="462" y="127" width="28" height="26" class="combo"/>
+<text x="476" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XYO</tspan></text>
 </g>
 <g class="combo combopos-52">
-<path d="M420,140 l150,-50" class="combo"/>
-<path d="M420,140 l-150,50" class="combo"/>
-<rect rx="6" ry="6" x="406" y="127" width="28" height="26" class="combo"/>
-<text x="420" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XTU</tspan></text>
+<path d="M504,140 l68,-46" class="combo"/>
+<path d="M504,140 l-68,46" class="combo"/>
+<rect rx="6" ry="6" x="490" y="127" width="28" height="26" class="combo"/>
+<text x="504" y="140" class="combo tap"><tspan style="font-size: 70%">&amp;macro_XTU</tspan></text>
 </g>
 <g class="combo combopos-53">
-<path d="M140,168 l-94,-23" class="combo"/>
-<path d="M140,168 l94,23" class="combo"/>
-<rect rx="6" ry="6" x="126" y="155" width="28" height="26" class="combo"/>
-<text x="140" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPC…</tspan></text>
+<path d="M224,168 l-178,-25" class="combo"/>
+<path d="M224,168 l178,25" class="combo"/>
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<text x="224" y="168" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPC…</tspan></text>
 </g>
 <g class="combo combopos-54">
-<path d="M168,168 l-66,-22" class="combo"/>
-<path d="M168,168 l66,22" class="combo"/>
-<rect rx="6" ry="6" x="154" y="155" width="28" height="26" class="combo"/>
-<text x="168" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BI</tspan></text>
+<path d="M252,168 l-150,-25" class="combo"/>
+<path d="M252,168 l150,25" class="combo"/>
+<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
+<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BI</tspan></text>
 </g>
 <g class="combo combopos-55">
-<path d="M196,168 l-39,-20" class="combo"/>
-<path d="M196,168 l39,20" class="combo"/>
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<text x="196" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZU</tspan></text>
+<path d="M280,168 l-122,-24" class="combo"/>
+<path d="M280,168 l122,24" class="combo"/>
+<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
+<text x="280" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_ZU</tspan></text>
 </g>
 <g class="combo combopos-56">
-<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
-<text x="224" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BU</tspan></text>
+<path d="M308,168 l-94,-23" class="combo"/>
+<path d="M308,168 l94,23" class="combo"/>
+<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
+<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BU</tspan></text>
 </g>
 <g class="combo combopos-57">
-<rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
-<text x="252" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BE</tspan></text>
+<path d="M336,168 l-66,-22" class="combo"/>
+<path d="M336,168 l66,22" class="combo"/>
+<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
+<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_BE</tspan></text>
 </g>
 <g class="combo combopos-58">
-<path d="M308,168 l39,-20" class="combo"/>
-<path d="M308,168 l-39,20" class="combo"/>
-<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
-<text x="308" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NU</tspan></text>
+<rect rx="6" ry="6" x="378" y="155" width="28" height="26" class="combo"/>
+<text x="392" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_NU</tspan></text>
 </g>
 <g class="combo combopos-59">
-<path d="M336,168 l66,-22" class="combo"/>
-<path d="M336,168 l-66,22" class="combo"/>
-<rect rx="6" ry="6" x="322" y="155" width="28" height="26" class="combo"/>
-<text x="336" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YU</tspan></text>
+<rect rx="6" ry="6" x="406" y="155" width="28" height="26" class="combo"/>
+<text x="420" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_YU</tspan></text>
 </g>
 <g class="combo combopos-60">
-<path d="M364,168 l94,-23" class="combo"/>
-<path d="M364,168 l-94,23" class="combo"/>
-<rect rx="6" ry="6" x="350" y="155" width="28" height="26" class="combo"/>
-<text x="364" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MU</tspan></text>
+<rect rx="6" ry="6" x="434" y="155" width="28" height="26" class="combo"/>
+<text x="448" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_MU</tspan></text>
 </g>
 <g class="combo combopos-61">
-<path d="M392,168 l122,-24" class="combo"/>
-<path d="M392,168 l-122,24" class="combo"/>
-<rect rx="6" ry="6" x="378" y="155" width="28" height="26" class="combo"/>
-<text x="392" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WA</tspan></text>
+<path d="M476,168 l39,-20" class="combo"/>
+<path d="M476,168 l-39,20" class="combo"/>
+<rect rx="6" ry="6" x="462" y="155" width="28" height="26" class="combo"/>
+<text x="476" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_WA</tspan></text>
 </g>
 <g class="combo combopos-62">
-<path d="M420,168 l150,-25" class="combo"/>
-<path d="M420,168 l-150,25" class="combo"/>
-<rect rx="6" ry="6" x="406" y="155" width="28" height="26" class="combo"/>
-<text x="420" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XO</tspan></text>
+<path d="M504,168 l66,-22" class="combo"/>
+<path d="M504,168 l-66,22" class="combo"/>
+<rect rx="6" ry="6" x="490" y="155" width="28" height="26" class="combo"/>
+<text x="504" y="168" class="combo tap"><tspan style="font-size: 78%">&amp;macro_XO</tspan></text>
 </g>
 <g class="combo combopos-63">
 <path d="M308,28 l-93,0" class="combo"/>
@@ -5581,70 +5577,70 @@ path.combo {
 <text x="364" y="47" class="combo tap"><tspan style="font-size: 64%">&amp;m_xl_rena…</tspan></text>
 </g>
 <g class="combo combopos-9">
-<path d="M56,140 l-20,-39" class="combo"/>
-<path d="M56,140 l20,39" class="combo"/>
-<rect rx="6" ry="6" x="42" y="127" width="28" height="26" class="combo"/>
-<text x="56" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPQ…</tspan></text>
+<path d="M112,140 l-68,-46" class="combo"/>
+<path d="M112,140 l68,46" class="combo"/>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPQ…</tspan></text>
 </g>
 <g class="combo combopos-10">
-<path d="M84,140 l0,-37" class="combo"/>
-<path d="M84,140 l0,37" class="combo"/>
-<rect rx="6" ry="6" x="70" y="127" width="28" height="26" class="combo"/>
-<text x="84" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPS…</tspan></text>
+<path d="M140,140 l-43,-43" class="combo"/>
+<path d="M140,140 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
+<text x="140" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPS…</tspan></text>
 </g>
 <g class="combo combopos-11">
-<path d="M112,140 l20,-39" class="combo"/>
-<path d="M112,140 l-20,39" class="combo"/>
-<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
-<text x="112" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
+<path d="M168,140 l-20,-39" class="combo"/>
+<path d="M168,140 l20,39" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPT…</tspan></text>
 </g>
 <g class="combo combopos-12">
-<path d="M140,140 l43,-43" class="combo"/>
-<path d="M140,140 l-43,43" class="combo"/>
-<rect rx="6" ry="6" x="126" y="127" width="28" height="26" class="combo"/>
-<text x="140" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
+<path d="M196,140 l0,-37" class="combo"/>
+<path d="M196,140 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
+<text x="196" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
 </g>
 <g class="combo combopos-13">
-<path d="M168,140 l68,-46" class="combo"/>
-<path d="M168,140 l-68,46" class="combo"/>
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
+<path d="M224,140 l20,-39" class="combo"/>
+<path d="M224,140 l-20,39" class="combo"/>
+<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
+<text x="224" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
 </g>
 <g class="combo combopos-14">
-<path d="M224,140 l123,-49" class="combo"/>
-<path d="M224,140 l-123,49" class="combo"/>
-<rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<text x="224" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
-</g>
-<g class="combo combopos-15">
-<path d="M252,140 l150,-50" class="combo"/>
-<path d="M252,140 l-150,50" class="combo"/>
-<rect rx="6" ry="6" x="238" y="127" width="28" height="26" class="combo"/>
-<text x="252" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
-</g>
-<g class="combo combopos-16">
-<path d="M280,140 l178,-51" class="combo"/>
-<path d="M280,140 l-178,51" class="combo"/>
+<path d="M280,140 l68,-46" class="combo"/>
+<path d="M280,140 l-68,46" class="combo"/>
 <rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
 <text x="280" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
 </g>
-<g class="combo combopos-17">
-<path d="M308,140 l206,-51" class="combo"/>
-<path d="M308,140 l-206,51" class="combo"/>
+<g class="combo combopos-15">
+<path d="M308,140 l95,-48" class="combo"/>
+<path d="M308,140 l-95,48" class="combo"/>
 <rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
 <text x="308" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
 </g>
-<g class="combo combopos-18">
-<path d="M336,140 l234,-52" class="combo"/>
-<path d="M336,140 l-234,52" class="combo"/>
+<g class="combo combopos-16">
+<path d="M336,140 l123,-49" class="combo"/>
+<path d="M336,140 l-123,49" class="combo"/>
 <rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
 <text x="336" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
 </g>
+<g class="combo combopos-17">
+<path d="M364,140 l150,-50" class="combo"/>
+<path d="M364,140 l-150,50" class="combo"/>
+<rect rx="6" ry="6" x="350" y="127" width="28" height="26" class="combo"/>
+<text x="364" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
+</g>
+<g class="combo combopos-18">
+<path d="M392,140 l178,-51" class="combo"/>
+<path d="M392,140 l-178,51" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPL…</tspan></text>
+</g>
 <g class="combo combopos-19">
-<path d="M336,140 l234,-52" class="combo"/>
-<path d="M336,140 l-234,52" class="combo"/>
-<rect rx="6" ry="6" x="322" y="127" width="28" height="26" class="combo"/>
-<text x="336" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
+<path d="M392,140 l178,-51" class="combo"/>
+<path d="M392,140 l-178,51" class="combo"/>
+<rect rx="6" ry="6" x="378" y="127" width="28" height="26" class="combo"/>
+<text x="392" y="140" class="combo tap"><tspan style="font-size: 64%">&amp;macro_JPR…</tspan></text>
 </g>
 </g>
 </g>
