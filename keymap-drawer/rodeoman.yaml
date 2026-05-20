@@ -621,7 +621,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - Ctl+A
   - UP
   - Ctl+E
@@ -662,7 +662,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - HOME
   - UP
   - END
@@ -703,7 +703,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - HOME
   - UP
   - END
@@ -743,7 +743,7 @@ layers:
   - Ctl+A
   - UP
   - Ctl+E
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
@@ -784,7 +784,7 @@ layers:
   - HOME
   - UP
   - END
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
@@ -825,7 +825,7 @@ layers:
   - HOME
   - UP
   - END
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
@@ -908,7 +908,7 @@ layers:
   - INT3
   - INT6
   - BT CLR ALL
-  - {t: BT CLR ALL, type: held}
+  - BT CLR ALL
   - '&m_hi_con'
   - '`'
   - '&bootloader'
@@ -918,7 +918,7 @@ layers:
   - Ctl+Gui+P
   - Ctl+Gui+G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+Gui+E
   - Ctl+Gui+A
   - Ctl+Gui+L
