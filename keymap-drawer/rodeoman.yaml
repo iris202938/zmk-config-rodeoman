@@ -894,12 +894,12 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&qm LSHFT'
+  - {t: ▽, type: trans}
   - SPACE
-  - TAB
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - INT4
-  - '&qm RALT'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '22':
