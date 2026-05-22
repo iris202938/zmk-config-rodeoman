@@ -259,20 +259,7 @@
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        // combo_RALT縺ｨ陲ｫ繧九◆繧∽ｿ晉蕗
-        // alt_enter {
-        //     bindings = <&alt_enter>;
-        //     key-positions = <28 29>;
-        //     layers = <RSEL RSEW>;
-        //     timeout-ms = <80>;
-        // };
-        // gui_enter {
-        //     bindings = <&gui_enter>;
-        //     key-positions = <28 29>;
-        //     layers = <RSE>;
-        //     timeout-ms = <80>;
-        // };
-        // combo_RGUI縺ｨ陲ｫ繧九◆繧∽ｿ晉蕗
+        
         gui_left {
             bindings = <&kp LG(LEFT)>;
             key-positions = <21 22>;
@@ -387,6 +374,14 @@
             layers = <QWE LIN CAD>;
             timeout-ms = <80>;
         };
+
+        combo_file_f { // ファイル切替
+            bindings = <&file_f>;
+            key-positions = <33 34>;
+            layers = <NUM NUML NUMW>;
+            timeout-ms = <80>;
+        };
+
         // j_ahk {
         //     bindings = <&int5_g>;
         //     key-positions = <14 15>;
