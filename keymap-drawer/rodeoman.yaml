@@ -739,7 +739,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '18':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - Ctl+A
   - UP
   - Ctl+E
@@ -749,7 +749,7 @@ layers:
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -780,7 +780,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '19':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - HOME
   - UP
   - END
@@ -790,7 +790,7 @@ layers:
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -821,7 +821,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '20':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - HOME
   - UP
   - END
@@ -831,7 +831,7 @@ layers:
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -894,12 +894,12 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - ENTER
   - INT4
-  - {t: ▽, type: trans}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '22':
@@ -976,7 +976,7 @@ combos:
   l: ['4', '5']
 - p: [0, 10]
   k: ESC
-  l: ['0', '2', '15', '4', '12', '13', '14']
+  l: ['0', '2', '15', '4', '12', '13', '14', '18', '19', '20']
 - p: [9, 19]
   k: ESC
   l: ['0', '2', '15', '4']
