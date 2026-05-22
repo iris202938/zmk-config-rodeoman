@@ -147,7 +147,7 @@
         // };
         combo_esc_l {
             timeout-ms = <75>;
-            layers = <QWE LIN MOV CAD ADJ ADJL ADJW>;
+            layers = <QWE LIN MOV CAD ADJ ADJL ADJW NUM NUML NUMW>;
             key-positions = <0 10>; 
             bindings = <&kp ESC>;
         };
@@ -2466,102 +2466,7 @@
             tapping-term-ms = <150>;
             bindings = <&qm>, <&caps_word>;
         };
-        // 竭 繝帙・繝ｫ繝峨・繧ｿ繝・・縺ｮ謖吝虚繧貞ｮ夂ｾｩ
-        // esc_ctrl_shift: esc_ctrl_shift {
-        //     compatible = "zmk,behavior-hold-tap";
-        //     label = "ESC_CTRL_SHIFT";
-        //     #binding-cells = <2>;
-        //     tapping-term-ms = <150>;    // 髟ｷ謚ｼ縺励→蛻､螳壹＆繧後ｋ縺ｾ縺ｧ縺ｮ譎る俣
-        //     quick-tap-ms = <0>;
-        //     flavor = "tap-preferred";   // 繧ｿ繝・・繧貞━蜈医☆繧玖ｨｭ螳・
-        //     bindings = <&kp>, <&kp>;
-        // };
-        // td_lt_num_lbkt: tap_dance_layer_tap_num_lbkt {  // 繧ｿ繝・・縺ｧ[縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUM LBKT>, <&to NUM>;
-        // };
-        // td_lt_mov_rbkt: tap_dance_layer_tap_mov_rbkt {  // 繧ｿ繝・・縺ｧ]縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOV RBKT>, <&to MOV>;
-        // };
-        // td_lt_mov_l1: tap_dance_layer_tap_mov_l1 {  // 繧ｿ繝・・縺ｧLANG1縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOV LANG1>, <&to MOV>;
-        // };
-        // td_lt_num_l2: tap_dance_layer_tap_num_l2 {  // 繧ｿ繝・・縺ｧLANG2縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUM LANG2>, <&to NUM>;
-        // };
-        // td_lt_mov_i2: tap_dance_layer_tap_mov_i2 {  // 繧ｿ繝・・縺ｧINT2縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOV INT2>, <&to_MOV_i2>;
-        // };
-        // td_lt_mov_esc: tap_dance_layer_tap_mov_esc {  // 繧ｿ繝・・縺ｧESC縲√・繝ｼ繝ｫ繝峨〒MOV繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOV繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOV ESC>, <&to MOV>;
-        // };
-        // td_lt_cad_i2: tap_dance_layer_tap_cad_i2 {  // 繧ｿ繝・・縺ｧ縺九↑縲√・繝ｼ繝ｫ繝峨〒CAD繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧCAD繝ｬ繧､繝､菫晄戟
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt CAD INT2>, <&to_CAD_i2>;
-        // };
-        // td_lt_movl_esc: tap_dance_layer_tap_movl_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒MOVL繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOVL繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOVL ESC>, <&to_MOVL_i5>;
-        // };
-        // td_lt_movw_i2: tap_dance_layer_tap_movw_i2 {  // 繧ｿ繝・・縺ｧ縺九↑縲√・繝ｼ繝ｫ繝峨〒MOVW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧMOVW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt MOVW INT2>, <&to_MOVW_i5>;
-        // };
-        // td_lt_num_i5: tap_dance_layer_tap_num_i5 {  // 繧ｿ繝・・縺ｧ辟｡螟画鋤縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUM INT5>, <&to_NUM_i5>;
-        // };
-        // td_lt_numw_i5: tap_dance_layer_tap_numw_i5 {  // 繧ｿ繝・・縺ｧ辟｡螟画鋤縲√・繝ｼ繝ｫ繝峨〒NUMW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUMW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUMW INT5>, <&to_NUMW_i5>;
-        // };
-        // td_lt_num_esc: tap_dance_layer_tap_num_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUM繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUM繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUM ESC>, <&to_NUM_i5>;
-        // };
-        // td_lt_numl_esc: tap_dance_layer_tap_numl_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUML繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUML繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUML ESC>, <&to_NUML_i5>;
-        // };
-        // td_lt_numw_esc: tap_dance_layer_tap_numw_esc {  // 繧ｿ繝・・縺ｧesc縲√・繝ｼ繝ｫ繝峨〒NUMW繝ｬ繧､繝､縲√ム繝悶Ν繧ｿ繝・・縺ｧNUMW繝ｬ繧､繝､菫晄戟縲∫┌螟画鋤
         
-        //     compatible = "zmk,behavior-tap-dance";
-        //     #binding-cells = <0>;
-        //     tapping-term-ms = <190>;
-        //     bindings = <&lt NUMW ESC>, <&to_NUMW_i5>;
-        // };
-
         lt_bl: lt_balanced {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_BALANCED";
@@ -6950,8 +6855,8 @@
         NUM {
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-            &kp PG_UP       &kp LC(A)       &kp UP          &kp LC(E)       &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
-            &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
+            &mt_s LSHFT PG_UP &kp LC(A)     &kp UP          &kp LC(E)       &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
+            &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
             &trans          &trans          &t_lang2        &pr_pg	        &nx_pg          &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
@@ -6960,8 +6865,8 @@
         NUML {
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-            &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
-            &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
+            &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
+            &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
             &trans          &trans          &t_int5         &pr_pg	        &nx_pg          &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
@@ -6970,8 +6875,8 @@
         NUMW {
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-            &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
-            &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
+            &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
+            &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
             &trans          &trans          &tC_int5        &pr_pg	        &nx_pg          &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
@@ -6983,7 +6888,7 @@
             &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P
             &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI
             &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH
-            &trans          &trans          &trans          &kp SPACE       &trans          &trans	        &kp INT4        &trans          &trans          &trans
+            &trans          &trans          &kp LSHFT       &kp SPACE       &kp TAB         &kp ENTER	    &kp INT4        &kp RCTRL       &trans          &trans
             >;
         };
 
