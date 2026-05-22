@@ -72,24 +72,24 @@
     // 20 21 22 23 24          25 26 27 28 29	
     // 30 31 32 33 34          35 36 37 38 39
 
-        combo_ADJ {
-            timeout-ms = <70>;
-            key-positions = <34 35>;
-            layers = <QWE NIC>;
-            bindings = <&mo ADJ>;
-        };
-        combo_ADJL {
-            timeout-ms = <70>;
-            key-positions = <34 35>;
-            layers = <LIN NICL>;
-            bindings = <&mo ADJL>;
-        };
-        combo_ADJW {
-            timeout-ms = <70>;
-            key-positions = <34 35>;
-            layers = <CAD WIN>;
-            bindings = <&mo ADJW>;
-        };
+        // combo_ADJ {
+        //     timeout-ms = <70>;
+        //     key-positions = <34 35>;
+        //     layers = <QWE NIC>;
+        //     bindings = <&mo ADJ>;
+        // };
+        // combo_ADJL {
+        //     timeout-ms = <70>;
+        //     key-positions = <34 35>;
+        //     layers = <LIN NICL>;
+        //     bindings = <&mo ADJL>;
+        // };
+        // combo_ADJW {
+        //     timeout-ms = <70>;
+        //     key-positions = <34 35>;
+        //     layers = <CAD WIN>;
+        //     bindings = <&mo ADJW>;
+        // };
         combo_to_LIN {
             timeout-ms = <70>;
             key-positions = <32 37>;
