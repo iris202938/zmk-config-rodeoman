@@ -8,7 +8,9 @@
 
 &trackball_split {
     device = <&trackball>;
-    input-processors = <&zip_xy_scaler 8 1>;
+    input-processors = <&zip_xy_to_scroll_mapper>
+                     , <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT) >
+                     ;
 };
 
 &xiao_i2c {

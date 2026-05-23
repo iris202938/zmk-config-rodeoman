@@ -621,7 +621,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - Ctl+A
   - UP
   - Ctl+E
@@ -662,7 +662,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - HOME
   - UP
   - END
@@ -703,7 +703,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - {t: Ctl+Y, h: '22'}
+  - Ctl+Y
   - HOME
   - UP
   - END
@@ -739,17 +739,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '18':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - Ctl+A
   - UP
   - Ctl+E
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -780,17 +780,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '19':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - HOME
   - UP
   - END
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -821,17 +821,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '20':
-  - PG UP
+  - {t: PG UP, h: LSHFT}
   - HOME
   - UP
   - END
-  - {t: ^, h: '22'}
+  - ^
   - KP SLASH
   - KP 7
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - PG DN
+  - {t: PG DN, h: LCTRL}
   - LEFT
   - DOWN
   - RIGHT
@@ -894,12 +894,12 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&qm LSHFT'
+  - LSHFT
   - SPACE
   - TAB
   - ENTER
   - INT4
-  - '&qm RALT'
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '22':
@@ -908,7 +908,7 @@ layers:
   - INT3
   - INT6
   - BT CLR ALL
-  - {t: BT CLR ALL, type: held}
+  - BT CLR ALL
   - '&m_hi_con'
   - '`'
   - '&bootloader'
@@ -918,7 +918,7 @@ layers:
   - Ctl+Gui+P
   - Ctl+Gui+G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+Gui+E
   - Ctl+Gui+A
   - Ctl+Gui+L
@@ -944,15 +944,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [34, 35]
-  k: '12'
-  l: ['0', '1']
-- p: [34, 35]
-  k: '13'
-  l: ['2', '3']
-- p: [34, 35]
-  k: '14'
-  l: ['4', '5']
 - p: [32, 37]
   k: {t: '2', h: toggle}
   l: ['12', '13', '14']
@@ -976,7 +967,7 @@ combos:
   l: ['4', '5']
 - p: [0, 10]
   k: ESC
-  l: ['0', '2', '15', '4', '12', '13', '14']
+  l: ['0', '2', '15', '4', '12', '13', '14', '18', '19', '20']
 - p: [9, 19]
   k: ESC
   l: ['0', '2', '15', '4']
@@ -1073,6 +1064,9 @@ combos:
 - p: [22, 23]
   k: '&nx_pg'
   l: ['0', '2', '4']
+- p: [33, 34]
+  k: '&file_f'
+  l: ['18', '19', '20']
 - p: [2, 7, 11]
   k: '&exl_fill'
   l: ['0', '2', '4', '9', '10', '11']
@@ -1220,214 +1214,214 @@ combos:
 - p: [36, 25, 19]
   k: '&k_tab_minus_10'
   l: ['4']
-- p: [10, 31]
+- p: [10, 33]
   k: '&macro_JPQMARKL'
   l: ['9']
-- p: [11, 31]
+- p: [11, 33]
   k: '&macro_JPSLASHL'
   l: ['9']
-- p: [12, 31]
+- p: [12, 33]
   k: '&macro_JPTILDEL'
   l: ['9']
-- p: [13, 31]
+- p: [13, 33]
   k: '&macro_JPLKAGIL'
   l: ['9']
-- p: [14, 31]
+- p: [14, 33]
   k: '&macro_JPRKAGIL'
   l: ['9']
-- p: [15, 31]
+- p: [15, 33]
   k: '&macro_JPLKADOL'
   l: ['9']
-- p: [16, 31]
+- p: [16, 33]
   k: '&macro_JPRKADOL'
   l: ['9']
-- p: [17, 31]
+- p: [17, 33]
   k: '&macro_JPLMARUL'
   l: ['9']
-- p: [18, 31]
+- p: [18, 33]
   k: '&macro_JPRMARUL'
   l: ['9']
-- p: [19, 31]
+- p: [19, 33]
   k: '&macro_JPLDKAGIL'
   l: ['9']
-- p: [19, 31]
+- p: [19, 33]
   k: '&macro_JPRDKAGIL'
   l: ['9']
-- p: [0, 31]
+- p: [0, 33]
   k: '&macro_XA'
   l: ['1', '3']
-- p: [1, 31]
+- p: [1, 33]
   k: '&macro_E'
   l: ['1', '3']
-- p: [2, 31]
+- p: [2, 33]
   k: '&macro_RI'
   l: ['1', '3']
-- p: [3, 31]
+- p: [3, 33]
   k: '&macro_XYA'
   l: ['1', '3']
-- p: [4, 31]
+- p: [4, 33]
   k: '&macro_RE'
   l: ['1', '3']
-- p: [5, 31]
+- p: [5, 33]
   k: '&macro_PA'
   l: ['1', '3']
-- p: [6, 31]
+- p: [6, 33]
   k: '&macro_DI'
   l: ['1', '3']
-- p: [7, 31]
+- p: [7, 33]
   k: '&macro_GU'
   l: ['1', '3']
-- p: [8, 31]
+- p: [8, 33]
   k: '&macro_DU'
   l: ['1', '3']
-- p: [9, 31]
+- p: [9, 33]
   k: '&macro_PI'
   l: ['1', '3']
-- p: [10, 31]
+- p: [10, 33]
   k: '&macro_WO'
   l: ['1', '3']
-- p: [11, 31]
+- p: [11, 33]
   k: '&macro_A'
   l: ['1', '3']
-- p: [12, 31]
+- p: [12, 33]
   k: '&macro_NA'
   l: ['1', '3']
-- p: [13, 31]
+- p: [13, 33]
   k: '&macro_XYU'
   l: ['1', '3']
-- p: [14, 31]
+- p: [14, 33]
   k: '&macro_MO'
   l: ['1', '3']
-- p: [15, 31]
+- p: [15, 33]
   k: '&macro_BA'
   l: ['1', '3']
-- p: [16, 31]
+- p: [16, 33]
   k: '&macro_DO'
   l: ['1', '3']
-- p: [17, 31]
+- p: [17, 33]
   k: '&macro_GI'
   l: ['1', '3']
-- p: [18, 31]
+- p: [18, 33]
   k: '&macro_PO'
   l: ['1', '3']
-- p: [19, 31]
+- p: [19, 33]
   k: '&macro_ZL'
   l: ['1', '3']
-- p: [20, 31]
+- p: [20, 33]
   k: '&macro_XU'
   l: ['1', '3']
-- p: [21, 31]
+- p: [21, 33]
   k: '&macro_JPMINUS2'
   l: ['1', '3']
-- p: [22, 31]
+- p: [22, 33]
   k: '&macro_RO'
   l: ['1', '3']
-- p: [23, 31]
+- p: [23, 33]
   k: '&macro_YA'
   l: ['1', '3']
-- p: [24, 31]
+- p: [24, 33]
   k: '&macro_XI'
   l: ['1', '3']
-- p: [25, 31]
+- p: [25, 33]
   k: '&macro_PU'
   l: ['1', '3']
-- p: [26, 31]
+- p: [26, 33]
   k: '&macro_ZO'
   l: ['1', '3']
-- p: [27, 31]
+- p: [27, 33]
   k: '&macro_PE'
   l: ['1', '3']
-- p: [28, 31]
+- p: [28, 33]
   k: '&macro_BO'
   l: ['1', '3']
-- p: [0, 34]
+- p: [0, 36]
   k: '&macro_JPTILDER'
   l: ['1', '3']
-- p: [1, 34]
+- p: [1, 36]
   k: '&macro_GA'
   l: ['1', '3']
-- p: [2, 34]
+- p: [2, 36]
   k: '&macro_DA'
   l: ['1', '3']
-- p: [3, 34]
+- p: [3, 36]
   k: '&macro_GO'
   l: ['1', '3']
-- p: [4, 34]
+- p: [4, 36]
   k: '&macro_ZA'
   l: ['1', '3']
-- p: [5, 34]
+- p: [5, 36]
   k: '&macro_YO'
   l: ['1', '3']
-- p: [6, 34]
+- p: [6, 36]
   k: '&macro_NI'
   l: ['1', '3']
-- p: [7, 34]
+- p: [7, 36]
   k: '&macro_RU'
   l: ['1', '3']
-- p: [8, 34]
+- p: [8, 36]
   k: '&macro_MA'
   l: ['1', '3']
-- p: [9, 34]
+- p: [9, 36]
   k: '&macro_XE'
   l: ['1', '3']
-- p: [10, 34]
+- p: [10, 36]
   k: '&macro_VU'
   l: ['1', '3']
-- p: [11, 34]
+- p: [11, 36]
   k: '&macro_JI'
   l: ['1', '3']
-- p: [12, 34]
+- p: [12, 36]
   k: '&macro_DE'
   l: ['1', '3']
-- p: [13, 34]
+- p: [13, 36]
   k: '&macro_GE'
   l: ['1', '3']
-- p: [14, 34]
+- p: [14, 36]
   k: '&macro_ZE'
   l: ['1', '3']
-- p: [15, 34]
+- p: [15, 36]
   k: '&macro_MI'
   l: ['1', '3']
-- p: [16, 34]
+- p: [16, 36]
   k: '&macro_O'
   l: ['1', '3']
-- p: [17, 34]
+- p: [17, 36]
   k: '&macro_NO'
   l: ['1', '3']
-- p: [18, 34]
+- p: [18, 36]
   k: '&macro_XYO'
   l: ['1', '3']
-- p: [19, 34]
+- p: [19, 36]
   k: '&macro_XTU'
   l: ['1', '3']
-- p: [20, 34]
+- p: [20, 36]
   k: '&macro_JPCOMMA2'
   l: ['1', '3']
-- p: [21, 34]
+- p: [21, 36]
   k: '&macro_BI'
   l: ['1', '3']
-- p: [22, 34]
+- p: [22, 36]
   k: '&macro_ZU'
   l: ['1', '3']
-- p: [23, 34]
+- p: [23, 36]
   k: '&macro_BU'
   l: ['1', '3']
-- p: [24, 34]
+- p: [24, 36]
   k: '&macro_BE'
   l: ['1', '3']
-- p: [25, 34]
+- p: [25, 36]
   k: '&macro_NU'
   l: ['1', '3']
-- p: [26, 34]
+- p: [26, 36]
   k: '&macro_YU'
   l: ['1', '3']
-- p: [27, 34]
+- p: [27, 36]
   k: '&macro_MU'
   l: ['1', '3']
-- p: [28, 34]
+- p: [28, 36]
   k: '&macro_WA'
   l: ['1', '3']
-- p: [29, 34]
+- p: [29, 36]
   k: '&macro_XO'
   l: ['1', '3']
 - p: [3, 6]
