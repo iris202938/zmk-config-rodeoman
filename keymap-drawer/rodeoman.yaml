@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: RALT}
-  - LCTRL
+  - LSHFT
   - LGUI
   - {t: '[', h: '18'}
   - {t: SPACE, h: LSHFT}
@@ -40,7 +40,7 @@ layers:
   - {t: SPACE, h: RSHFT}
   - {t: ']', h: '15'}
   - RGUI
-  - RCTRL
+  - RSHFT
   '1':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -113,16 +113,16 @@ layers:
   - ','
   - .
   - {t: /, h: RGUI}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - LALT
   - {t: ESC, h: '19'}
   - {t: SPACE, h: LSHFT}
   - {t: TAB, h: '7'}
   - {t: ENTER, h: '10'}
   - {t: SPACE, h: RSHFT}
   - {t: ESC, h: '16'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RALT
+  - RSHFT
   '3':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -195,16 +195,16 @@ layers:
   - '&td_COMMA'
   - '&td_DOT'
   - '&td_SLASH'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - LALT
   - {t: INT5, h: '20'}
   - SPACE
   - {t: TAB, h: '8'}
   - {t: ENTER, h: '11'}
   - {t: ESC, h: RSHFT}
   - {t: INT4, h: '17'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RALT
+  - RSHFT
   '5':
   - Q
   - W
