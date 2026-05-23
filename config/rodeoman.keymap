@@ -6673,7 +6673,7 @@
             &mt_s LSHFT Q   &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &mt_s RSHFT P
             &mt_s LCTRL A   &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &mt_s RCTRL SEMI
             &mt_s LGUI Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt_s RALT SLASH
-            &kp LCTRL       &kp LGUI        &lt_bl NUM LBKT &mt LSHFT SPACE &lt LWR TAB     &lt RSE ENTER   &mt RSHFT SPACE &lt_bl MOV RBKT &kp RGUI        &kp RCTRL
+            &kp LSHFT       &kp LGUI        &lt_bl NUM LBKT &mt LSHFT SPACE &lt LWR TAB     &lt RSE ENTER   &mt RSHFT SPACE &lt_bl MOV RBKT &kp RGUI        &kp RSHFT
             >;
         };
 
@@ -6693,7 +6693,7 @@
             &mt_s LSHFT Q   &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &mt_s RSHFT P
             &mt_s LCTRL A   &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &mt_s RCTRL SEMI
             &mt_s LALT Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt_s RGUI SLASH
-            &trans          &trans          &lt_bl NUML ESC &mt LSHFT SPACE &lt LWRL TAB	&lt RSEL ENTER	&mt RSHFT SPACE &lt_bl MOVL ESC &trans          &trans
+            &kp LSHFT       &kp LALT        &lt_bl NUML ESC &mt LSHFT SPACE &lt LWRL TAB	&lt RSEL ENTER	&mt RSHFT SPACE &lt_bl MOVL ESC &kp RALT        &kp RSHFT
             >;
         };
 
@@ -6713,7 +6713,7 @@
             &td_Q           &td_W           &td_E           &td_R           &td_T           &td_Y           &td_U           &td_I           &td_O           &td_P
             &td_A           &td_S           &td_D           &td_F           &td_G           &td_H           &td_J           &td_K           &td_L           &td_SEMI
             &td_Z           &td_X           &td_C           &td_V           &td_B           &td_N           &td_M           &td_COMMA       &td_DOT         &td_SLASH
-            &trans          &trans          &lt_bl NUMW INT5 &kp SPACE      &lt LWRW TAB    &lt RSEW ENTER	&mt RSHFT ESC   &lt_bl MOVW INT4 &trans         &trans
+            &kp LSHFT       &kp LALT        &lt_bl NUMW INT5 &kp SPACE      &lt LWRW TAB    &lt RSEW ENTER	&mt RSHFT ESC   &lt_bl MOVW INT4 &kp RALT       &kp RSHFT
             >;
         };
 
