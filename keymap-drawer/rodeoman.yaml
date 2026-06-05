@@ -773,7 +773,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '&t_lang2', type: held}
   - '&pr_pg'
-  - '&nx_pg'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -814,7 +814,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '&t_int5', type: held}
   - '&pr_pg'
-  - '&nx_pg'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -855,7 +855,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '&tC_int5', type: held}
   - '&pr_pg'
-  - '&nx_pg'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -1052,6 +1052,9 @@ combos:
 - p: [10, 11]
   k: '`'
   l: ['9', '10', '11']
+- p: [8, 9]
+  k: INS
+  l: ['12', '13', '14']
 - p: [1, 2]
   k: '&file_f'
   l: ['4']
