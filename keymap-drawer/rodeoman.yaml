@@ -273,7 +273,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Alt+LEFT
   - Alt+RIGHT
   - {t: Gui+V, h: RALT}
@@ -314,7 +314,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
   - {t: Gui+V, h: RGUI}
@@ -355,7 +355,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
   - {t: Gui+V, h: RGUI}
@@ -503,7 +503,7 @@ layers:
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
@@ -544,7 +544,7 @@ layers:
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
@@ -585,7 +585,7 @@ layers:
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
