@@ -6738,7 +6738,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT PG_UP &kp LC(A)     &kp UP          &kp LC(E)       &kp LS(TAB)     &kp DEL         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &mt_s RSHFT SCRL_UP
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &trans          &kp BSPC        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mt_s RCTRL SCRL_DOWN
-            &mt_s LGUI LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp ENTER       &kp LA(LEFT)    &kp LA(RIGHT)   &mt RALT RG(V)
+            &mt_s LGUI LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp LS(ENTER)   &kp LA(LEFT)    &kp LA(RIGHT)   &mt RALT RG(V)
             &trans          &trans          &kp LSHFT       &sk_ctrl        &trans          &ht_lg1 ADJ 0   &kp LS(LC(V))   &kp RSHFT       &trans          &trans
             >;
         };
@@ -6748,7 +6748,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp LS(TAB)     &kp DEL         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &mt_s RSHFT SCRL_UP
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT   	&trans          &kp BSPC        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mt_s RCTRL SCRL_DOWN
-            &mt_s LALT LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp ENTER       &kp LC(LEFT)    &kp LC(RIGHT)   &mt RGUI RG(V)
+            &mt_s LALT LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp LS(ENTER)   &kp LC(LEFT)    &kp LC(RIGHT)   &mt RGUI RG(V)
             &trans          &trans          &kp LSHFT       &sk_ctrl        &trans          &ht_it4 ADJL 0  &kp LS(LC(V))   &kp RSHFT       &trans          &trans
             >;
         };
@@ -6758,7 +6758,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp LS(TAB)     &kp DEL         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &mt_s RSHFT SCRL_UP
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &trans          &kp BSPC        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mt_s RCTRL SCRL_DOWN
-            &mt_s LALT LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp ENTER       &kp LC(LEFT)    &kp LC(RIGHT)   &mt RGUI RG(V)
+            &mt_s LALT LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp LS(ENTER)   &kp LC(LEFT)    &kp LC(RIGHT)   &mt RGUI RG(V)
             &trans          &trans          &kp LSHFT       &sk_ctrl        &trans          &htW_it4 ADJW 0 &kp LS(LC(V))   &kp RSHFT       &trans          &trans
             >;
         };
@@ -6797,7 +6797,7 @@
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
-            &out OUT_BLE    &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
+            &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN) &kp LS(LG(LEFT)) &kp LS(LA(LEFT)) &kp LS(LA(RIGHT)) &kp LS(LG(RIGHT))
             &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
             >;
@@ -6807,7 +6807,7 @@
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
-            &out OUT_BLE    &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
+            &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
             &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
             >;
@@ -6817,7 +6817,7 @@
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
-            &out OUT_BLE    &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
+            &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
             &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
             >;
