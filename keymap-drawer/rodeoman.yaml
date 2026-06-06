@@ -537,8 +537,8 @@ layers:
   - {t: F11, h: LSHFT}
   - F12
   - MUTE
-  - VOL DN
-  - VOL UP
+  - '&ecl_transfer'
+  - '&ecl_transfer_t'
   - CAPS
   - PSCRN
   - SLCK
@@ -578,8 +578,8 @@ layers:
   - {t: F11, h: LSHFT}
   - F12
   - MUTE
-  - VOL DN
-  - VOL UP
+  - '&ecl_transfer'
+  - '&ecl_transfer_t'
   - CAPS
   - PSCRN
   - SLCK
