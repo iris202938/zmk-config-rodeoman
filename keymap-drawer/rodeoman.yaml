@@ -689,8 +689,8 @@ layers:
   - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+V
+  - '&cp_tab'
+  - '&cp_enter'
   - '&mkp MB2'
   - ENTER
   - '&mkp MB1'
@@ -730,8 +730,8 @@ layers:
   - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+V
+  - '&cp_tab'
+  - '&cp_enter'
   - '&mkp MB2'
   - ENTER
   - '&mkp MB1'
@@ -772,7 +772,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&t_lang2', type: held}
-  - '&pr_pg'
+  - '&cp_tab'
   - TAB
   - KP ENTER
   - _
@@ -813,7 +813,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&t_int5', type: held}
-  - '&pr_pg'
+  - '&cp_tab'
   - TAB
   - KP ENTER
   - _
@@ -854,7 +854,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&tC_int5', type: held}
-  - '&pr_pg'
+  - '&cp_tab'
   - TAB
   - KP ENTER
   - _
