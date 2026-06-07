@@ -6696,6 +6696,15 @@
                 , <&macro_tap &kp O>         // 譖ｸ蠑・Format)
                 , <&macro_tap &kp R>;        // 繧ｷ繝ｼ繝亥錐縺ｮ螟画峩(Rename)
         };
+        sk_shft: sk_shft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&macro_tap &sk LSHFT &sl WINS>
+                ;
+        };
         sk_ctrl: sk_ctrl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6833,7 +6842,7 @@
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &macro_JPN1     &macro_JPN2	    &macro_JPN3     &macro_JPN4     &macro_JPN5	    &macro_JPN6     &macro_JPN7     &macro_JPN8	    &macro_JPN9     &macro_JPN0
             &mt_s LGUI INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RALT RG(V)
-            &trans          &trans          &kp LSHFT       &kp SPACE       &ht_lg2 ADJ 0   &trans          &sk_gui         &kp RSHFT       &trans          &trans
+            &trans          &trans          &kp LSHFT       &kp SPACE       &ht_lg2 ADJ 0   &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
 
@@ -6843,7 +6852,7 @@
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &mt_s LCTRL N1  &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7    	    &kp N8          &kp N9          &mt_s RCTRL N0
             &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RGUI RC(V)
-            &trans          &trans          &kp LSHFT       &kp SPACE       &ht_it5 ADJL 0  &trans          &sk_gui         &kp RSHFT       &trans          &trans
+            &trans          &trans          &kp LSHFT       &kp SPACE       &ht_it5 ADJL 0  &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
 
@@ -6853,7 +6862,7 @@
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &mt_s LCTRL N1  &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7    	    &kp N8          &kp N9          &mt_s RCTRL N0
             &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt GUI RC(V)
-            &trans          &trans          &kp LSHFT       &kp SPACE       &htC_it5 ADJW 0 &trans          &sk_gui         &kp RSHFT       &trans          &trans
+            &trans          &trans          &kp LSHFT       &kp SPACE       &htC_it5 ADJW 0 &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
 
@@ -6863,7 +6872,7 @@
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN) &kp LS(LG(LEFT)) &kp LS(LA(LEFT)) &kp LS(LA(RIGHT)) &kp LS(LG(RIGHT))
-            &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
+            &trans          &trans          &to QWE         &sk_alt         &trans          &trans          &sk_gui	        &to CAD         &trans          &trans
             >;
         };
 
@@ -6873,7 +6882,7 @@
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &ecl_transfer   &ecl_transfer_t &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
-            &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
+            &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
             >;
         };
 
@@ -6883,7 +6892,7 @@
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &ecl_transfer   &ecl_transfer_t &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
-            &trans          &trans          &to QWE         &grave_uc       &trans          &trans          &tilde_uc	    &to CAD         &trans          &trans
+            &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
             >;
         };
 
