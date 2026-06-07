@@ -406,7 +406,7 @@ layers:
   - SPACE
   - {t: '&t_lang2', h: '12'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -447,7 +447,7 @@ layers:
   - SPACE
   - {t: '&t_int5', h: '13'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -488,7 +488,7 @@ layers:
   - SPACE
   - {t: '&tC_int5', h: '14'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -526,10 +526,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_alt'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_gui'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -567,10 +567,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_gui'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_alt'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -608,10 +608,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_gui'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_alt'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

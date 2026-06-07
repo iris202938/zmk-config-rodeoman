@@ -5485,7 +5485,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;sk_gui</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;sk_shft</tspan></text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -5774,7 +5774,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;sk_gui</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;sk_shft</tspan></text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -5997,7 +5997,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;sk_gui</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">&amp;sk_shft</tspan></text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -6218,7 +6218,7 @@ path.combo {
 </g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;grave_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_alt</text>
 </g>
 <g transform="translate(252, 196)" class="key held keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -6228,7 +6228,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;tilde_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_gui</text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -6440,7 +6440,7 @@ path.combo {
 </g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;grave_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_gui</text>
 </g>
 <g transform="translate(252, 196)" class="key held keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -6450,7 +6450,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;tilde_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_alt</text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -6654,7 +6654,7 @@ path.combo {
 </g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;grave_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_gui</text>
 </g>
 <g transform="translate(252, 196)" class="key held keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -6664,7 +6664,7 @@ path.combo {
 </g>
 <g transform="translate(420, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;tilde_uc</tspan></text>
+<text x="0" y="0" class="key tap">&amp;sk_alt</text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
