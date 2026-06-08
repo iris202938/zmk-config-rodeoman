@@ -5147,77 +5147,77 @@
         bt0_lQWE: bt0_lQWE { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ0繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼQWE繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 0 &to QWE>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 0 &to QWE>;
         };
         bt0_lNIC: bt0_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ0繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 0 &to NIC>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 0 &to NIC>;
         };
         bt1_lNIC: bt1_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 1 &to NIC>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 1 &to NIC>;
         };
         bt1_lNICL: bt1_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 1 &to NICL>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 1 &to NICL>;
         };
         bt1_lWIN: bt1_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ1繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 1 &to WIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 1 &to WIN>;
         };
         bt2_lLIN: bt2_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 2 &to LIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 2 &to LIN>;
         };
         bt2_lWIN: bt2_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 2 &to WIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 2 &to WIN>;
         };
         bt2_lNICL: bt2_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ2繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 2 &to NICL>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 2 &to NICL>;
         };
         bt3_lLIN: bt3_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 3 &to LIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 3 &to LIN>;
         };
         bt3_lCAD: bt3_lCAD { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼCAD繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 3 &to CAD>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 3 &to CAD>;
         };
         bt3_lWIN: bt3_lWIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼWIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 3 &to WIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 3 &to WIN>;
         };
         bt3_lNICL: bt3_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ3繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 3 &to NICL>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 3 &to NICL>;
         };
         bt4_lNIC: bt4_lNIC { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNIC繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 4 &to NIC>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 4 &to NIC>;
         };
         bt4_lLIN: bt4_lLIN { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 4 &to LIN>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 4 &to LIN>;
         };
         bt4_lNICL: bt4_lNICL { // Bluetooth繝励Ο繝輔ぃ繧､繝ｫ4繧帝∈謚槭＠縲√Ξ繧､繝､繝ｼNICL繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to QWE &bt BT_SEL 4 &to NICL>;
+            bindings = <&to QWE &out OUT_BLE &bt BT_SEL 4 &to NICL>;
         };
         usb_lLIN: usb_lLIN { // USB謗･邯壹ｒ驕ｸ謚槭＠縲√Ξ繧､繝､繝ｼLIN繧呈怏蜉ｹ蛹・
             compatible = "zmk,behavior-macro";
