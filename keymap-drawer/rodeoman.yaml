@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: RALT}
-  - LCTRL
+  - LSHFT
   - LGUI
   - {t: '[', h: '18'}
   - {t: SPACE, h: LSHFT}
@@ -40,7 +40,7 @@ layers:
   - {t: SPACE, h: RSHFT}
   - {t: ']', h: '15'}
   - RGUI
-  - RCTRL
+  - RSHFT
   '1':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -113,16 +113,16 @@ layers:
   - ','
   - .
   - {t: /, h: RGUI}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - LALT
   - {t: ESC, h: '19'}
   - {t: SPACE, h: LSHFT}
   - {t: TAB, h: '7'}
   - {t: ENTER, h: '10'}
   - {t: SPACE, h: RSHFT}
   - {t: ESC, h: '16'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RALT
+  - RSHFT
   '3':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -195,16 +195,16 @@ layers:
   - '&td_COMMA'
   - '&td_DOT'
   - '&td_SLASH'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - LALT
   - {t: INT5, h: '20'}
   - SPACE
   - {t: TAB, h: '8'}
   - {t: ENTER, h: '11'}
   - {t: ESC, h: RSHFT}
   - {t: INT4, h: '17'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RALT
+  - RSHFT
   '5':
   - Q
   - W
@@ -273,7 +273,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Alt+LEFT
   - Alt+RIGHT
   - {t: Gui+V, h: RALT}
@@ -314,7 +314,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
   - {t: Gui+V, h: RGUI}
@@ -355,7 +355,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - ENTER
+  - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
   - {t: Gui+V, h: RGUI}
@@ -406,7 +406,7 @@ layers:
   - SPACE
   - {t: '&t_lang2', h: '12'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -447,7 +447,7 @@ layers:
   - SPACE
   - {t: '&t_int5', h: '13'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -488,7 +488,7 @@ layers:
   - SPACE
   - {t: '&tC_int5', h: '14'}
   - {type: held}
-  - '&sk_gui'
+  - '&sk_shft'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -503,7 +503,7 @@ layers:
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
@@ -526,10 +526,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_alt'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_gui'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -537,14 +537,14 @@ layers:
   - {t: F11, h: LSHFT}
   - F12
   - MUTE
-  - VOL DN
-  - VOL UP
+  - '&ecl_transfer'
+  - '&ecl_transfer_t'
   - CAPS
   - PSCRN
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
@@ -567,10 +567,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_gui'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_alt'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -578,14 +578,14 @@ layers:
   - {t: F11, h: LSHFT}
   - F12
   - MUTE
-  - VOL DN
-  - VOL UP
+  - '&ecl_transfer'
+  - '&ecl_transfer_t'
   - CAPS
   - PSCRN
   - SLCK
   - PAUSE BREAK
   - Sft+UP
-  - OUT BLE
+  - LCTRL
   - '&usb_lCAD'
   - '&bt3_lCAD'
   - Sft+RIGHT
@@ -608,10 +608,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
-  - '&grave_uc'
+  - '&sk_gui'
   - {type: held}
   - {type: held}
-  - '&tilde_uc'
+  - '&sk_alt'
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -689,8 +689,8 @@ layers:
   - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+V
+  - '&cp_tab'
+  - '&cp_enter'
   - '&mkp MB2'
   - ENTER
   - '&mkp MB1'
@@ -730,8 +730,8 @@ layers:
   - Ctl+PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
-  - Ctl+V
+  - '&cp_tab'
+  - '&cp_enter'
   - '&mkp MB2'
   - ENTER
   - '&mkp MB1'
@@ -772,8 +772,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&t_lang2', type: held}
-  - '&pr_pg'
-  - '&nx_pg'
+  - '&cp_tab'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -813,8 +813,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&t_int5', type: held}
-  - '&pr_pg'
-  - '&nx_pg'
+  - '&cp_tab'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -854,8 +854,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&tC_int5', type: held}
-  - '&pr_pg'
-  - '&nx_pg'
+  - '&cp_tab'
+  - TAB
   - KP ENTER
   - _
   - SPACE
@@ -1052,6 +1052,9 @@ combos:
 - p: [10, 11]
   k: '`'
   l: ['9', '10', '11']
+- p: [8, 9]
+  k: INS
+  l: ['12', '13', '14']
 - p: [1, 2]
   k: '&file_f'
   l: ['4']
