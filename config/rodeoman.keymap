@@ -463,7 +463,7 @@
         };
         mb2_cad {
             bindings = <&mkp MB2>;
-            key-positions = <27 28>;
+            key-positions = <27 28 29>;
             layers = <LWR LWRL LWRW WINS>;
             timeout-ms = <60>;
         };
