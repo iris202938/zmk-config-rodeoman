@@ -601,8 +601,8 @@
         };
         k_tab_1 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ
             bindings = <&k_tab_1>;
+            key-positions = <36 26>;
             layers = <NUMW>;
-            layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_2 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ2
