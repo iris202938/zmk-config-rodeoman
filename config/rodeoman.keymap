@@ -296,12 +296,12 @@
             layers = <LWRL LWRW RSE>;
             timeout-ms = <80>;
         };
-        cmd_v {
-            bindings = <&cmd_v>;
-            key-positions = <27 28>;
-            layers = <LWRL LWRW RSE>;
-            timeout-ms = <80>;
-        };
+        // cmd_v {
+        //     bindings = <&cmd_v>;
+        //     key-positions = <27 28>;
+        //     layers = <LWRL LWRW RSE>;
+        //     timeout-ms = <80>;
+        // };
         ctrl_x {
             bindings = <&ctrl_x>;
             key-positions = <8 9>;
@@ -314,12 +314,12 @@
             layers = <RSEL RSEW>;
             timeout-ms = <80>;
         };
-        ctrl_v {
-            bindings = <&ctrl_v>;
-            key-positions = <27 28>;
-            layers = <RSEL RSEW>;
-            timeout-ms = <80>;
-        };
+        // ctrl_v {
+        //     bindings = <&ctrl_v>;
+        //     key-positions = <27 28>;
+        //     layers = <RSEL RSEW>;
+        //     timeout-ms = <80>;
+        // };
         combo_e_key { // ECAD縺ｮ譁・ｭ嶺ｿｮ豁｣
             timeout-ms = <80>;
             key-positions = <25 26>;
@@ -463,7 +463,7 @@
         };
         mb2_cad {
             bindings = <&mkp MB2>;
-            key-positions = <27 28 29>;
+            key-positions = <27 28>;
             layers = <LWR LWRL LWRW WINS>;
             timeout-ms = <60>;
         };
@@ -601,122 +601,122 @@
         };
         k_tab_1 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ
             bindings = <&k_tab_1>;
-            key-positions = <36 26>;
+            layers = <NUMW>;
             layers = <CAD>;
             timeout-ms = <80>;
         };
         k_tab_2 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ2
             bindings = <&k_tab_2>;
             key-positions = <36 27>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_3 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ3
             bindings = <&k_tab_3>;
             key-positions = <36 28>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_4 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ4
             bindings = <&k_tab_4>;
             key-positions = <36 16>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_5 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ5
             bindings = <&k_tab_5>;
             key-positions = <36 17>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_6 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ6
             bindings = <&k_tab_6>;
             key-positions = <36 18>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_7 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ7
             bindings = <&k_tab_7>;
             key-positions = <36 6>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_8 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ8
             bindings = <&k_tab_8>;
             key-positions = <36 7>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_9 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ9
             bindings = <&k_tab_9>;
             key-positions = <36 8>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_10 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ10
             bindings = <&k_tab_10>;
             key-positions = <36 25>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_1 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-1
             bindings = <&k_tab_minus_1>;
             key-positions = <36 26 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_2 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-2
             bindings = <&k_tab_minus_2>;
             key-positions = <36 27 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_3 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-3
             bindings = <&k_tab_minus_3>;
             key-positions = <36 28 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_4 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-4
             bindings = <&k_tab_minus_4>;
             key-positions = <36 16 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_5 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-5
             bindings = <&k_tab_minus_5>;
             key-positions = <36 17 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_6 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-6
             bindings = <&k_tab_minus_6>;
             key-positions = <36 18 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_7 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-7
             bindings = <&k_tab_minus_7>;
             key-positions = <36 6 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_8 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-8
             bindings = <&k_tab_minus_8>;
             key-positions = <36 7 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_9 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-9
             bindings = <&k_tab_minus_9>;
             key-positions = <36 8 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
         k_tab_minus_10 { // ECAD繧ｫ繧ｦ繝ｳ繝医い繝・・謨ｰ-10
             bindings = <&k_tab_minus_10>;
             key-positions = <36 25 19>;
-            layers = <CAD>;
+            layers = <NUMW>;
             timeout-ms = <80>;
         };
 
@@ -5027,46 +5027,46 @@
                 <&kp LC(C)>,            // コピー (Ctrl + C)
                 <&kp TAB>;              // 確定＆右のセルへ移動
         };
-        // HiMacroから変換：コピー ➔ 画面切り替え ➔ 貼り付け ➔ 元の画面に戻る
-        ecl_transfer: ecl_transfer {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <50>;  // HiMacroの「50」に合わせたウェイト設定
-            tap-ms = <50>;   // キーを押し下げている時間
-            bindings = 
-                <&kp F2>,                               // F2（編集モード）
-                <&kp LC(A)>,                            // Ctrl + A（全選択）
-                <&kp LC(C)>,                            // Ctrl + C（コピー）
-                <&kp ENTER>,                            // Enter（確定）
-                <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
-                <&macro_release &kp LALT>,              // Altを離す（ウィンドウ切り替え）
-                <&macro_wait_time 20>,                  // ここで20ミリ秒待機
-                <&kp LC(V)>,                            // Ctrl + V（貼り付け）
-                <&kp ENTER>,                            // Enter
-                <&kp ESC>,                              // Esc
-                <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
-                <&macro_release &kp LALT>;              // Altを離す（元の画面に戻る）
-        };
-        // HiMacro変換版：コピー ➔ TAB移動 ➔ 画面切り替え ➔ 貼り付け ➔ 元の画面に戻る
-        ecl_transfer_t: ecl_transfer_t {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <50>;  // HiMacro基準の50msウェイト
-            tap-ms = <50>;   
-            bindings = 
-                <&kp F2>,                               // F2（編集モード）
-                <&kp LC(A)>,                            // Ctrl + A（全選択）
-                <&kp LC(C)>,                            // Ctrl + C（コピー）
-                <&kp TAB>,                              // ★ EnterからTABに変更（右のセルへ移動＆確定）
-                <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
-                <&macro_release &kp LALT>,              // Altを離す（ウィンドウ切り替え）
-                <&macro_wait_time 20>,                  // ここで20ミリ秒待機
-                <&kp LC(V)>,                            // Ctrl + V（貼り付け）
-                <&kp ENTER>,                            // Enter
-                <&kp ESC>,                              // Esc
-                <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
-                <&macro_release &kp LALT>;              // Altを離す（元の画面に戻る）
-        };
+        // // HiMacroから変換：コピー ➔ 画面切り替え ➔ 貼り付け ➔ 元の画面に戻る
+        // ecl_transfer: ecl_transfer {
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     wait-ms = <50>;  // HiMacroの「50」に合わせたウェイト設定
+        //     tap-ms = <50>;   // キーを押し下げている時間
+        //     bindings = 
+        //         <&kp F2>,                               // F2（編集モード）
+        //         <&kp LC(A)>,                            // Ctrl + A（全選択）
+        //         <&kp LC(C)>,                            // Ctrl + C（コピー）
+        //         <&kp ENTER>,                            // Enter（確定）
+        //         <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
+        //         <&macro_release &kp LALT>,              // Altを離す（ウィンドウ切り替え）
+        //         <&macro_wait_time 20>,                  // ここで20ミリ秒待機
+        //         <&kp LC(V)>,                            // Ctrl + V（貼り付け）
+        //         <&kp ENTER>,                            // Enter
+        //         <&kp ESC>,                              // Esc
+        //         <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
+        //         <&macro_release &kp LALT>;              // Altを離す（元の画面に戻る）
+        // };
+        // // HiMacro変換版：コピー ➔ TAB移動 ➔ 画面切り替え ➔ 貼り付け ➔ 元の画面に戻る
+        // ecl_transfer_t: ecl_transfer_t {
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     wait-ms = <50>;  // HiMacro基準の50msウェイト
+        //     tap-ms = <50>;   
+        //     bindings = 
+        //         <&kp F2>,                               // F2（編集モード）
+        //         <&kp LC(A)>,                            // Ctrl + A（全選択）
+        //         <&kp LC(C)>,                            // Ctrl + C（コピー）
+        //         <&kp TAB>,                              // ★ EnterからTABに変更（右のセルへ移動＆確定）
+        //         <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
+        //         <&macro_release &kp LALT>,              // Altを離す（ウィンドウ切り替え）
+        //         <&macro_wait_time 20>,                  // ここで20ミリ秒待機
+        //         <&kp LC(V)>,                            // Ctrl + V（貼り付け）
+        //         <&kp ENTER>,                            // Enter
+        //         <&kp ESC>,                              // Esc
+        //         <&macro_press &kp LALT>, <&kp TAB>,     // Altを押しながらTab
+        //         <&macro_release &kp LALT>;              // Altを離す（元の画面に戻る）
+        // };
         alt_int4: alt_int4 { // Alt+螟画鋤 驕ｸ謚樔ｽ咲ｽｮ遘ｻ蜍・隍・・)(AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6906,7 +6906,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &mt_s LCTRL N1  &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7    	    &kp N8          &kp N9          &mt_s RCTRL N0
-            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt GUI RC(V)
+            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RGUI RC(V)
             &trans          &trans          &kp LSHFT       &kp SPACE       &htC_it5 ADJW 0 &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
@@ -6924,7 +6924,7 @@
         ADJL {
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-            &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &ecl_transfer   &ecl_transfer_t &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
+            &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
             &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
@@ -6934,7 +6934,7 @@
         ADJW {
             bindings = <
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
-            &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &ecl_transfer   &ecl_transfer_t &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
+            &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lCAD       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
             &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &kp LS(END)
             &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
