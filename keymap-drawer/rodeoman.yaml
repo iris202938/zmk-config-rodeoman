@@ -276,7 +276,7 @@ layers:
   - Sft+ENTER
   - Alt+LEFT
   - Alt+RIGHT
-  - {t: Gui+V, h: RALT}
+  - {t: '&cmd_v', h: RALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -317,7 +317,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: Gui+V, h: RGUI}
+  - {t: '&cmd_v', h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -358,7 +358,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: Gui+V, h: RGUI}
+  - {t: '&cmd_v', h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
