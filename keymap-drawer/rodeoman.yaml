@@ -399,7 +399,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: Gui+V, h: RALT}
+  - {t: '&cmd_v', h: RALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -440,7 +440,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: Ctl+V, h: RGUI}
+  - {t: '&ctrl_v', h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -481,7 +481,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: Ctl+V, h: RGUI}
+  - {t: '&ctrl_v', h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
