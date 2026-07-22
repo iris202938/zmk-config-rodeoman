@@ -2493,7 +2493,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp>, <&cmd_v>;
         };
-        
+        mt_ctrl_v: mt_ctrl_v {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&ctrl_v>;
+        };
         lt_bl: lt_balanced {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_BALANCED";
@@ -6893,7 +6899,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &macro_JPN1     &macro_JPN2	    &macro_JPN3     &macro_JPN4     &macro_JPN5	    &macro_JPN6     &macro_JPN7     &macro_JPN8	    &macro_JPN9     &macro_JPN0
-            &mt_s LGUI INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RALT RG(V)
+            &mt_s LGUI INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt_cmd_v RALT 0
             &trans          &trans          &kp LSHFT       &kp SPACE       &ht_lg2 ADJ 0   &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
@@ -6903,7 +6909,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &mt_s LCTRL N1  &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7    	    &kp N8          &kp N9          &mt_s RCTRL N0
-            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RGUI RC(V)
+            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt_ctrl_v RGUI 0
             &trans          &trans          &kp LSHFT       &kp SPACE       &ht_it5 ADJL 0  &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
@@ -6913,7 +6919,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &mt_s LCTRL N1  &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7    	    &kp N8          &kp N9          &mt_s RCTRL N0
-            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt RGUI RC(V)
+            &mt_s LALT INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt_ctrl_v RGUI 0
             &trans          &trans          &kp LSHFT       &kp SPACE       &htC_it5 ADJW 0 &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
