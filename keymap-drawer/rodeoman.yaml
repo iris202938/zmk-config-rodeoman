@@ -505,7 +505,7 @@ layers:
   - Sft+UP
   - LCTRL
   - '&usb_lCAD'
-  - '&bt3_lCAD'
+  - '&bt3_lLIN'
   - Sft+RIGHT
   - G
   - INT5
@@ -546,7 +546,7 @@ layers:
   - Sft+UP
   - LCTRL
   - '&usb_lCAD'
-  - '&bt3_lCAD'
+  - '&bt3_lLIN'
   - Sft+RIGHT
   - G
   - INT5
@@ -587,7 +587,7 @@ layers:
   - Sft+UP
   - LCTRL
   - '&usb_lCAD'
-  - '&bt3_lCAD'
+  - '&bt3_lLIN'
   - Sft+RIGHT
   - G
   - INT5
