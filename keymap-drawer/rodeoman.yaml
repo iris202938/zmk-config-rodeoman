@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: RALT}
-  - LSHFT
+  - LCTRL
   - LGUI
   - {t: '[', h: '18'}
   - {t: SPACE, h: LSHFT}
@@ -39,8 +39,8 @@ layers:
   - {t: ENTER, h: '9'}
   - {t: SPACE, h: RSHFT}
   - {t: ']', h: '15'}
-  - RGUI
-  - RSHFT
+  - '&mkp MB1'
+  - '&mkp MB3'
   '1':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -113,7 +113,7 @@ layers:
   - ','
   - .
   - {t: /, h: RGUI}
-  - LSHFT
+  - LCTRL
   - LALT
   - {t: ESC, h: '19'}
   - {t: SPACE, h: LSHFT}
@@ -121,8 +121,8 @@ layers:
   - {t: ENTER, h: '10'}
   - {t: SPACE, h: RSHFT}
   - {t: ESC, h: '16'}
-  - RALT
-  - RSHFT
+  - '&mkp MB1'
+  - '&mkp MB3'
   '3':
   - '&macro_JPPERIOD'
   - '&macro_KA'
@@ -195,7 +195,7 @@ layers:
   - '&td_COMMA'
   - '&td_DOT'
   - '&td_SLASH'
-  - LSHFT
+  - LCTRL
   - LALT
   - {t: INT5, h: '20'}
   - SPACE
@@ -203,8 +203,8 @@ layers:
   - {t: ENTER, h: '11'}
   - {t: ESC, h: RSHFT}
   - {t: INT4, h: '17'}
-  - RALT
-  - RSHFT
+  - '&mkp MB1'
+  - '&mkp MB3'
   '5':
   - Q
   - W
