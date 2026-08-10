@@ -1076,6 +1076,15 @@ combos:
 - p: [10, 16]
   k: '&exl_group_open'
   l: ['13', '14']
+- p: [8, 9]
+  k: '&excel_move_row_cut'
+  l: ['16', '17']
+- p: [18, 19]
+  k: '&excel_move_row_copy'
+  l: ['16', '17']
+- p: [27, 28]
+  k: '&excel_move_row_paste'
+  l: ['16', '17']
 - p: [3, 6]
   k: Sft+Gui+3
   l: ['12']
