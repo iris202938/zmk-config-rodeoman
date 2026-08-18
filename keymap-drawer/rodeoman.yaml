@@ -112,7 +112,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RGUI}
+  - {t: /, h: LGUI}
   - LCTRL
   - LALT
   - {t: ESC, h: '19'}
@@ -317,7 +317,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: '&cmd_v', h: RGUI}
+  - {t: '&cmd_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -358,7 +358,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: '&cmd_v', h: RGUI}
+  - {t: '&cmd_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -440,7 +440,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&ctrl_v', h: RGUI}
+  - {t: '&ctrl_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -481,7 +481,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&ctrl_v', h: RGUI}
+  - {t: '&ctrl_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
