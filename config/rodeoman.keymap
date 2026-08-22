@@ -224,7 +224,7 @@
             timeout-ms = <80>;
         };
         combo_RALT {
-            bindings = <&kp RALT>;
+            bindings = <&kp LALT>;
             key-positions = <28 29>;
             layers = <LIN CAD LWRL LWRW RSEL RSEW ADJL ADJW MOVL MOVW>;
             timeout-ms = <80>;
@@ -235,7 +235,7 @@
             layers = <LWR LWRL LWRW>;
             timeout-ms = <80>;
         };
-        combo_sl_RALT {
+        combo_sl_LALT {
             bindings = <&sk_alt>;
             key-positions = <36 37>;
             layers = <RSE RSEL RSEW>;
@@ -569,7 +569,7 @@
             layers = <CAD>;
             timeout-ms = <80>;
         };
-        combo_alt_dot { // 繧ｿ繝・・縺ｧ遘ｻ蜍募承90蠎ｦ蝗櫁ｻ｢[AHK]縲√・繝ｼ繝ｫ繝峨〒RALT
+        combo_alt_dot { // 繧ｿ繝・・縺ｧ遘ｻ蜍募承90蠎ｦ蝗櫁ｻ｢[AHK]縲√・繝ｼ繝ｫ繝峨〒LALT
             bindings = <&alt_dot>;
             key-positions = <35 28 29>;
             layers = <CAD>;
@@ -2482,7 +2482,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_int5>;
         };
-        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_home)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒LALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_home)
         // combo_ht_home: combo_ht_home {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2490,7 +2490,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_home>;
         // };
-        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_end)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒LALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_end)
         // combo_ht_end: combo_ht_end {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2498,7 +2498,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_end>;
         // };
-        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_comma)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒LALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_comma)
         // combo_ht_comma: combo_ht_comma {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -2506,7 +2506,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_comma>;
         // };
-        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒RALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_dot)
+        // // AHK逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒LALT, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(alt_dot)
         // combo_ht_dot: combo_ht_dot {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
@@ -4889,9 +4889,9 @@
             tap-ms = <40>;
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp RALT>
+                = <&macro_press &kp LALT>
                 , <&macro_tap &kp ENTER>
-                , <&macro_release &kp RALT>
+                , <&macro_release &kp LALT>
                 ;
         };
         gui_enter: gui_enter { // gui+enter
@@ -5167,18 +5167,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press   &kp RALT>
+                = <&macro_press   &kp LALT>
                 , <&macro_tap     &kp INT4>
-                , <&macro_release &kp RALT>
+                , <&macro_release &kp LALT>
                 ;
         };	
         alt_int5: alt_int5 { // Alt+辟｡螟画鋤 驕ｸ謚樔ｽ咲ｽｮ遘ｻ蜍・遘ｻ蜍・(AHK)
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press   &kp RALT>
+                = <&macro_press   &kp LALT>
                 , <&macro_tap     &kp INT5>
-                , <&macro_release &kp RALT>
+                , <&macro_release &kp LALT>
                 ;
         };
         LGUI_LCTRL: LGUI_LCTRL {
@@ -6892,7 +6892,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT Q   &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &mt_s RSHFT P
             &mt_s LCTRL A   &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &mt_s RCTRL SEMI
-            &mt_s LGUI Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt_s RALT SLASH
+            &mt_s LGUI Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt_s LALT SLASH
             &kp LCTRL       &kp LGUI        &lt_bl NUM LBKT &mt LSHFT SPACE &lt LWR TAB     &lt RSE ENTER   &mt RSHFT SPACE &lt_bl MOV RBKT &mkp MB1        &mkp MB3
             >;
         };
@@ -6952,7 +6952,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT PG_UP &kp LC(A)     &kp UP          &kp LC(E)       &kp LS(TAB)     &kp DEL         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT &mt_s RSHFT SCRL_UP
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &trans          &kp BSPC        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mt_s RCTRL SCRL_DOWN
-            &mt_s LGUI LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp LS(ENTER)   &kp LA(LEFT)    &kp LA(RIGHT)   &mt_cmd_v RALT 0
+            &mt_s LGUI LC(V)  &mkp MB1      &mkp MB3        &mkp MB2	    &trans          &mkp MB1        &kp LS(ENTER)   &kp LA(LEFT)    &kp LA(RIGHT)   &mt_cmd_v LALT 0
             &trans          &trans          &kp LSHFT       &sk_ctrl        &trans          &ht_lg1 ADJ 0   &kp LS(LC(V))   &kp RSHFT       &trans          &trans
             >;
         };
@@ -6982,7 +6982,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F1  &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7    	    &kp F8          &kp F9          &mt_s RSHFT F10
             &macro_JPN1     &macro_JPN2	    &macro_JPN3     &macro_JPN4     &macro_JPN5	    &macro_JPN6     &macro_JPN7     &macro_JPN8	    &macro_JPN9     &macro_JPN0
-            &mt_s LGUI INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt_cmd_v RALT 0
+            &mt_s LGUI INT1 &kp BSLH        &kp INT3        &kp SLASH       &kp ASTRK       &kp MINUS       &kp PLUS  	    &kp LBKT        &kp RBKT        &mt_cmd_v LALT 0
             &trans          &trans          &kp LSHFT       &kp SPACE       &ht_lg2 ADJ 0   &trans          &sk_shft        &kp RSHFT       &trans          &trans
             >;
         };
