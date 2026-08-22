@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RALT}
+  - {t: /, h: LALT}
   - LCTRL
   - LGUI
   - {t: '[', h: '18'}
@@ -276,11 +276,11 @@ layers:
   - Sft+ENTER
   - Alt+LEFT
   - Alt+RIGHT
-  - {t: '&cmd_v', h: RALT}
+  - {t: '&cmd_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - '&sk_ctrl'
+  - '&sk_shft'
   - {type: held}
   - {t: '&t_lang1', h: '12'}
   - Sft+Ctl+V
@@ -321,7 +321,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - '&sk_ctrl'
+  - '&sk_shft'
   - {type: held}
   - {t: '&t_int4', h: '13'}
   - Sft+Ctl+V
@@ -362,7 +362,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - '&sk_ctrl'
+  - '&sk_shft'
   - {type: held}
   - {t: '&tW_int4', h: '14'}
   - Sft+Ctl+V
@@ -399,14 +399,14 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&cmd_v', h: RALT}
+  - {t: '&cmd_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
   - SPACE
   - {t: '&t_lang2', h: '12'}
   - {type: held}
-  - '&sk_shft'
+  - '&sk_ctrl'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -447,7 +447,7 @@ layers:
   - SPACE
   - {t: '&t_int5', h: '13'}
   - {type: held}
-  - '&sk_shft'
+  - '&sk_ctrl'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -488,7 +488,7 @@ layers:
   - SPACE
   - {t: '&tC_int5', h: '14'}
   - {type: held}
-  - '&sk_shft'
+  - '&sk_ctrl'
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -993,7 +993,7 @@ combos:
   k: LALT
   l: ['0', '6', '9', '12']
 - p: [28, 29]
-  k: RALT
+  k: LALT
   l: ['2', '4', '7', '8', '10', '11', '13', '14', '16', '17']
 - p: [32, 33]
   k: '&sk_ct_sh'
