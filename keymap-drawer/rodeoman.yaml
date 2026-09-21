@@ -195,8 +195,8 @@ layers:
   - '&td_COMMA'
   - '&td_DOT'
   - '&td_SLASH'
-  - LCTRL
-  - LALT
+  - LEFT
+  - RIGHT
   - {t: INT5, h: '20'}
   - SPACE
   - {t: TAB, h: '8'}
