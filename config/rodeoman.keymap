@@ -479,6 +479,13 @@
             bindings = <&excel_clear_cf>;
         };
 
+        combo_pptx_lazer_point { // PowerPointのレーザーポイント
+            timeout-ms = <80>;
+            key-positions = <30 31>; // 左右キーのコンボ
+            layers = <LIN NUML>;
+            bindings = <&pptx_lazer_point>;
+        };
+
         combo_lefthand_enter { // 左手のみでEnterを押す
             timeout-ms = <80>;
             key-positions = <21 22 23>;
@@ -5273,6 +5280,17 @@
                 , <&macro_tap     &kp S>
                 ;
         };
+
+        pptx_lazer_point: pptx_lazer_point { // PowerPointのレーザーポイント
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp L>
+                , <&macro_release &kp MB1>;
+        };
         
         mb3_mb1: mb3_mb1 { //FreeCADのマウスボタン3+1 (トグル動作例)
             compatible = "zmk,behavior-macro";
@@ -7074,7 +7092,7 @@
             &mt_s LSHFT Q   &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &mt_s RSHFT P
             &mt_s LCTRL A   &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &mt_s RCTRL SEMI
             &mt_s LALT Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt_s LGUI SLASH
-            &kp LCTRL       &kp LALT        &lt_bl NUML ESC &mt LSHFT SPACE &lt LWRL TAB	&lt RSEL ENTER	&mt RSHFT SPACE &lt_bl MOVL ESC &mkp MB1        &mkp MB3
+            &kp LEFT        &kp RIGHT       &lt_bl NUML ESC &mt LSHFT SPACE &lt LWRL TAB	&lt RSEL ENTER	&mt RSHFT SPACE &lt_bl MOVL ESC &mkp MB1        &mkp MB3
             >;
         };
 
@@ -7094,7 +7112,7 @@
             &td_Q           &td_W           &td_E           &td_R           &td_T           &td_Y           &td_U           &td_I           &td_O           &td_P
             &td_A           &td_S           &td_D           &td_F           &td_G           &td_H           &td_J           &td_K           &td_L           &td_SEMI
             &td_Z           &td_X           &td_C           &td_V           &td_B           &td_N           &td_M           &td_COMMA       &td_DOT         &td_SLASH
-            &kp LCTRL       &kp LALT        &lt_bl NUMW INT5 &kp SPACE      &lt LWRW TAB    &lt RSEW ENTER	&mt RSHFT ESC   &lt_bl MOVW INT4 &mkp MB1       &mkp MB3
+            &kp LEFT        &kp RIGHT       &lt_bl NUMW INT5 &kp SPACE      &lt LWRW TAB    &lt RSEW ENTER	&mt RSHFT ESC   &lt_bl MOVW INT4 &mkp MB1       &mkp MB3
             >;
         };
 
