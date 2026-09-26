@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: ;, h: RCTRL}
-  - {t: Z, h: LGUI}
+  - {t: Z, h: LALT}
   - X
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: LALT}
+  - {t: /, h: LGUI}
   - LCTRL
   - LGUI
   - {t: '[', h: '18'}
@@ -103,7 +103,7 @@ layers:
   - K
   - L
   - {t: ;, h: RCTRL}
-  - {t: Z, h: LALT}
+  - {t: Z, h: LGUI}
   - X
   - C
   - V
@@ -112,7 +112,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: LGUI}
+  - {t: /, h: LALT}
   - LEFT
   - RIGHT
   - {t: ESC, h: '19'}
@@ -267,7 +267,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - {t: SCRL DOWN, h: RCTRL}
-  - {t: Ctl+V, h: LGUI}
+  - {t: Ctl+V, h: LALT}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -276,7 +276,7 @@ layers:
   - Sft+ENTER
   - Alt+LEFT
   - Alt+RIGHT
-  - {t: '&cmd_v', h: LALT}
+  - {t: '&cmd_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -308,7 +308,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - {t: SCRL DOWN, h: RCTRL}
-  - {t: Ctl+V, h: LALT}
+  - {t: Ctl+V, h: LGUI}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -317,7 +317,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: '&cmd_v', h: LGUI}
+  - {t: '&cmd_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -349,7 +349,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - {t: SCRL DOWN, h: RCTRL}
-  - {t: Ctl+V, h: LALT}
+  - {t: Ctl+V, h: LGUI}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -358,7 +358,7 @@ layers:
   - Sft+ENTER
   - Ctl+LEFT
   - Ctl+RIGHT
-  - {t: '&cmd_v', h: LGUI}
+  - {t: '&cmd_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -390,7 +390,7 @@ layers:
   - '&macro_JPN8'
   - '&macro_JPN9'
   - '&macro_JPN0'
-  - {t: INT1, h: LGUI}
+  - {t: INT1, h: LALT}
   - \
   - INT3
   - /
@@ -399,7 +399,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&cmd_v', h: LALT}
+  - {t: '&cmd_v', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -431,7 +431,7 @@ layers:
   - '8'
   - '9'
   - {t: '0', h: RCTRL}
-  - {t: INT1, h: LALT}
+  - {t: INT1, h: LGUI}
   - \
   - INT3
   - /
@@ -440,7 +440,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&ctrl_v', h: LGUI}
+  - {t: '&ctrl_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -472,7 +472,7 @@ layers:
   - '8'
   - '9'
   - {t: '0', h: RCTRL}
-  - {t: INT1, h: LALT}
+  - {t: INT1, h: LGUI}
   - \
   - INT3
   - /
@@ -481,7 +481,7 @@ layers:
   - +
   - '['
   - ']'
-  - {t: '&ctrl_v', h: LGUI}
+  - {t: '&ctrl_v', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -636,7 +636,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - {t: Z, h: LGUI}
+  - {t: Z, h: LALT}
   - Gui+[
   - '&mkp MB3'
   - Gui+]
@@ -677,7 +677,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - {t: Z, h: LALT}
+  - {t: Z, h: LGUI}
   - Alt+LEFT
   - '&mkp MB3'
   - Alt+RIGHT
@@ -718,7 +718,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - {t: Z, h: LALT}
+  - {t: Z, h: LGUI}
   - Alt+LEFT
   - '&mkp MB3'
   - Alt+RIGHT
@@ -984,16 +984,16 @@ combos:
   k: {t: '&caps_word', h: '&qm RSHIFT'}
   l: ['0', '2', '4']
 - p: [28, 29]
-  k: RGUI
+  k: LALT
   l: ['0', '6', '9', '12', '15']
 - p: [20, 21]
-  k: LGUI
+  k: LALT
   l: ['2', '4', '7', '8', '10', '11', '16', '17']
 - p: [20, 21]
-  k: LALT
+  k: LGUI
   l: ['0', '6', '9', '12']
 - p: [28, 29]
-  k: LALT
+  k: LGUI
   l: ['2', '4', '7', '8', '10', '11', '13', '14', '16', '17']
 - p: [32, 33]
   k: '&sk_ct_sh'
