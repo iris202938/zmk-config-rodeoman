@@ -522,7 +522,7 @@ layers:
   - Sft+Gui+LEFT
   - Sft+Alt+LEFT
   - Sft+Alt+RIGHT
-  - Sft+Gui+RIGHT
+  - {t: '&S_G_RIGHT', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
@@ -563,7 +563,7 @@ layers:
   - Sft+HOME
   - Sft+Ctl+LEFT
   - Sft+Ctl+RIGHT
-  - Sft+END
+  - {t: '&S_END', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
@@ -604,7 +604,7 @@ layers:
   - Sft+HOME
   - Sft+Ctl+LEFT
   - Sft+Ctl+RIGHT
-  - Sft+END
+  - {t: '&S_END', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
