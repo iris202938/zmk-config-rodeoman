@@ -7152,7 +7152,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lLIN       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
-            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN) &kp LS(LG(LEFT)) &kp LS(LA(LEFT)) &kp LS(LA(RIGHT)) mt_S_G_RIGHT LGUI 0
+            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN) &kp LS(LG(LEFT)) &kp LS(LA(LEFT)) &kp LS(LA(RIGHT)) &mt_S_G_RIGHT LGUI 0
             &trans          &trans          &to QWE         &sk_alt         &trans          &trans          &sk_gui	        &to CAD         &trans          &trans
             >;
         };
@@ -7162,7 +7162,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lLIN       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
-            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) mt_S_END LALT 0
+            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &mt_S_END LALT 0
             &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
             >;
         };
@@ -7172,7 +7172,7 @@
         // +---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------+---------------
             &mt_s LSHFT F11 &kp F12         &kp C_MUTE      &kp C_VOL_DN    &kp C_VOL_UP    &kp CAPS        &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp LS(UP)
             &kp LCTRL       &usb_lCAD       &bt3_lLIN       &kp LS(RIGHT)   &kp G           &kp INT5        &file_r         &pr_pg          &nx_pg          &file_f
-            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) mt_S_END LALT 0
+            &bt0_lQWE       &bt1_lNICL      &bt2_lNICL      &kp K_APP       &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(HOME) &kp LS(LC(LEFT)) &kp LS(LC(RIGHT)) &mt_S_END LALT 0
             &trans          &trans          &to QWE         &sk_gui         &trans          &trans          &sk_alt	        &to CAD         &trans          &trans
             >;
         };
