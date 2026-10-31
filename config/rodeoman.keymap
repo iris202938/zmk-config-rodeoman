@@ -2550,14 +2550,14 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&S_G_RIGHT>;
+            bindings = <&kp>, <&kp>;
         };
         mt_S_END: mt_S_END {  
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&S_END>;
+            bindings = <&kp>, <&kp>;
         };
         lt_bl: lt_balanced {
             compatible = "zmk,behavior-hold-tap";
