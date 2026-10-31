@@ -522,7 +522,7 @@ layers:
   - Sft+Gui+LEFT
   - Sft+Alt+LEFT
   - Sft+Alt+RIGHT
-  - {t: '&S_G_RIGHT', h: LGUI}
+  - {t: '&S_END', h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: toggle}
