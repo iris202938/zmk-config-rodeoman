@@ -903,7 +903,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '22':
-  - '&sys_reset'
+  - '&clear_mods'
   - '&bootloader'
   - INT3
   - INT6
