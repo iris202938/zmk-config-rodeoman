@@ -7240,7 +7240,7 @@
             &mt_s LSHFT PG_UP &kp LC(A)     &kp UP          &kp LC(E)       &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
-            &trans          &trans          &t_lang2        &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &mt RSHFT SPACE &trans          &trans
+            &trans          &trans          &t_lang2        &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
         };
 
@@ -7250,7 +7250,7 @@
             &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
-            &trans          &trans          &t_int5         &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &mt RSHFT SPACE &trans          &trans
+            &trans          &trans          &t_int5         &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
         };
 
@@ -7260,7 +7260,7 @@
             &mt_s LSHFT PG_UP &kp HOME      &kp UP          &kp END         &kp CARET       &kp KP_SLASH    &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MULTIPLY
             &mt_s LCTRL PG_DN &kp LEFT      &kp DOWN        &kp RIGHT       &lt BLE DEL     &kp BSPC        &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_MINUS
             &alt_left	    &alt_down       &alt_up         &alt_right      &kp EQUAL       &kp KP_N0       &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_PLUS
-            &trans          &trans          &tC_int5        &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &mt RSHFT SPACE &trans          &trans
+            &trans          &trans          &tC_int5        &cp_tab	        &kp TAB         &kp KP_ENTER    &kp UNDER       &kp SPACE       &trans          &trans
             >;
         };
 
