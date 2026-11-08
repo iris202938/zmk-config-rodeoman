@@ -776,7 +776,7 @@ layers:
   - TAB
   - KP ENTER
   - _
-  - {t: SPACE, h: RSHFT}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '19':
@@ -817,7 +817,7 @@ layers:
   - TAB
   - KP ENTER
   - _
-  - {t: SPACE, h: RSHFT}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '20':
@@ -858,7 +858,7 @@ layers:
   - TAB
   - KP ENTER
   - _
-  - {t: SPACE, h: RSHFT}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '21':
