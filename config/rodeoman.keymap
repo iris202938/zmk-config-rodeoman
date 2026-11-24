@@ -1,4 +1,4 @@
-﻿﻿#include <behaviors.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -1406,7 +1406,7 @@
             bindings = <&macro_XO>;
         };
 
-        // R (4) と同時打鍵 (-4)
+        // 莉･荳区距髻ｳ諡｡蠑ｵ
         // R (4) 縺ｨ蜷梧凾謇馴嵯 (-4)
         combo_CHYA {
             timeout-ms = <50>;
@@ -1523,8 +1523,8 @@
             bindings = <&macro_BUA>;
         };
 
-        // C (27) と同時打鍵 (-27) - 「い」段 + 「ぃ」の音
-        // C (27) と同時打鍵 (-27) - 「い」段 + 「ぃ」の音
+        // ... (莉･荳九∝酔讒倥↓莉悶・諡鈴浹繧・音谿企浹縺ｮ繧ｳ繝ｳ繝懊ｒ霑ｽ蜉縲よ距髻ｳ諡｡蠑ｵ讖溯・縺ｮ縺ｿ謚懃ｲ・
+        // C (27) 縺ｨ蜷梧凾謇馴嵯 (-27) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         combo_CHII {
             timeout-ms = <50>;
             key-positions = <22 6>; // 旧 27 7
@@ -1562,7 +1562,7 @@
             bindings = <&macro_YAA>;
         };
 
-        // . (28) と同時打鍵 (-33) - 「い」段 + 「ぃ」の音
+        // . (28) 縺ｨ蜷梧凾謇馴嵯 (-33) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         combo_RII {
             timeout-ms = <50>;
             key-positions = <28 2>; // 旧 33 3
@@ -1670,7 +1670,7 @@
             bindings = <&macro_BUYI>;
         };
 
-        // F (13) と同時打鍵 (-16) - 「う」段 + 「ゅ」の音、特殊な「ぅ」「くぉ」「とぅ」
+        // F (13) 縺ｨ蜷梧凾謇馴嵯 (-16) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後≦縲阪後￥縺峨阪後→縺・・
         combo_CHU {
             timeout-ms = <50>;
             key-positions = <13 6>; // 旧 16 7
@@ -1708,7 +1708,7 @@
             bindings = <&macro_MOXTU>;
         };
 
-        // M (31) と同時打鍵 (-31) - 「う」段 + 「ゅ」の音
+        // M (31) 縺ｨ蜷梧凾謇馴嵯 (-31) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         combo_RYU {
             timeout-ms = <50>;
             key-positions = <26 2>; // 旧 31 3
@@ -1746,7 +1746,7 @@
             bindings = <&macro_PUXTU>;
         };
 
-        // G (14) と同時打鍵 (-17) - 「う」段 + 「ゅ」の音、特殊な「ぐぉ」「どぅ」
+        // G (14) 縺ｨ蜷梧凾謇馴嵯 (-17) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後＄縺峨阪後←縺・・
         combo_NYU {
             timeout-ms = <50>;
             key-positions = <14 6>; // 旧 17 7
@@ -1778,7 +1778,7 @@
             bindings = <&macro_GYU>;
         };
 
-        // , (27) と同時打鍵 (-32) - 「う」段 + 「ゅ」の音
+        // , (27) 縺ｨ蜷梧凾謇馴嵯 (-32) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         combo_JYU {
             timeout-ms = <50>;
             key-positions = <27 11>; // 旧 32 14
@@ -1810,7 +1810,7 @@
             bindings = <&macro_YUXTU>;
         };
 
-        // E (3) と同時打鍵 (-3) - 「え」段 + 「ぇ」の音
+        // E (3) 縺ｨ蜷梧凾謇馴嵯 (-3) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_CHE {
             timeout-ms = <50>;
             key-positions = <2 6>; // 旧 3 7
@@ -1860,7 +1860,7 @@
             bindings = <&macro_TAXTU>;
         };
 
-        // I (7) と同時打鍵 (-8) - 「え」段 + 「ぇ」の音
+        // I (7) 縺ｨ蜷梧凾謇馴嵯 (-8) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_RIE {
             timeout-ms = <50>;
             key-positions = <7 2>; // 旧 8 3
@@ -1904,7 +1904,7 @@
             bindings = <&macro_PIXTU>;
         };
 
-        // Q (0) と同時打鍵 (-2) - 「え」段 + 「ぇ」の音
+        // Q (0) 縺ｨ蜷梧凾謇馴嵯 (-2) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         combo_NIE {
             timeout-ms = <50>;
             key-positions = <0 6>; // 旧 1 7
@@ -1936,7 +1936,7 @@
             bindings = <&macro_PIE>;
         };
 
-        // P (10) と同時打鍵 (-10) - 「え」段 + 「ぇ」の音、特殊な「ヴェ」
+        // P (10) 縺ｨ蜷梧凾謇馴嵯 (-10) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ縲∫音谿翫↑縲後Χ繧ｧ縲・
         combo_VE {
             timeout-ms = <50>;
             key-positions = <9 10>; // 旧 10 13
@@ -1968,7 +1968,7 @@
             bindings = <&macro_MAXTU>;
         };
 
-        // D (12) と同時打鍵 (-15) - 「お」段 + 「ょ」の音、特殊な「くぉ」「ぬぉ」
+        // D (12) 縺ｨ蜷梧凾謇馴嵯 (-15) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後￥縺峨阪後〓縺峨・
         combo_CHO {
             timeout-ms = <50>;
             key-positions = <12 6>; // 旧 15 7
@@ -2018,7 +2018,7 @@
             bindings = <&macro_TEXTU>;
         };
 
-        // J (16) と同時打鍵 (-19) - 「お」段 + 「ょ」の音、特殊な「うぉ」「しょ」「ひょ」「ふぉ」
+        // J (16) 縺ｨ蜷梧凾謇馴嵯 (-19) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後≧縺峨阪後＠繧・阪後・繧・阪後・縺峨・
         combo_RYO {
             timeout-ms = <50>;
             key-positions = <16 2>; // 旧 19 3
@@ -2050,7 +2050,7 @@
             bindings = <&macro_FUO>;
         };
 
-        // S (14) と同時打鍵 (-14) - 「お」段 + 「ょ」の音
+        // S (14) 縺ｨ蜷梧凾謇馴嵯 (-14) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         combo_NYO {
             timeout-ms = <50>;
             key-positions = <11 6>; // 旧 14 7
@@ -2082,7 +2082,7 @@
             bindings = <&macro_NAXTU>;
         };
 
-        // L (18) と同時打鍵 (-21) - 「お」段 + 「ょ」の音
+        // L (18) 縺ｨ蜷梧凾謇馴嵯 (-21) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         combo_VO {
             timeout-ms = <50>;
             key-positions = <18 10>; // 旧 21 13
@@ -2280,7 +2280,7 @@
             bindings = <&macro_WATTU>;
         };
 
-        // Q (0) と同時打鍵 (-1) - 清音の促音、その他
+        // Q (0) 縺ｨ蜷梧凾謇馴嵯 (-1) - 貂・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         combo_ETTU {
             timeout-ms = <50>;
             key-positions = <0 1>; // 旧 1 2
@@ -2372,7 +2372,7 @@
             bindings = <&macro_HOTTU>;
         };
 
-        // Z (25) と同時打鍵 (-25) - 濁音/半濁音の促音、その他
+        // Z (25) 縺ｨ蜷梧凾謇馴嵯 (-25) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         combo_YOTTU2 {
             timeout-ms = <50>;
             key-positions = <20 4>; // 旧 25 5
@@ -2494,7 +2494,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&mo>, <&t_int5>;
         // };
-        // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(tW_int4)
+        // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(tW_int4)
         htW_it4: htW_it4 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2502,7 +2502,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&tW_int4>;
         };
-        // INT5用のHold-Tap: ホールドで指定Layer, タップでマクロ(tC_int5)
+        // INT5逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(tC_int5)
         htC_it5: htC_it5 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2535,7 +2535,7 @@
             tapping-term-ms = <150>;
             bindings = <&mo>, <&t_int4>;
         };
-        // INT4用のHold-Tap: ホールドで指定Layer, タップでマクロ(t_eint2)
+        // INT4逕ｨ縺ｮHold-Tap: 繝帙・繝ｫ繝峨〒謖・ｮ哭ayer, 繧ｿ繝・・縺ｧ繝槭け繝ｭ(t_eint2)
         ht_eit2: ht_eit2 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2583,7 +2583,7 @@
         //     tapping-term-ms = <150>;
         //     bindings = <&kp>, <&alt_dot>;
         // };
-        // };
+        // Hold-Tap: 繝帙・繝ｫ繝峨〒&qm RSHIFT, 繧ｿ繝・・縺ｧ&caps_word
         combo_ht_caps_word: combo_ht_caps_word {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2851,7 +2851,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 0.5mm, 3-Taps: 0.25mm
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 0.5mm , 3-Taps: 0.25mm
             bindings = <&all_ht RCTRL SEMI>, <&ctrl_alt_l>, <&ctrl_alt_semi>; 
         };
 
@@ -2860,7 +2860,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 銘板表編集 (Ctrl+F+c), 3-Taps: 銘板表 (Ctrl+F+d)
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 驫俶攸陦ｨ邱ｨ髮・(Ctrl+F+c), 3-Taps:  驫俶攸陦ｨ (Ctrl+F+d)
             bindings = <&all_ht COMMA COMMA>, <&ctrl_f_c>, <&ctrl_f_d>;
         };
 
@@ -2869,7 +2869,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 1-Tap: 通常キー, 2-Taps: 部品表編集 (Ctrl+F+g), 3-Taps: 集計表 (Ctrl+F+h)
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 驛ｨ蜩∬｡ｨ邱ｨ髮・(Ctrl+F+g), 3-Taps:  髮・ｨ郁｡ｨ (Ctrl+F+h)
             bindings = <&all_ht DOT DOT>, <&ctrl_f_g>, <&ctrl_f_h>;
         };
 
@@ -2878,11 +2878,11 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <230>;
-            // 通常の判定時間（例: 240ms）
+            // 1-Tap: 騾壼ｸｸ繧ｭ繝ｼ, 2-Taps: 1G , 3-Taps: 1/4G
             bindings = <&all_ht LALT SLASH>, <&ctrl_alt_j>, <&ctrl_alt_k>;
         };
 
-        // 通常の判定時間（例: 240ms）
+        // 騾壼ｸｸ縺ｮ蛻､螳壽凾髢難ｼ井ｾ・ 240ms・・
         mt_s: mod_tap_slow {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2890,7 +2890,7 @@
             tapping-term-ms = <240>;
             bindings = <&kp>, <&kp>;
         };
-        // 特定のキー用の短い判定時間（例: 200ms）
+        // 迚ｹ螳壹・繧ｭ繝ｼ逕ｨ縺ｮ遏ｭ縺・愛螳壽凾髢難ｼ井ｾ・ 200ms・・
         mt_m: mod_tap_mid {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2898,7 +2898,7 @@
             tapping-term-ms = <200>; // ここを個別に設定
             bindings = <&kp>, <&kp>;
         };
-        // 特定のキー用の短い判定時間（例: 170ms）
+        // 迚ｹ螳壹・繧ｭ繝ｼ逕ｨ縺ｮ遏ｭ縺・愛螳壽凾髢難ｼ井ｾ・ 170ms・・
         mt_f: mod_tap_fast {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -3726,7 +3726,7 @@
         bindings = <&kp X>, <&kp O>;
         };
 
-        // 旧 4 7
+        // 莉･荳区距髻ｳ諡｡蠑ｵ
         // R (4) 縺ｨ蜷梧凾謇馴嵯 (-4)
         macro_CHYA: macro_CHYA{
             compatible = "zmk,behavior-macro";
@@ -3843,7 +3843,7 @@
             bindings = <&kp B>, <&kp U>, <&kp X>, <&kp A>;
         };
 
-        // 旧 27 7
+        // C (27) 縺ｨ蜷梧凾謇馴嵯 (-27) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         macro_CHII: macro_CHII{
             compatible = "zmk,behavior-macro";
             label = "macro_CHII";
@@ -3951,7 +3951,7 @@
             bindings = <&kp B>, <&kp U>, <&kp X>, <&kp I>;
         };
         
-        // 旧 33 3
+        // . (33) 縺ｨ蜷梧凾謇馴嵯 (-33) - 縲後＞縲肴ｮｵ + 縲後＜縲阪・髻ｳ
         macro_RII: macro_RII{
             compatible = "zmk,behavior-macro";
             label = "macro_RII";
@@ -3989,7 +3989,7 @@
             bindings = <&kp F>, <&kp U>, <&kp X>, <&kp I>;
         };
 
-        // 旧 16 7
+        // F (16) 縺ｨ蜷梧凾謇馴嵯 (-16) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後≦縲阪後￥繧弱阪後→縺・・
         macro_CHU: macro_CHU{
             compatible = "zmk,behavior-macro";
             label = "macro_CHU";
@@ -4027,7 +4027,7 @@
             bindings = <&kp M>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 31 3
+        // M (31) 縺ｨ蜷梧凾謇馴嵯 (-31) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         macro_RYU: macro_RYU{
             compatible = "zmk,behavior-macro";
             label = "macro_RYU";
@@ -4065,7 +4065,7 @@
             bindings = <&kp P>, <&kp U>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 17 7
+        // G (17) 縺ｨ蜷梧凾謇馴嵯 (-17) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ縲∫音谿翫↑縲後＄繧弱阪後←縺・・
         macro_NYU: macro_NYU{
             compatible = "zmk,behavior-macro";
             label = "macro_NYU";
@@ -4097,7 +4097,7 @@
             bindings = <&kp G>, <&kp Y>, <&kp U>;
         };
 
-        // 旧 32 14
+        // , (32) 縺ｨ蜷梧凾謇馴嵯 (-32) - 縲後≧縲肴ｮｵ + 縲後ｅ縲阪・髻ｳ
         macro_JYU: macro_JYU{
             compatible = "zmk,behavior-macro";
             label = "macro_JYU";
@@ -4129,7 +4129,7 @@
             bindings = <&kp Y>, <&kp U>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 3 7
+        // E (3) 縺ｨ蜷梧凾謇馴嵯 (-3) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_CHE: macro_CHE{
             compatible = "zmk,behavior-macro";
             label = "macro_CHE";
@@ -4179,7 +4179,7 @@
             bindings = <&kp T>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 8 3
+        // I (8) 縺ｨ蜷梧凾謇馴嵯 (-8) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_RIE: macro_RIE{
             compatible = "zmk,behavior-macro";
             label = "macro_RIE";
@@ -4223,7 +4223,7 @@
             bindings = <&kp P>, <&kp I>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 1 7
+        // Q (1) 縺ｨ蜷梧凾謇馴嵯 (-2) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ
         macro_NIE: macro_NIE{
             compatible = "zmk,behavior-macro";
             label = "macro_NIE";
@@ -4255,7 +4255,7 @@
             bindings = <&kp P>, <&kp I>, <&kp X>, <&kp E>;
         };
 
-        // 旧 10 13
+        // P (10) 縺ｨ蜷梧凾謇馴嵯 (-10) - 縲後∴縲肴ｮｵ + 縲後∞縲阪・髻ｳ縲∫音谿翫↑縲後Χ繧ｧ縲・
         macro_VE: macro_VE{
             compatible = "zmk,behavior-macro";
             label = "macro_VE";
@@ -4287,7 +4287,7 @@
             bindings = <&kp M>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 15 7
+        // D (15) 縺ｨ蜷梧凾謇馴嵯 (-15) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後￥縺峨阪後〓縺峨・
         macro_CHO: macro_CHO{
             compatible = "zmk,behavior-macro";
             label = "macro_CHO";
@@ -4337,7 +4337,7 @@
             bindings = <&kp T>, <&kp E>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 19 3
+        // J (19) 縺ｨ蜷梧凾謇馴嵯 (-19) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ縲∫音谿翫↑縲後≧縺峨阪後＠繧・阪後・繧・阪後・縺峨・
         macro_RYO: macro_RYO{
             compatible = "zmk,behavior-macro";
             label = "macro_RYO";
@@ -4369,7 +4369,7 @@
             bindings = <&kp F>, <&kp U>, <&kp X>, <&kp O>;
         };
 
-        // 旧 14 7
+        // S (14) 縺ｨ蜷梧凾謇馴嵯 (-14) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         macro_NYO: macro_NYO{
             compatible = "zmk,behavior-macro";
             label = "macro_NYO";
@@ -4401,7 +4401,7 @@
             bindings = <&kp N>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 21 13
+        // L (21) 縺ｨ蜷梧凾謇馴嵯 (-21) - 縲後♀縲肴ｮｵ + 縲後ｇ縲阪・髻ｳ
         macro_VO: macro_VO{
             compatible = "zmk,behavior-macro";
             label = "macro_VO";
@@ -4599,7 +4599,7 @@
             bindings = <&kp W>, <&kp A>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 1 2
+        // Q (1) 縺ｨ蜷梧凾謇馴嵯 (-1) - 貂・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         macro_ETTU: macro_ETTU{
             compatible = "zmk,behavior-macro";
             label = "macro_ETTU";
@@ -4691,7 +4691,7 @@
             bindings = <&kp H>, <&kp O>, <&kp X>, <&kp T>, <&kp U>;
         };
 
-        // 旧 25 5
+        // Z (25) 縺ｨ蜷梧凾謇馴嵯 (-25) - 豼・浹/蜊頑ｿ・浹縺ｮ菫・浹縲√◎縺ｮ莉・
         macro_YOTTU2: macro_YOTTU2{
             compatible = "zmk,behavior-macro";
             label = "macro_YOTTU2";
@@ -5133,7 +5133,7 @@
             bindings
                 = <&macro_tap &kp LALT>
                 , <&macro_tap &kp E &kp I &kp S>;
-            // ここで止まるので、設定を確認して手動でEnter
+            // 縺薙％縺ｧ豁｢縺ｾ繧九・縺ｧ縲∬ｨｭ螳壹ｒ遒ｺ隱阪＠縺ｦ謇句虚縺ｧEnter
         };
         exl_group_close: excel_group_close { // Excelのグループ化/閉じる
             compatible = "zmk,behavior-macro";
@@ -5607,7 +5607,7 @@
         // --- 2. Ctrl + A (<Key1> + Ctrl + A) ---
         // =========================================================================
         
-        // Ctrl + A, A: 回転
+        // Ctrl + A, A: 蝗櫁ｻ｢
         ctrl_a_a: ctrl_a_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5618,7 +5618,7 @@
                 ;
         };
 
-        // Ctrl + A, B: 長方形(サイズ)
+        // Ctrl + A, B: 髟ｷ譁ｹ蠖｢(繧ｵ繧､繧ｺ)
         ctrl_a_b: ctrl_a_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5629,7 +5629,7 @@
                 ;
         };
 
-        // Ctrl + A, C: コピー
+        // Ctrl + A, C: 繧ｳ繝斐・
         ctrl_a_c: ctrl_a_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5640,7 +5640,7 @@
                 ;
         };
 
-        // Ctrl + A, D: 補助線削除
+        // Ctrl + A, D: 陬懷勧邱壼炎髯､
         ctrl_a_d: ctrl_a_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5651,7 +5651,7 @@
                 ;
         };
 
-        // Ctrl + A, E: 文字種別変更
+        // Ctrl + A, E: 譁・ｭ礼ｨｮ蛻･螟画峩
         ctrl_a_e: ctrl_a_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5662,7 +5662,7 @@
                 ;
         };
 
-        // Ctrl + A, F: 多相結線
+        // Ctrl + A, F: 螟夂嶌邨千ｷ・
         ctrl_a_f: ctrl_a_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5673,7 +5673,7 @@
                 ;
         };
 
-        // Ctrl + A, G: 図形グループ化解除
+        // Ctrl + A, G: 蝗ｳ蠖｢繧ｰ繝ｫ繝ｼ繝怜喧隗｣髯､
         ctrl_a_g: ctrl_a_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5684,7 +5684,7 @@
                 ;
         };
 
-        // Ctrl + A, H: 文字列置換
+        // Ctrl + A, H: 譁・ｭ怜・鄂ｮ謠・
         ctrl_a_h: ctrl_a_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5695,7 +5695,7 @@
                 ;
         };
 
-        // Ctrl + A, I: 連続寸法線
+        // Ctrl + A, I: 騾｣邯壼ｯｸ豕慕ｷ・
         ctrl_a_i: ctrl_a_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5706,7 +5706,7 @@
                 ;
         };
 
-        // Ctrl + A, J: 図面管理情報
+        // Ctrl + A, J: 蝗ｳ髱｢邂｡逅・ュ蝣ｱ
         ctrl_a_j: ctrl_a_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5717,7 +5717,7 @@
                 ;
         };
 
-        // Ctrl + A, K: コメント
+        // Ctrl + A, K: 繧ｳ繝｡繝ｳ繝・
         ctrl_a_k: ctrl_a_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5728,7 +5728,7 @@
                 ;
         };
 
-        // Ctrl + A, L: 直線(中心線)
+        // Ctrl + A, L: 逶ｴ邱・荳ｭ蠢・ｷ・
         ctrl_a_l: ctrl_a_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5739,7 +5739,7 @@
                 ;
         };
 
-        // Ctrl + A, M: 上下中央間隔揃え
+        // Ctrl + A, M: 荳贋ｸ倶ｸｭ螟ｮ髢馴囈謠・∴
         ctrl_a_m: ctrl_a_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5750,7 +5750,7 @@
                 ;
         };
 
-        // Ctrl + A, N: 自動線番範囲選択
+        // Ctrl + A, N: 閾ｪ蜍慕ｷ夂分遽・峇驕ｸ謚・
         ctrl_a_n: ctrl_a_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5767,7 +5767,7 @@
                 ;
         };
 
-        // Ctrl + A, O: 図形要素分解
+        // Ctrl + A, O: 蝗ｳ蠖｢隕∫ｴ蛻・ｧ｣
         ctrl_a_o: ctrl_a_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5778,7 +5778,7 @@
                 ;
         };
 
-        // Ctrl + A, P: ページ編集
+        // Ctrl + A, P: 繝壹・繧ｸ邱ｨ髮・
         ctrl_a_p: ctrl_a_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5789,7 +5789,7 @@
                 ;
         };
 
-        // Ctrl + A, Q: 円(中心)
+        // Ctrl + A, Q: 蜀・荳ｭ蠢・
         ctrl_a_q: ctrl_a_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5800,7 +5800,7 @@
                 ;
         };
 
-        // Ctrl + A, R: Ｒ枠変更
+        // Ctrl + A, R: ・ｲ譫螟画峩
         ctrl_a_r: ctrl_a_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5811,7 +5811,7 @@
                 ;
         };
 
-        // Ctrl + A, S: シンボル置換
+        // Ctrl + A, S: 繧ｷ繝ｳ繝懊Ν鄂ｮ謠・
         ctrl_a_s: ctrl_a_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5822,7 +5822,7 @@
                 ;
         };
 
-        // Ctrl + A, T: 文章
+        // Ctrl + A, T: 譁・ｫ
         ctrl_a_t: ctrl_a_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5833,7 +5833,7 @@
                 ;
         };
 
-        // Ctrl + A, U: 連続寸法線削除
+        // Ctrl + A, U: 騾｣邯壼ｯｸ豕慕ｷ壼炎髯､
         ctrl_a_u: ctrl_a_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5844,7 +5844,7 @@
                 ;
         };
 
-        // Ctrl + A, V: 貼り付け
+        // Ctrl + A, V: 雋ｼ繧贋ｻ倥￠
         ctrl_a_v: ctrl_a_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5855,7 +5855,7 @@
                 ;
         };
 
-        // Ctrl + A, W: 渡りページ編集
+        // Ctrl + A, W: 貂｡繧翫・繝ｼ繧ｸ邱ｨ髮・
         ctrl_a_w: ctrl_a_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5866,7 +5866,7 @@
                 ;
         };
 
-        // Ctrl + A, X: 範囲切断
+        // Ctrl + A, X: 遽・峇蛻・妙
         ctrl_a_x: ctrl_a_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5877,7 +5877,7 @@
                 ;
         };
 
-        // Ctrl + A, Y: シンボルレイヤ変更
+        // Ctrl + A, Y: 繧ｷ繝ｳ繝懊Ν繝ｬ繧､繝､螟画峩
         ctrl_a_y: ctrl_a_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5888,7 +5888,7 @@
                 ;
         };
 
-        // Ctrl + A, Z: フォーマット情報
+        // Ctrl + A, Z: 繝輔か繝ｼ繝槭ャ繝域ュ蝣ｱ
         ctrl_a_z: ctrl_a_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5904,7 +5904,7 @@
         // --- 3. Ctrl + D (<Key1> + Ctrl + D) ---
         // =========================================================================
 
-        // Ctrl + D, A: 拡大・縮小
+        // Ctrl + D, A: 諡｡螟ｧ繝ｻ邵ｮ蟆・
         ctrl_d_a: ctrl_d_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5915,7 +5915,7 @@
                 ;
         };
 
-        // Ctrl + D, B: 面取り
+        // Ctrl + D, B: 髱｢蜿悶ｊ
         ctrl_d_b: ctrl_d_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5926,7 +5926,7 @@
                 ;
         };
 
-        // Ctrl + D, C: 円弧(中心)
+        // Ctrl + D, C: 蜀・ｼｧ(荳ｭ蠢・
         ctrl_d_c: ctrl_d_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5937,7 +5937,7 @@
                 ;
         };
 
-        // Ctrl + D, D: 補助線全削除
+        // Ctrl + D, D: 陬懷勧邱壼・蜑企勁
         ctrl_d_d: ctrl_d_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5948,7 +5948,7 @@
                 ;
         };
 
-        // Ctrl + D, E: 文章修正
+        // Ctrl + D, E: 譁・ｫ菫ｮ豁｣
         ctrl_d_e: ctrl_d_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5959,7 +5959,7 @@
                 ;
         };
 
-        // Ctrl + D, F: ツイスト線
+        // Ctrl + D, F: 繝・う繧ｹ繝育ｷ・
         ctrl_d_f: ctrl_d_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5970,7 +5970,7 @@
                 ;
         };
 
-        // Ctrl + D, G: 図形配列
+        // Ctrl + D, G: 蝗ｳ蠖｢驟榊・
         ctrl_d_g: ctrl_d_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5981,7 +5981,7 @@
                 ;
         };
 
-        // Ctrl + D, H: 文字列検索
+        // Ctrl + D, H: 譁・ｭ怜・讀懃ｴ｢
         ctrl_d_h: ctrl_d_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -5992,7 +5992,7 @@
                 ;
         };
 
-        // Ctrl + D, I: 寸法線グループ化解除
+        // Ctrl + D, I: 蟇ｸ豕慕ｷ壹げ繝ｫ繝ｼ繝怜喧隗｣髯､
         ctrl_d_i: ctrl_d_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6003,7 +6003,7 @@
                 ;
         };
 
-        // Ctrl + D, J: ページ管理情報
+        // Ctrl + D, J: 繝壹・繧ｸ邂｡逅・ュ蝣ｱ
         ctrl_d_j: ctrl_d_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6014,7 +6014,7 @@
                 ;
         };
 
-        // Ctrl + D, K: 目次作成
+        // Ctrl + D, K: 逶ｮ谺｡菴懈・
         ctrl_d_k: ctrl_d_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6041,7 +6041,7 @@
                 ;
         };
 
-        // Ctrl + D, L: 平行補助線入力
+        // Ctrl + D, L: 蟷ｳ陦瑚｣懷勧邱壼・蜉・
         ctrl_d_l: ctrl_d_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6052,7 +6052,7 @@
                 ;
         };
 
-        // Ctrl + D, M: 左右中央間隔揃え
+        // Ctrl + D, M: 蟾ｦ蜿ｳ荳ｭ螟ｮ髢馴囈謠・∴
         ctrl_d_m: ctrl_d_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6063,7 +6063,7 @@
                 ;
         };
 
-        // Ctrl + D, N: 三相線番
+        // Ctrl + D, N: 荳臥嶌邱夂分
         ctrl_d_n: ctrl_d_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6074,7 +6074,7 @@
                 ;
         };
 
-        // Ctrl + D, O: 図形要素分割
+        // Ctrl + D, O: 蝗ｳ蠖｢隕∫ｴ蛻・牡
         ctrl_d_o: ctrl_d_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6085,7 +6085,7 @@
                 ;
         };
 
-        // Ctrl + D, P: 印刷情報
+        // Ctrl + D, P: 蜊ｰ蛻ｷ諠・ｱ
         ctrl_d_p: ctrl_d_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6096,7 +6096,7 @@
                 ;
         };
 
-        // Ctrl + D, Q: 雲形
+        // Ctrl + D, Q: 髮ｲ蠖｢
         ctrl_d_q: ctrl_d_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6107,7 +6107,7 @@
                 ;
         };
 
-        // Ctrl + D, R: 接続点
+        // Ctrl + D, R: 謗･邯夂せ
         ctrl_d_r: ctrl_d_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6118,7 +6118,7 @@
                 ;
         };
 
-        // Ctrl + D, S: DXF/DWGファイル入力
+        // Ctrl + D, S: DXF/DWG繝輔ぃ繧､繝ｫ蜈･蜉・
         ctrl_d_s: ctrl_d_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6129,7 +6129,7 @@
                 ;
         };
 
-        // Ctrl + D, T: 製品情報
+        // Ctrl + D, T: 陬ｽ蜩∵ュ蝣ｱ
         ctrl_d_t: ctrl_d_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6140,7 +6140,7 @@
                 ;
         };
 
-        // Ctrl + D, U: 寸法線グループ化
+        // Ctrl + D, U: 蟇ｸ豕慕ｷ壹げ繝ｫ繝ｼ繝怜喧
         ctrl_d_u: ctrl_d_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6151,7 +6151,7 @@
                 ;
         };
 
-        // Ctrl + D, V: 盤枠線(矩形)
+        // Ctrl + D, V: 逶､譫邱・遏ｩ蠖｢)
         ctrl_d_v: ctrl_d_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6162,7 +6162,7 @@
                 ;
         };
 
-        // Ctrl + D, W: 一時補助線全削除
+        // Ctrl + D, W: 荳譎り｣懷勧邱壼・蜑企勁
         ctrl_d_w: ctrl_d_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6173,7 +6173,7 @@
                 ;
         };
 
-        // Ctrl + D, X: 長円
+        // Ctrl + D, X: 髟ｷ蜀・
         ctrl_d_x: ctrl_d_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6184,7 +6184,7 @@
                 ;
         };
 
-        // Ctrl + D, Y: 引出寸法線
+        // Ctrl + D, Y: 蠑募・蟇ｸ豕慕ｷ・
         ctrl_d_y: ctrl_d_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6195,7 +6195,7 @@
                 ;
         };
 
-        // Ctrl + D, Z: 図面種別情報
+        // Ctrl + D, Z: 蝗ｳ髱｢遞ｮ蛻･諠・ｱ
         ctrl_d_z: ctrl_d_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6211,7 +6211,7 @@
         // --- 4. Ctrl + F (<Key1> + Ctrl + F) ---
         // =========================================================================
         
-        // Ctrl + F, A: 未設定
+        // Ctrl + F, A: 譛ｪ險ｭ螳・
         ctrl_f_a: ctrl_f_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6222,7 +6222,7 @@
                 ;
         };
 
-        // Ctrl + F, B: 正方形(一辺)
+        // Ctrl + F, B: 豁｣譁ｹ蠖｢(荳霎ｺ)
         ctrl_f_b: ctrl_f_b {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6233,7 +6233,7 @@
                 ;
         };
 
-        // Ctrl + F, C: 銘板表編集
+        // Ctrl + F, C: 驫俶攸陦ｨ邱ｨ髮・
         ctrl_f_c: ctrl_f_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6244,7 +6244,7 @@
                 ;
         };
 
-        // Ctrl + F, D: 銘板表
+        // Ctrl + F, D: 驫俶攸陦ｨ
         ctrl_f_d: ctrl_f_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6255,7 +6255,7 @@
                 ;
         };
 
-        // Ctrl + F, E: 閉じる
+        // Ctrl + F, E: 髢峨§繧・
         ctrl_f_e: ctrl_f_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6266,7 +6266,7 @@
                 ;
         };
 
-        // Ctrl + F, F: 未設定
+        // Ctrl + F, F: 譛ｪ險ｭ螳・
         ctrl_f_f: ctrl_f_f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6277,7 +6277,7 @@
                 ;
         };
 
-        // Ctrl + F, G: 部品表編集+再作成
+        // Ctrl + F, G: 驛ｨ蜩∬｡ｨ邱ｨ髮・蜀堺ｽ懈・
         ctrl_f_g: ctrl_f_g {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6292,7 +6292,7 @@
                 ;
         };
 
-        // Ctrl + F, H: 集計表
+        // Ctrl + F, H: 髮・ｨ郁｡ｨ
         ctrl_f_h: ctrl_f_h {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6303,7 +6303,7 @@
                 ;
         };
 
-        // Ctrl + F, I: 上揃え
+        // Ctrl + F, I: 荳頑純縺・
         ctrl_f_i: ctrl_f_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6314,7 +6314,7 @@
                 ;
         };
 
-        // Ctrl + F, J: 左揃え
+        // Ctrl + F, J: 蟾ｦ謠・∴
         ctrl_f_j: ctrl_f_j {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6325,7 +6325,7 @@
                 ;
         };
 
-        // Ctrl + F, K: 下揃え
+        // Ctrl + F, K: 荳区純縺・
         ctrl_f_k: ctrl_f_k {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6336,7 +6336,7 @@
                 ;
         };
 
-        // Ctrl + F, L: 右揃え
+        // Ctrl + F, L: 蜿ｳ謠・∴
         ctrl_f_l: ctrl_f_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6347,7 +6347,7 @@
                 ;
         };
 
-        // Ctrl + F, M: 従属文字位置変更
+        // Ctrl + F, M: 蠕灘ｱ樊枚蟄嶺ｽ咲ｽｮ螟画峩
         ctrl_f_m: ctrl_f_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6358,7 +6358,7 @@
                 ;
         };
 
-        // Ctrl + F, N: 未設定
+        // Ctrl + F, N: 譛ｪ險ｭ螳・
         ctrl_f_n: ctrl_f_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6369,7 +6369,7 @@
                 ;
         };
 
-        // Ctrl + F, O: 上下中央揃え
+        // Ctrl + F, O: 荳贋ｸ倶ｸｭ螟ｮ謠・∴
         ctrl_f_o: ctrl_f_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6380,7 +6380,7 @@
                 ;
         };
 
-        // Ctrl + F, P: 印刷
+        // Ctrl + F, P: 蜊ｰ蛻ｷ
         ctrl_f_p: ctrl_f_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6391,7 +6391,7 @@
                 ;
         };
 
-        // Ctrl + F, Q: 未設定
+        // Ctrl + F, Q: 譛ｪ險ｭ螳・
         ctrl_f_q: ctrl_f_q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6402,7 +6402,7 @@
                 ;
         };
 
-        // Ctrl + F, R: 未設定
+        // Ctrl + F, R: 譛ｪ險ｭ螳・
         ctrl_f_r: ctrl_f_r {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6413,7 +6413,7 @@
                 ;
         };
 
-        // Ctrl + F, S: 上書き保存
+        // Ctrl + F, S: 荳頑嶌縺堺ｿ晏ｭ・
         ctrl_f_s: ctrl_f_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6424,7 +6424,7 @@
                 ;
         };
 
-        // Ctrl + F, T: 未設定
+        // Ctrl + F, T: 譛ｪ險ｭ螳・
         ctrl_f_t: ctrl_f_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6435,7 +6435,7 @@
                 ;
         };
 
-        // Ctrl + F, U: 左右中央揃え
+        // Ctrl + F, U: 蟾ｦ蜿ｳ荳ｭ螟ｮ謠・∴
         ctrl_f_u: ctrl_f_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6446,7 +6446,7 @@
                 ;
         };
 
-        // Ctrl + F, V: 盤枠製品番号
+        // Ctrl + F, V: 逶､譫陬ｽ蜩∫分蜿ｷ
         ctrl_f_v: ctrl_f_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6457,7 +6457,7 @@
                 ;
         };
 
-        // Ctrl + F, W: 未設定
+        // Ctrl + F, W: 譛ｪ險ｭ螳・
         ctrl_f_w: ctrl_f_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6468,7 +6468,7 @@
                 ;
         };
 
-        // Ctrl + F, X: 未設定
+        // Ctrl + F, X: 譛ｪ險ｭ螳・
         ctrl_f_x: ctrl_f_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6479,7 +6479,7 @@
                 ;
         };
 
-        // Ctrl + F, Y: 未設定
+        // Ctrl + F, Y: 譛ｪ險ｭ螳・
         ctrl_f_y: ctrl_f_y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -6490,7 +6490,7 @@
                 ;
         };
 
-        // Ctrl + F, Z: 未設定
+        // Ctrl + F, Z: 譛ｪ險ｭ螳・
         ctrl_f_z: ctrl_f_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -7197,7 +7197,7 @@
                 , <&macro_tap &kp N2>
                 ;
         };
-		// ファイルの切り替え正
+		// Excel: 繧ｷ繝ｼ繝亥錐螟画峩繝槭け繝ｭ
         m_xl_rename: m_xl_rename {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
